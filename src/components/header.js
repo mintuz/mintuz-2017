@@ -147,7 +147,7 @@ export default class Header extends React.Component {
                 </Link>
               </li>
               <li className="c-site-navigation__link-wrap u-mr+">
-                <Link to="/blog-posts/" className="c-site-navigation__link">
+                <Link to="/blog/" className="c-site-navigation__link">
                   Blog
                 </Link>
               </li>

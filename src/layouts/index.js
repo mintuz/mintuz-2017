@@ -12,10 +12,37 @@ class Template extends React.Component {
 
   render() {
     const { location, children } = this.props;
+
+    const title = get(this, 'props.data.site.siteMetadata.title');
+    const titlePrefix = get(this, 'props.data.site.siteMetadata.titlePrefix');
+    const locale = get(this, 'props.data.site.siteMetadata.locale');
+    const author = get(this, 'props.data.site.siteMetadata.author', '');
+    const googleVerification = get(this, 'props.data.site.siteMetadata.googleVerification', '');
+    const description = get(this, 'props.data.site.siteMetadata.seoDescription');
+    const keywords = get(this, 'props.data.site.siteMetadata.seoKeywords', []).join(',');
+    const twitterHandle = get(this, 'props.data.site.siteMetadata.twitterHandle');
+    const siteUrl = get(this, 'props.data.site.siteMetadata.siteUrl');
+
     return (
         <React.Fragment>
-          <Helmet title={get(this, 'props.data.site.siteMetadata.title')}>
+          <Helmet title={title}>
             <meta name="viewport" content="width=device-width, minimum-scale=1.0" />
+            <meta name="author" content={author} />
+            <meta name="description" content={description} />
+            <meta name="keywords" content={keywords} />
+            <meta property="og:locale" content={locale} />
+            <meta property="og:type" content="website" />
+            <meta property="og:title" content={`${titlePrefix} | ${title}`} />
+            <meta property="og:description" content={description} />
+            <meta property="og:url" content={siteUrl} />
+            <meta property="og:site_name" content={title} />
+            <meta name="twitter:card" content="summary" />
+            <meta name="twitter:description" content={description} />
+            <meta name="twitter:title" content={`${titlePrefix} | ${title}`} />
+            <meta name="twitter:site" content={twitterHandle} />
+            <meta name="twitter:creator" content={twitterHandle} />
+            <meta name="google-site-verification" content={googleVerification} />
+            <link rel="canonical" href={siteUrl} />
             <link rel="preload" href={meSmall} as="image" media="(max-width: 44.9375em)" />
             <link rel="preload" href={meMedium} as="image" media="(min-width: 45em) and (max-width: 63.9375em)" />
             <link rel="preload" href={meMedium} as="image" media="(max-width: 64em)" />
@@ -42,6 +69,14 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        titlePrefix
+        googleVerification
+        locale
+        siteUrl
+        author
+        seoKeywords
+        seoDescription
+        twitterHandle
       }
     }
   }

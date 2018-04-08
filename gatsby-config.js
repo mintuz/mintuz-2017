@@ -1,8 +1,14 @@
 module.exports = {
   siteMetadata: {
     title: "Mintuz",
+    titlePrefix: 'CSS, Javascript and Web Performance',
+    locale: 'en_GB',
+    googleVerification: 'RnXDiD3_kyC6xc4y2AbSsJoXcLZvza1W7rYVHBGA89M',
     author: "Adam Bulmer",
-    siteUrl: `https:/next.mintuz.com`
+    siteUrl: "https:/next.mintuz.com",
+    twitterHandle: '@mintuz',
+    seoKeywords: ['Web Performance', 'Web Developer', 'Web Developer Manchester', 'Software Engineer Manchester', 'ReactJS', 'React', 'React Components'],
+    seoDescription: 'Software Engineer from Manchester writing posts on CSS, React, JavaScript and Web Performance.'
   },
   pathPrefix: `/mintuz-2017`,
   plugins: [
