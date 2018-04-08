@@ -11,6 +11,14 @@ body {
     color: $text-color;
 }
 
+a, a:hover, a:focus, a:visited {
+    color: $text-color;
+}
+
+a:hover, a:focus {
+    text-decoration: underline;
+}
+
 h1,
 h2,
 h3,

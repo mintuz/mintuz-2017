@@ -13,10 +13,12 @@ export default class Header extends React.Component {
     };
   }
 
-  toggleMenu() {
+  toggleMenu(e) {
     this.setState({
       navigationOpen: !this.state.navigationOpen
     });
+
+    e.preventDefault();
   }
 
   getHeaderClassNames(props) {
