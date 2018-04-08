@@ -57,7 +57,7 @@ class BlogIndex extends React.Component {
                 <div className="o-wrap">
                     <div className="u-pv++ u-p++@m u-p+++@l">
                         <div className="o-grid">
-                            <h2 className="o-grid__col u-mb++ u-type-about">I create things that scale well and a delight to maintain.</h2>
+                            <h2 className="o-grid__col u-mb++ u-type-about">I create things that scale well and are a delight to maintain.</h2>
                             <p className="o-grid__col o-grid__col--1/2@bp-l">I am a full stack web developer with a specialisation in frontend development, currently working as a Senior Web Developer within the BBC Live team in MediaCity UK. I have expertise in the creation of scalable HTML/CSS working across multiple devices and browsers.</p>
                             <p className="o-grid__col o-grid__col--1/2@bp-l">Whilst working on projects my main focus is delivering features that are both performant on the web and maintainability ensuring the audience get the content they require quickly and that the development team can deliver those features efficiently.</p>
                             <p className="o-grid__col">Before working at the BBC I developed websites for government departments, defence sector and public sector organisations at a web agency called Forepoint.</p>
