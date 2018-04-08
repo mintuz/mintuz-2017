@@ -15,6 +15,11 @@ class Template extends React.Component {
       <div className="u-height-100">
         <Helmet title={get(this, 'props.data.site.siteMetadata.title')}>
           <meta name="viewport" content="width=device-width, minimum-scale=1.0" />
+          <link rel="preload" href={meSmall} as="image" media="(max-width: 44.9375em)" />
+          <link rel="preload" href={meMedium} as="image" media="(min-width: 45em) and (max-width: 63.9375em)" />
+          <link rel="preload" href={meMedium} as="image" media="(max-width: 64em)" />
+          <link rel="preconnect" href="https://www.google-analytics.com" />
+          <link rel="dns-prefetch" href="https://www.google-analytics.com" />
         </Helmet>
         {children()}
         <Footer />
