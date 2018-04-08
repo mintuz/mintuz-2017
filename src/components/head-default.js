@@ -7,6 +7,7 @@ export default (props) => {
             <html lang="en" />
             <title>{`${props.titlePrefix} | ${props.title}`}</title>
             <meta name="viewport" content="width=device-width, minimum-scale=1.0" />
+            <meta name="theme-color" content="#EE403D"/>
             <meta name="author" content={props.author} />
             <meta name="description" content={props.description} />
             <meta name="keywords" content={props.keywords} />
