@@ -1,0 +1,30 @@
+.c-projects {
+    background-color: rgb(250, 250, 250);
+    border-top: 1px solid rgb(234, 234, 234);
+}
+
+.c-project {
+    min-height: 300px;
+    border-bottom: 1px solid rgb(234, 234, 234);
+}
+
+.c-project__body {
+    background-color: $white;
+    border: 1px solid rgb(234, 234, 234);
+
+    @include mq($from:bp-l) {
+        display: flex;
+        align-items: flex-start;
+    }
+}
+
+.c-project__image img {
+    width: 100%;
+    display: block;
+}
+
+.c-project__body-content {    
+    @include mq($from:bp-l) {
+        max-width: 500px;
+    }
+}

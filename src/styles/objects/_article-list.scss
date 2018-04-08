@@ -1,0 +1,12 @@
+.o-article-list__item {
+    padding-bottom: double($base-spacing-unit);
+    border-bottom: 1px solid $grey-light;
+}
+
+.o-article-list__item + .o-article-list__item {
+    padding-top: double($base-spacing-unit);
+}
+
+.o-article-list__item:last-child {
+    border-bottom-width: 0;
+}

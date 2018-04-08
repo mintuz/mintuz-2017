@@ -1,0 +1,48 @@
+.c-site-navigation {
+    color: black;
+    background-color: rgb(255,255,255);
+    box-shadow: 0px 2px 16px 0px rgba(0,0,0,0.3);
+}
+
+.c-site-navigation__top-level {
+    display: flex;
+}
+
+.c-site-navigation__links {
+    transition: transform 0.25s $default-easing;
+    transform-origin: 100% 0;
+    
+    @include mq($until:bp-m) {
+        background-color: $brand-light-blue;
+        position: absolute;
+        bottom: -72px;
+        left: 0;
+        right: 0;
+        padding: double($base-spacing-unit);
+        transform: scale(1, 0);
+    }
+
+    @include mq($from:bp-m) {
+        position: relative;
+        transform: scale(0, 1);
+        display: flex;
+        align-items: center;
+    }
+}
+
+.c-site-navigation__links--active {
+    transform: scale(1, 1);
+}
+
+.c-site-navigation__link {
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: $text-color;
+
+    &:hover,
+    &:active,
+    &:focus {
+        color: $black;
+    }
+}

@@ -1,0 +1,35 @@
+html,
+body,
+#___gatsby {
+    height: 100%;
+    text-rendering: optimizeLegibility;
+    font-smoothing: antialiased;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: $text-color;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+
+    .o-main--post & {
+        margin-top: triple($base-spacing-unit);
+        margin-bottom: $base-spacing-unit;
+    }
+}
+
+p {
+    margin-bottom: double($base-spacing-unit);
+    
+    &:last-of-type {
+        margin-bottom: 0;
+    }
+}

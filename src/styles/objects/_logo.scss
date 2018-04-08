@@ -1,0 +1,35 @@
+@keyframes fadeLogoPart {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.o-logo__part {
+    will-change: opacity;
+    animation-name: fadeLogoPart;
+    animation-fill-mode: forwards;
+    animation-duration: 0.66s;
+    animation-timing-function: $default-easing;
+    opacity: 0;
+}
+
+.o-logo__part--one {
+    animation-delay: 0.25s;
+}
+
+.o-logo__part--two {
+    animation-delay: 0.5s;
+}
+
+.o-logo__part--three {
+    animation-delay: 0.75s;
+}
+
+.o-logo__part--four {
+    animation-delay: 0.85s;
+    animation-duration: 1.75s;
+}

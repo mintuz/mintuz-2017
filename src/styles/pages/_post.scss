@@ -1,0 +1,15 @@
+.p-post img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: triple($base-spacing-unit);
+    margin-bottom: triple($base-spacing-unit);
+}
+
+.p-post__sidebar-content {
+ 
+    border-top: 1px solid $grey-light;
+
+    @include mq($from: bp-m) {
+        border-top-width: 0;
+    }
+}

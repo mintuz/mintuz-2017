@@ -1,0 +1,52 @@
+.c-site-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    background-color: $brand-orange;
+    color: $white;
+}
+
+.c-site-header--with-background {
+    background-size: cover;
+    background-position: center center;
+}
+
+.c-site-header--with-background:before {
+    display: block;
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 60%, rgba(0,0,0,0.6) 100%);
+}
+
+.c-site-header--mast {
+    background-image: url(../images/me.jpg);
+    min-height: 400px;
+}
+
+.c-site-header--post {
+    min-height: 300px;
+}
+
+.c-site-header__logo {
+    
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: double($base-spacing-unit);
+    
+    svg {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.c-site-header__content {
+    color: rgb(255,255,255);
+}

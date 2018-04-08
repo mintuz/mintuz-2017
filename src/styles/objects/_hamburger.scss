@@ -1,0 +1,42 @@
+.o-hamburger {
+    position: relative;
+}
+
+.o-hamburger:before,
+.o-hamburger:after {
+    width: triple($base-spacing-unit);
+    position: absolute;
+    left: 50%;
+    transition: transform 0.2s $default-easing;
+    transform-origin: 0% 0%;
+    transform: rotate(0deg) translate(-50%, -50%);
+    will-change: transform, top, bottom;
+}
+
+.o-hamburger:before {
+    top: 35%;
+    height: 2px;
+    content: '';
+    background-color: black;
+}
+
+.o-hamburger:after {
+    bottom: 35%;
+    height: 2px;
+    content: '';
+    background-color: black;
+}
+
+.o-hamburger--active:before,
+.o-hamburger--active:after {
+    top: 50%;
+}
+
+.o-hamburger--active:before {
+    transform: rotate(45deg) translate(-50%, -50%);
+}
+
+.o-hamburger--active:after {
+    bottom: initial;
+    transform: rotate(-45deg) translate(-50%, -50%);
+}
