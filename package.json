@@ -28,6 +28,7 @@
     "gatsby-transformer-remark": "^1.7.1",
     "gatsby-transformer-sharp": "^1.6.1",
     "lodash": "^4.15.0",
+    "prop-types": "^15.6.1",
     "sass-mq": "^3.3.2"
   },
   "devDependencies": {

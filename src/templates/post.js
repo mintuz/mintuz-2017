@@ -11,7 +11,7 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = get(this.props, "data.site.siteMetadata.title");
 
     return (
-		<div>
+		<React.Fragment>
 			<Header mode={'compact'} title={post.frontmatter.title} />
 			<div className="o-main u-pv++ p-post">
 				<Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
@@ -34,7 +34,7 @@ class BlogPostTemplate extends React.Component {
 					</div>
 				</div>
 			</div>
-		</div>
+		</React.Fragment>
     );
   }
 }

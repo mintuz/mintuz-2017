@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types';
 import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
@@ -45,7 +46,7 @@ const projectData = [
 class BlogIndex extends React.Component {
   render() {
     return (
-      <div>
+      <React.Fragment>
         <Header mode='homepage' />
         <div className="o-main p-home">
             <div className="about u-text-align-left">
@@ -70,13 +71,13 @@ class BlogIndex extends React.Component {
                 </div>
             </div>
         </div>
-      </div>
+      </React.Fragment>
     )
   }
 }
 
 BlogIndex.propTypes = {
-  route: React.PropTypes.object
+  route: PropTypes.object
 }
 
 export default BlogIndex;
