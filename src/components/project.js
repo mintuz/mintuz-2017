@@ -5,7 +5,7 @@ export default (props) => {
         <div className="c-project u-pv++">
             <div className="c-project__body">
                 <div className="c-project__image">
-                    <img src={props.image} />
+                    <img src={props.image} alt={props.imageAlt} />
                 </div>
                 <div className="c-project__body-content u-p+">
                     <h3 className="u-mb u-type-paragon">{props.title}</h3>

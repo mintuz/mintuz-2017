@@ -18,6 +18,7 @@ const projectData = [
     jobTitle: 'Senior Software Engineer',
     description: 'Currently working on the 2nd iteration of the BBC Live pages using React and Node delivering LIVE experiences for events like the Rio Olympics, EU Referendum and the US Election.',
     image: bbcLiveImage,
+    imageAlt: 'An image of the BBC Live Page',
     link: ''
   },
   {
@@ -25,6 +26,7 @@ const projectData = [
     jobTitle: 'Software Engineer',
     description: 'I was involved in the frontend and backend development of BBC Homepage using Node and React creating personalisation features for the end user.',
     image: bbcHomePageImage,
+    imageAlt: 'An image of the BBC Homepage',
     link: ''
   },
   {
@@ -32,6 +34,7 @@ const projectData = [
     jobTitle: 'Lead Frontend Developer',
     description: 'AWE was the last website I developed at Forepoint before joining the BBC. They have been at the forefront of the UK nuclear deterrence programme for more than 60 years and I was responsible for creating the frontend of the website.',
     image: aweImage,
+    imageAlt: 'An image of the AWE Homepage',
     link: ''
   },
   {
@@ -39,6 +42,7 @@ const projectData = [
     jobTitle: 'Web Developer',
     description: 'Website developed at Forepoint for S4BManchester, who will be responsible for making improvements to homes within the Brunswick area.',
     image: s4bmanchesterImage,
+    imageAlt: 'An image of the S4BManchester Homepage',
     link: ''
   }
 ];
