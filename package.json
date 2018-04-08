@@ -11,6 +11,8 @@
     "css-framework": "git+ssh://git@github.com/mintuz/css-framework.git",
     "gatsby": "^1.8.12",
     "gatsby-link": "^1.6.8",
+    "gatsby-paginate": "^1.0.14",
+    "gatsby-pagination": "^1.2.0",
     "gatsby-plugin-google-analytics": "^1.0.4",
     "gatsby-plugin-manifest": "^1.0.4",
     "gatsby-plugin-offline": "^1.0.4",
