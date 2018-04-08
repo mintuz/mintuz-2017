@@ -53,6 +53,18 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
-    `gatsby-plugin-react-next`
+    `gatsby-plugin-react-next`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "Mintuz",
+        short_name: "Mintuz",
+        start_url: "/",
+        background_color: "#FFFFFF",
+        theme_color: "#EE403D",
+        display: "minimal-ui",
+        icon: "src/images/icon.png" // This path is relative to the root of the site.
+      },
+    },
   ]
 }
