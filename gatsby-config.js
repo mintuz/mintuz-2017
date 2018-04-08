@@ -2,6 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Mintuz",
     author: "Adam Bulmer",
+    siteUrl: `https:/next.mintuz.com`
   },
   pathPrefix: `/mintuz-2017`,
   plugins: [
@@ -42,7 +43,6 @@ module.exports = {
         //trackingId: `ADD YOUR TRACKING ID HERE`,
       },
     },
-    `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`
   ],
