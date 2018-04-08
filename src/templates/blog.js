@@ -39,14 +39,30 @@ class BlogIndex extends React.Component {
     );
   }
 
+  getPageUrl({ group, index, first, last, pageCount, siteUrl }) {
+    if(pageCount > 1) {
+      return `${siteUrl}/blog/${index}`;
+    }
+
+    return `${siteUrl}/blog`;
+  }
+
   render() {
 
-    const siteTitle = get(this, 'props.data.site.siteMetadata.title');
+    const siteTitle = `Blog Posts | ${get(this, 'props.data.site.siteMetadata.title')}`;
+    const siteUrl = this.getPageUrl({...this.props.pathContext, siteUrl: get(this, 'props.data.site.siteMetadata.siteUrl')});
     const { group } = this.props.pathContext;
 
     return (
       <React.Fragment>
-        <Helmet title={get(this, 'props.data.site.siteMetadata.title')} />
+        <Helmet>
+          <title>{siteTitle}</title>
+          <link rel="canonical" href={siteUrl} />
+          <meta name="twitter:title" content={siteTitle} />
+          <meta name="twitter:url" content={siteUrl} />
+          <meta property="og:title" content={siteTitle} />
+          <meta property="og:url" content={siteUrl} />
+        </Helmet>
         <Header mode={'compact'} title="Blog Posts" />
         <div className="o-main u-pv++ p-post">
             <div className="o-wrap">
@@ -93,6 +109,7 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        siteUrl
       }
     }
   }

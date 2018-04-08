@@ -19,7 +19,7 @@ export default (props) => {
             <meta name="twitter:card" content="summary" />
             <meta name="twitter:description" content={props.description} />
             <meta name="twitter:title" content={`${props.titlePrefix} | ${props.title}`} />
-            <meta name="twitter:site" content={props.twitterHandle} />
+            <meta name="twitter:site" content={props.siteUrl} />
             <meta name="twitter:creator" content={props.twitterHandle} />
             <meta name="google-site-verification" content={props.googleVerification} />
             <link rel="canonical" href={props.siteUrl} />
