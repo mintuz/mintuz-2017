@@ -1,0 +1,60 @@
+{
+  "assetsByChunkName": {
+    "path---my-second-post": [
+      "path---my-second-post-757db0605c9a99b157aa.js",
+      "path---my-second-post-757db0605c9a99b157aa.js.map"
+    ],
+    "component---src-pages-blog-posts-js": [
+      "component---src-pages-blog-posts-js-0f18ca08b4f9348dcd98.js",
+      "component---src-pages-blog-posts-js-0f18ca08b4f9348dcd98.js.map"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-75b7804745d3b547d905.js",
+      "component---src-pages-index-js-75b7804745d3b547d905.js.map"
+    ],
+    "path---": [
+      "path----ba0817e81d443873bd53.js",
+      "path----ba0817e81d443873bd53.js.map"
+    ],
+    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
+      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-72314c17aea7be14dba6.js",
+      "component---src-layouts-index-js-72314c17aea7be14dba6.js.map"
+    ],
+    "path---hi-folks": [
+      "path---hi-folks-2ba44663da29afee15bc.js",
+      "path---hi-folks-2ba44663da29afee15bc.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---hello-world": [
+      "path---hello-world-0fd775daaae13dcb9b86.js",
+      "path---hello-world-0fd775daaae13dcb9b86.js.map"
+    ],
+    "commons": [
+      "commons-892d06806ab0cf06f0f3.js",
+      "commons-892d06806ab0cf06f0f3.js.map"
+    ],
+    "component---src-templates-post-js": [
+      "component---src-templates-post-js-d153860a7ac8f3b3f1e9.js",
+      "component---src-templates-post-js-d153860a7ac8f3b3f1e9.js.map"
+    ],
+    "path---offline-plugin-app-shell-fallback": [
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
+      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "app": [
+      "app-da02bac5b7fa02f03ef5.js",
+      "app-da02bac5b7fa02f03ef5.js.map"
+    ],
+    "path---blog-posts": [
+      "path---blog-posts-a101ba8de621b45d8689.js",
+      "path---blog-posts-a101ba8de621b45d8689.js.map"
+    ]
+  }
+}
