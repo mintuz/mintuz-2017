@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["/mintuz-2017/app-da02bac5b7fa02f03ef5.js","4a431ebfe8a21baa95e3d9c323a03dbe"],["/mintuz-2017/commons-892d06806ab0cf06f0f3.js","075561cd1a7c6717b120d56ba25c6616"],["/mintuz-2017/index.html","817d0911eb3710a95d7298e90eb13d8a"],["/mintuz-2017/offline-plugin-app-shell-fallback/index.html","f8d0b47d0a19387f45e79eb9fd2c12c4"]];
+var precacheConfig = [["/mintuz-2017/app-1c35ca9c02d4efa036f0.js","a6264f4dddd9a802cb85232eea4a10bd"],["/mintuz-2017/app-da02bac5b7fa02f03ef5.js","4a431ebfe8a21baa95e3d9c323a03dbe"],["/mintuz-2017/commons-892d06806ab0cf06f0f3.js","075561cd1a7c6717b120d56ba25c6616"],["/mintuz-2017/index.html","f69b1f1abcf821112aee6f3423b8391f"],["/mintuz-2017/offline-plugin-app-shell-fallback/index.html","a1da11fe63a37d2e2f0ff5d4a3a748e0"]];
 var cacheName = 'sw-precache-v3-gatsby-plugin-offline-' + (self.registration ? self.registration.scope : '');
 
 
