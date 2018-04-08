@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-544a80be68fedc61e55b.js",
-      "component---src-pages-index-js-544a80be68fedc61e55b.js.map"
+      "component---src-pages-index-js-3088c299fe0b4e20dc97.js",
+      "component---src-pages-index-js-3088c299fe0b4e20dc97.js.map"
     ],
     "path---blog": [
       "path---blog-87dbacff473ab3e9f99b.js",
@@ -33,12 +33,12 @@
       "path---blog-my-second-post-ebca331e9885b511d8cc.js.map"
     ],
     "component---src-templates-post-js": [
-      "component---src-templates-post-js-b2c1b8340f2544d903a2.js",
-      "component---src-templates-post-js-b2c1b8340f2544d903a2.js.map"
+      "component---src-templates-post-js-392f39cbaa36a51651df.js",
+      "component---src-templates-post-js-392f39cbaa36a51651df.js.map"
     ],
     "component---src-pages-blog-js": [
-      "component---src-pages-blog-js-c51fa51f4f651f3e0abd.js",
-      "component---src-pages-blog-js-c51fa51f4f651f3e0abd.js.map"
+      "component---src-pages-blog-js-6ba8ea1b4b5780266765.js",
+      "component---src-pages-blog-js-6ba8ea1b4b5780266765.js.map"
     ],
     "app": [
       "app-313448944200580ba30c.js",
