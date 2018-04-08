@@ -49,7 +49,7 @@ module.exports = {
         trackingId: `UA-11322782-9`,
       }
     },
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-next`
