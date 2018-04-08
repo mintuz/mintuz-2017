@@ -27,7 +27,7 @@ const projectData = [
     description: 'I was involved in the frontend and backend development of BBC Homepage using Node and React creating personalisation features for the end user.',
     image: bbcHomePageImage,
     imageAlt: 'An image of the BBC Homepage',
-    link: ''
+    link: 'https://bbc.co.uk'
   },
   {
     title: 'AWE',
@@ -35,7 +35,7 @@ const projectData = [
     description: 'AWE was the last website I developed at Forepoint before joining the BBC. They have been at the forefront of the UK nuclear deterrence programme for more than 60 years and I was responsible for creating the frontend of the website.',
     image: aweImage,
     imageAlt: 'An image of the AWE Homepage',
-    link: ''
+    link: 'http://www.awe.co.uk/'
   },
   {
     title: 'S4BManchester',
@@ -43,7 +43,7 @@ const projectData = [
     description: 'Website developed at Forepoint for S4BManchester, who will be responsible for making improvements to homes within the Brunswick area.',
     image: s4bmanchesterImage,
     imageAlt: 'An image of the S4BManchester Homepage',
-    link: ''
+    link: 'http://s4bmanchester.co.uk'
   }
 ];
 

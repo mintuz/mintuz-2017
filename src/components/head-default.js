@@ -4,6 +4,7 @@ import Helmet from 'react-helmet';
 export default (props) => {
     return (
         <Helmet>
+            <html lang="en" />
             <title>{`${props.titlePrefix} | ${props.title}`}</title>
             <meta name="viewport" content="width=device-width, minimum-scale=1.0" />
             <meta name="author" content={props.author} />

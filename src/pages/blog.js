@@ -23,15 +23,17 @@ class BlogIndex extends React.Component {
                         if (post.node.path !== '/404/') {
                           return (
                             <article key={post.node.frontmatter.path} className="o-article-list__item">
-                              <h1 className="u-type-double-pica u-mb+">
+                              <h2 className="u-type-double-pica u-mb+">
                                 <Link to={post.node.frontmatter.path} className="o-article-list__item-title">
                                   {post.node.frontmatter.title}
                                 </Link>
-                              </h1>
+                              </h2>
                               <p className="u-mb+" dangerouslySetInnerHTML={{ __html: post.node.excerpt }} />
-                              <Link className="o-btn o-btn--small o-btn--light-gray u-type-minion" to={post.node.frontmatter.path}>
-                                Read more
-                              </Link>
+                              <div aria-hidden="true">
+                                <Link className="o-btn o-btn--small o-btn--light-gray u-type-minion" to={post.node.frontmatter.path}>
+                                  Read more
+                                </Link>
+                              </div>
                             </article>
                           )
                         }

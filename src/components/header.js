@@ -79,7 +79,7 @@ export default class Header extends React.Component {
       <header className={headerClassNames}>
         <div className="c-site-navigation u-pv+">
           <div className="o-wrap [ u-display-flex u-row-reverse ]">
-            <Link to="/" className="c-site-header__logo">
+            <Link to="/" aria-label="Homepage" className="c-site-header__logo">
               <svg
                 className="o-logo"
                 viewBox="0 0 145 142"
@@ -116,11 +116,12 @@ export default class Header extends React.Component {
             </Link>
             <div className="c-site-navigation__top-level">
               <a
+                aria-hidden="true"
                 href="#"
                 onClick={this.toggleMenu}
                 className={navigationBtnClasses}
               />
-              <a href="https://github.com/mintuz" className="o-btn o-btn--icon">
+              <a href="https://github.com/mintuz" aria-label="Adams Github" className="o-btn o-btn--icon">
                 <div className="o-btn__icon">
                   <svg
                     viewBox="0 0 16 16"
