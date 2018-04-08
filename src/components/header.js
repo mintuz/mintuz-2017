@@ -140,17 +140,17 @@ export default class Header extends React.Component {
             </div>
             <ul role="navigation" className={navigationClasses}>
               <li className="c-site-navigation__link-wrap u-mr+">
-                <Link to="/get-in-touch/" className="c-site-navigation__link">
+                <Link to="/get-in-touch/" activeClassName="c-site-navigation__link--active" className="c-site-navigation__link">
                   Get In Touch
                 </Link>
               </li>
               <li className="c-site-navigation__link-wrap u-mr+">
-                <Link to="/tech-radar/" className="c-site-navigation__link">
+                <Link to="/tech-radar/" activeClassName="c-site-navigation__link--active" className="c-site-navigation__link">
                   Tech Radar
                 </Link>
               </li>
               <li className="c-site-navigation__link-wrap u-mr+">
-                <Link to="/blog/" className="c-site-navigation__link">
+                <Link to="/blog/" activeClassName="c-site-navigation__link--active" className="c-site-navigation__link">
                   Blog
                 </Link>
               </li>
