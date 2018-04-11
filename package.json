@@ -8,10 +8,11 @@
   },
   "dependencies": {
     "classnames": "^2.2.5",
-    "css-framework": "git+ssh://git@github.com/mintuz/css-framework.git",
+    "css-framework": "git+ssh://git@github.com/mintuz/css-framework.git#f6bd662ffa0909ae0fc400d2b19e3bd6714dbf19",
     "gatsby": "^1.8.12",
     "gatsby-link": "^1.6.8",
     "gatsby-paginate": "^1.0.14",
+    "gatsby-plugin-feed": "^1.3.20",
     "gatsby-plugin-google-analytics": "^1.0.4",
     "gatsby-plugin-manifest": "^1.0.17",
     "gatsby-plugin-offline": "^1.0.4",

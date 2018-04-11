@@ -20,8 +20,8 @@ class Template extends React.Component {
       locale: get(this, 'props.data.site.siteMetadata.locale'),
       author: get(this, 'props.data.site.siteMetadata.author', ''),
       googleVerification: get(this, 'props.data.site.siteMetadata.googleVerification', ''),
-      description: get(this, 'props.data.site.siteMetadata.seoDescription'),
-      keywords: get(this, 'props.data.site.siteMetadata.seoKeywords', []).join(','),
+      description: get(this, 'props.data.site.siteMetadata.description'),
+      keywords: get(this, 'props.data.site.siteMetadata.keywords', []).join(','),
       twitterHandle: get(this, 'props.data.site.siteMetadata.twitterHandle'),
       siteUrl: get(this, 'props.data.site.siteMetadata.siteUrl')
     };
@@ -54,8 +54,8 @@ export const pageQuery = graphql`
         locale
         siteUrl
         author
-        seoKeywords
-        seoDescription
+        keywords
+        description
         twitterHandle
       }
     }

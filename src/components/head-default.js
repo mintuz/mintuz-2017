@@ -28,6 +28,7 @@ export default (props) => {
             <link rel="preload" href={props.meMedium} as="image" media="(max-width: 64em)" />
             <link rel="preconnect" href="https://www.google-analytics.com" />
             <link rel="dns-prefetch" href="https://www.google-analytics.com" />
+            <link rel="alternate" type="application/rss+xml" title={`RSS Feed | ${props.title}`} href={`${props.siteUrl}/rss.xml`} />
         </Helmet>
     );
 };
