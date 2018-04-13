@@ -73,7 +73,7 @@ class BlogIndex extends React.Component {
     return (
       <React.Fragment>
         <HeadHomepage {...headProps} />
-        <Header mode='homepage' />
+        <Header mode='homepage' animateLogo={true} />
         <div className="o-main p-home">
             <div className="about u-text-align-left">
                 <div className="o-wrap">

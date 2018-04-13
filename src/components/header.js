@@ -77,13 +77,17 @@ export default class Header extends React.Component {
       }
     );
 
+    const logoClasses = classNames('o-logo', {
+      'o-logo--animate': this.props.animateLogo
+    });
+
     return (
       <header className={headerClassNames}>
         <div className="c-site-navigation u-pv+">
           <div className="o-wrap [ u-display-flex u-row-reverse ]">
             <Link to="/" aria-label="Homepage" className="c-site-header__logo">
               <svg
-                className="o-logo"
+                className={logoClasses}
                 viewBox="0 0 145 142"
                 xmlns="http://www.w3.org/2000/svg"
               >
