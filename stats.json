@@ -16,10 +16,6 @@
       "path----d4663ffd70b3012e701f.js",
       "path----d4663ffd70b3012e701f.js.map"
     ],
-    "component---node-modules-gatsby-plugin-offline-app-shell-js": [
-      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js",
-      "component---node-modules-gatsby-plugin-offline-app-shell-js-5c4c5a0f7af9dc69d6d7.js.map"
-    ],
     "component---src-layouts-index-js": [
       "component---src-layouts-index-js-c0425f2758822ee5423b.js",
       "component---src-layouts-index-js-c0425f2758822ee5423b.js.map"
@@ -44,13 +40,9 @@
       "component---src-templates-post-js-003b1f4516f80ce315d4.js",
       "component---src-templates-post-js-003b1f4516f80ce315d4.js.map"
     ],
-    "path---offline-plugin-app-shell-fallback": [
-      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js",
-      "path---offline-plugin-app-shell-fallback-a0e39f21c11f6a62c5ab.js.map"
-    ],
     "app": [
-      "app-893a0aac7bb78c13ecfd.js",
-      "app-893a0aac7bb78c13ecfd.js.map"
+      "app-a0a64504be7534cd83a2.js",
+      "app-a0a64504be7534cd83a2.js.map"
     ],
     "path---blog-hi-folks": [
       "path---blog-hi-folks-e67e8de43b8b71ff46fe.js",
