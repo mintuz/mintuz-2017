@@ -15,9 +15,8 @@ export default (props) => {
             <meta name="twitter:title" content={props.title} />
             <meta name="twitter:site" content={props.siteUrl} />
             <link rel="canonical" href={props.siteUrl} />
-            <link rel="preload" href={props.meSmall} as="image" media="(max-width: 44.9375em)" />
-            <link rel="preload" href={props.meMedium} as="image" media="(min-width: 45em) and (max-width: 63.9375em)" />
-            <link rel="preload" href={props.meMedium} as="image" media="(max-width: 64em)" />
+            <link rel="preload" href={props.meSmall} as="image" media="(max-width: 25em) and (max-width: 31.24em)" />
+            <link rel="preload" href={props.meMedium} as="image" media="(min-width: 31.24em)" />
         </Helmet>
     );
 };

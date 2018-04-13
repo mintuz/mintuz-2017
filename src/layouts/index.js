@@ -19,7 +19,9 @@ class Template extends React.Component {
       author: get(this, 'props.data.site.siteMetadata.author'),
       twitterHandle: get(this, 'props.data.site.siteMetadata.twitterHandle'),
       googleVerification: get(this, 'props.data.site.siteMetadata.googleVerification'),
-      siteUrl: get(this, 'props.data.site.siteMetadata.siteUrl')
+      siteUrl: get(this, 'props.data.site.siteMetadata.siteUrl'),
+      meSmall,
+      meMedium
     };
 
     return (

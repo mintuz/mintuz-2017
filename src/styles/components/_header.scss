@@ -24,7 +24,15 @@
 }
 
 .c-site-header--mast {
-    background-image: url(../images/me-medium.jpg);
+
+    @include mq($from: bp-s, $until: bp-m) {
+        background-image: url(../images/me-small.jpg);
+    }
+
+    @include mq($from: bp-m) {
+        background-image: url(../images/me-medium.jpg);
+    }
+    
     min-height: 400px;
 }
 
