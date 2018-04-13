@@ -4,6 +4,7 @@ import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 
+import Head from '../components/head';
 import Header from '../components/header';
 
 const NavLink = props => {
@@ -49,20 +50,27 @@ class BlogList extends React.Component {
 
   render() {
 
-    const siteTitle = `Blog Posts | ${get(this, 'props.data.site.siteMetadata.title')}`;
-    const siteUrl = this.getPageUrl({...this.props.pathContext, siteUrl: get(this, 'props.data.site.siteMetadata.siteUrl')});
+    const {
+      siteTitle,
+      siteUrl,
+      description,
+      keywords
+    } = this.props.data.site.siteMetadata;
+
+    const blogListingTitle = `Blog Posts | ${siteTitle}`;
+    const blogListingUrl = this.getPageUrl({...this.props.pathContext, siteUrl});
     const { group } = this.props.pathContext;
+
+    const headProps = {
+      title: blogListingTitle,
+      keywords,
+      description,
+      siteUrl: blogListingUrl  
+    }
 
     return (
       <React.Fragment>
-        <Helmet>
-          <title>{siteTitle}</title>
-          <link rel="canonical" href={siteUrl} />
-          <meta name="twitter:title" content={siteTitle} />
-          <meta name="twitter:url" content={siteUrl} />
-          <meta property="og:title" content={siteTitle} />
-          <meta property="og:url" content={siteUrl} />
-        </Helmet>
+        <Head {...headProps} />
         <Header mode={'compact'} title="Blog Posts" />
         <div className="o-main u-pv++ p-post">
             <div className="o-wrap">
@@ -109,7 +117,14 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         siteTitle
+        siteTitlePrefix
+        googleVerification
+        locale
         siteUrl
+        author
+        keywords
+        description
+        twitterHandle
       }
     }
   }

@@ -2,19 +2,36 @@ import React from "react";
 import Helmet from "react-helmet";
 import Link from "gatsby-link";
 import get from "lodash/get";
+import Head from '../components/head';
 import Header from '../components/header';
 
 class BlogPostTemplate extends React.Component {
   render() {
 
     const post = this.props.data.markdownRemark;
-    const siteTitle = get(this.props, "data.site.siteMetadata.title");
+		
+		const {
+      siteTitle,
+      siteUrl,
+      description,
+      keywords
+		} = this.props.data.site.siteMetadata;
+
+    const blogListingTitle = `${post.frontmatter.title} | ${siteTitle}`;
+    const blogUrl = `${siteUrl}${post.frontmatter.path}`;
+
+		const headProps = {
+      title: blogListingTitle,
+      keywords,
+      description: post.excerpt,
+      siteUrl: blogUrl  
+    }
 
     return (
 		<React.Fragment>
+		<Head {...headProps} />
 			<Header mode={'compact'} title={post.frontmatter.title} />
 			<div className="o-main u-pv++ p-post">
-				<Helmet title={`${post.frontmatter.title} | ${siteTitle}`} />
 				<div className="o-wrap">
 					<div className="o-grid">
 						<div
@@ -46,14 +63,23 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         siteTitle
+        siteTitlePrefix
+        googleVerification
+        locale
+        siteUrl
         author
+        keywords
+        description
+        twitterHandle
       }
     }
     markdownRemark(frontmatter: { path: { eq: $path } }) {
       id
-      html
+			html
+			excerpt
       frontmatter {
-        title
+				path
+				title
         date(formatString: "MMMM DD, YYYY")
       }
     }
