@@ -42,7 +42,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           createPage: createPage,
           pageTemplate: "./src/templates/blog.js",
           pageLength: 5,
-          pathPrefix: "blog",
+          pathPrefix: "blog"
         });
 
         createPage({

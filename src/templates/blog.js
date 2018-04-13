@@ -99,8 +99,8 @@ class BlogList extends React.Component {
 }
 
 BlogList.propTypes = {
-  route: PropTypes.object,
-}
+  route: PropTypes.object
+};
 
 export default BlogList;
 
