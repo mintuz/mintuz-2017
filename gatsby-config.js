@@ -49,7 +49,7 @@ module.exports = {
         trackingId: `UA-11322782-9`,
       }
     },
-    `gatsby-plugin-offline`,
+    // `gatsby-plugin-offline`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
@@ -115,7 +115,7 @@ module.exports = {
         background_color: "#FFFFFF",
         theme_color: "#EE403D",
         display: "minimal-ui",
-        icon: "src/images/icon.png" // This path is relative to the root of the site.
+        icon: "src/images/icon.png"
       },
     },
   ]
