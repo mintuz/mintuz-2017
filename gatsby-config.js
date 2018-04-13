@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: "Mintuz",
-    titlePrefix: 'CSS, Javascript and Web Performance',
+    siteTitle: "Mintuz",
+    siteTitlePrefix: 'CSS, Javascript and Web Performance',
     locale: 'en_GB',
     googleVerification: 'RnXDiD3_kyC6xc4y2AbSsJoXcLZvza1W7rYVHBGA89M',
     author: "Adam Bulmer",

@@ -14,7 +14,7 @@ const NavLink = props => {
   }
 };
 
-class BlogIndex extends React.Component {
+class BlogList extends React.Component {
 
   renderPagination({ group, index, first, last, pageCount }) {
 
@@ -98,17 +98,17 @@ class BlogIndex extends React.Component {
   }
 }
 
-BlogIndex.propTypes = {
+BlogList.propTypes = {
   route: PropTypes.object,
 }
 
-export default BlogIndex
+export default BlogList;
 
 export const pageQuery = graphql`
   query BlogQuery {
     site {
       siteMetadata {
-        title
+        siteTitle
         siteUrl
       }
     }

@@ -11,6 +11,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
   return new Promise((resolve, reject) => {
     const pages = []
     const blogPost = path.resolve("./src/templates/post.js");
+    const homepage = path.resolve("./src/templates/index.js");
 
     resolve(
       graphql(`
@@ -42,6 +43,15 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           pageTemplate: "./src/templates/blog.js",
           pageLength: 5,
           pathPrefix: "blog",
+        });
+
+        createPage({
+          edges: result.data.posts.edges
+          path: '/',
+          component: homepage,
+          context: {
+            path: '/'
+          }
         });
 
         // Create blog posts pages.

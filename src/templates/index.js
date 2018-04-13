@@ -4,6 +4,7 @@ import Link from 'gatsby-link'
 import get from 'lodash/get'
 import Helmet from 'react-helmet'
 
+import HeadHomepage from '../components/head-index';
 import Header from '../components/header';
 import Project from '../components/project';
 
@@ -49,8 +50,29 @@ const projectData = [
 
 class BlogIndex extends React.Component {
   render() {
+
+    const {
+      siteTitle,
+      siteTitlePrefix,
+      locale,
+      googleVerification,
+      author,
+      siteUrl,
+      twitterHandle,
+      description,
+      keywords
+    } = this.props.data.site.siteMetadata;
+
+    const headProps = {
+      title: `${siteTitlePrefix} | ${siteTitle}`,
+      keywords,
+      description,
+      siteUrl
+    };
+
     return (
       <React.Fragment>
+        <HeadHomepage {...headProps} />
         <Header mode='homepage' />
         <div className="o-main p-home">
             <div className="about u-text-align-left">
@@ -60,8 +82,7 @@ class BlogIndex extends React.Component {
                             <h2 className="o-grid__col u-mb++ u-type-about">I create things that scale well and are performant on the web.</h2>
                             <p className="o-grid__col o-grid__col--1/2@bp-l">I am a full stack web developer with a specialisation in frontend development, currently working as a Senior Software Engineer within the BBC Live team in MediaCity UK. I have expertise in the creation of scalable HTML/CSS working across multiple devices and browsers.</p>
                             <p className="o-grid__col o-grid__col--1/2@bp-l">Whilst working on projects, my main focus is delivering features that are both performant on the web and easy to maintain ensuring the audience get the content they require quickly and that the development team can deliver those features efficiently.</p>
-                            <p className="o-grid__col">Before working at the BBC I developed websites for government departments, defence sector and public sector organisations at a web agency called Forepoint.</p>
-                            
+                            <p className="o-grid__col">Before working at the BBC I developed websites for government departments, defence sector and public sector organisations at a web agency called Forepoint.</p>   
                         </div>
                     </div>
                 </div>
@@ -85,3 +106,21 @@ BlogIndex.propTypes = {
 }
 
 export default BlogIndex;
+
+export const pageQuery = graphql`
+  query HomepageQuery {
+    site {
+      siteMetadata {
+        siteTitle
+        siteTitlePrefix
+        googleVerification
+        locale
+        siteUrl
+        author
+        keywords
+        description
+        twitterHandle
+      }
+    }
+  }
+`

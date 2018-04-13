@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types';
-import Head from '../components/head-default';
+import HeadDefault from '../components/head-default';
 import get from 'lodash/get'
 import Footer from '../components/footer';
 import "../styles/main.scss";
@@ -15,20 +15,16 @@ class Template extends React.Component {
     const { location, children } = this.props;
 
     const headProps = {
-      title: get(this, 'props.data.site.siteMetadata.title'),
-      titlePrefix: get(this, 'props.data.site.siteMetadata.titlePrefix'),
       locale: get(this, 'props.data.site.siteMetadata.locale'),
-      author: get(this, 'props.data.site.siteMetadata.author', ''),
-      googleVerification: get(this, 'props.data.site.siteMetadata.googleVerification', ''),
-      description: get(this, 'props.data.site.siteMetadata.description'),
-      keywords: get(this, 'props.data.site.siteMetadata.keywords', []).join(','),
+      author: get(this, 'props.data.site.siteMetadata.author'),
       twitterHandle: get(this, 'props.data.site.siteMetadata.twitterHandle'),
+      googleVerification: get(this, 'props.data.site.siteMetadata.googleVerification'),
       siteUrl: get(this, 'props.data.site.siteMetadata.siteUrl')
     };
 
     return (
         <React.Fragment>
-          <Head {...headProps} />
+          <HeadDefault {...headProps} />
           {children()}
           <Footer />
         </React.Fragment>
@@ -45,11 +41,11 @@ Template.propTypes = {
 export default Template
 
 export const pageQuery = graphql`
-  query IndexQuery {
+  query DefaultQuery {
     site {
       siteMetadata {
-        title
-        titlePrefix
+        siteTitle
+        siteTitlePrefix
         googleVerification
         locale
         siteUrl

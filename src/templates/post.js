@@ -45,7 +45,7 @@ export const pageQuery = graphql`
   query BlogPostByPath($path: String!) {
     site {
       siteMetadata {
-        title
+        siteTitle
         author
       }
     }
