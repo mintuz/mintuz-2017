@@ -46,7 +46,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         });
 
         createPage({
-          edges: result.data.posts.edges
+          edges: result.data.posts.edges,
           path: '/',
           component: homepage,
           context: {
