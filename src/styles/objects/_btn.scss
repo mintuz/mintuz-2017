@@ -12,6 +12,10 @@
     padding: double($base-spacing-unit);
 }
 
+.o-btn--block {
+    display: block;
+}
+
 .o-btn--light-gray {
     border: 1px solid rgb(234, 234, 234);
 }

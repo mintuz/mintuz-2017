@@ -35,14 +35,14 @@ class BlogPostTemplate extends React.Component {
 				<div className="o-wrap">
 					<div className="o-grid">
 						<div
-							className="o-grid__col o-grid__col--1/1 o-grid__col--2/3@bp-m p-post__body u-pb+ u-pb0@bp-m u-mb+ u-mb0@bp-m"
+							className="o-grid__col o-grid__col--1/1 o-grid__col--2/3@bp-mx p-post__body u-pb+ u-pb0@bp-mx u-mb+ u-mb0@bp-mx"
 							dangerouslySetInnerHTML={{ __html: post.html }}
 						/>
-						<div className="o-grid__col o-grid__col--1/1 o-grid__col--1/3@bp-m p-post__sidebar">
-							<div className="p-post__sidebar-content u-pt+ u-pt0@bp-m">
+						<div className="o-grid__col o-grid__col--1/1 o-grid__col--1/3@bp-mx p-post__sidebar">
+							<div className="p-post__sidebar-content u-pt+ u-pt0@bp-mx">
 								<a
 									href="#"
-									className="o-btn o-btn--large o-btn--light-gray u-text-align-center u-mb+"
+									className="o-btn o-btn--large o-btn--light-gray o-btn--block u-text-align-center u-mb+"
 								>
 								Get in touch
 								</a>

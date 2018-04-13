@@ -75,7 +75,7 @@ class BlogList extends React.Component {
         <div className="o-main u-pv++ p-post">
             <div className="o-wrap">
                 <div className="o-grid">
-                    <div className="o-grid__col o-grid__col--1/1 o-grid__col--2/3@bp-m p-post__body">
+                    <div className="o-grid__col o-grid__col--1/1 o-grid__col--2/3@bp-mx p-post__body">
                       {group.map((post) => (
                         <article key={post.node.frontmatter.path} className="o-article-list__item">
                           <h2 className="u-type-double-pica u-mb+">
@@ -85,7 +85,7 @@ class BlogList extends React.Component {
                           </h2>
                           <p className="u-mb+" dangerouslySetInnerHTML={{ __html: post.node.excerpt }} />
                           <div aria-hidden="true">
-                            <Link className="o-btn o-btn--small o-btn--light-gray u-type-minion" to={post.node.frontmatter.path}>
+                            <Link className="o-btn o-btn--large o-btn--light-gray u-type-minion" to={post.node.frontmatter.path}>
                               Read more
                             </Link>
                           </div>
@@ -93,9 +93,9 @@ class BlogList extends React.Component {
                       ))}
                       {this.renderPagination(this.props.pathContext)}
                     </div>
-                    <div className="o-grid__col o-grid__col--1/1 o-grid__col--1/3@bp-m p-post__sidebar">
-                        <div className="p-post__sidebar-content">
-                            <a href="#" className="o-btn o-btn--large o-btn--light-blue u-text-align-center u-mb+">Get in touch</a>
+                    <div className="o-grid__col o-grid__col--1/1 o-grid__col--1/3@bp-mx u-mt+ u-mt0@bp-mx">
+                        <div>
+                            <a href="#" className="o-btn o-btn--large o-btn--block o-btn--light-gray u-text-align-center u-mb+">Get in touch</a>
                         </div>
                     </div>
                 </div>
