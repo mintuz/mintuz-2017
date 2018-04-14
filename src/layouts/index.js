@@ -15,6 +15,7 @@ class Template extends React.Component {
     const { location, children } = this.props;
 
     const headProps = {
+      siteTitle: get(this, 'props.data.site.siteMetadata.siteTitle'),
       locale: get(this, 'props.data.site.siteMetadata.locale'),
       author: get(this, 'props.data.site.siteMetadata.author'),
       twitterHandle: get(this, 'props.data.site.siteMetadata.twitterHandle'),

@@ -3,6 +3,7 @@ import Helmet from "react-helmet";
 import Link from "gatsby-link";
 import get from "lodash/get";
 import Head from '../components/head';
+import HeadBlog from '../components/head-blog';
 import Header from '../components/header';
 
 class BlogPostTemplate extends React.Component {
@@ -14,7 +15,8 @@ class BlogPostTemplate extends React.Component {
       siteTitle,
       siteUrl,
       description,
-      keywords
+      keywords,
+      author
 		} = this.props.data.site.siteMetadata;
 
     const blogListingTitle = `${post.frontmatter.title} | ${siteTitle}`;
@@ -23,13 +25,16 @@ class BlogPostTemplate extends React.Component {
 		const headProps = {
       title: blogListingTitle,
       keywords,
+      author,
+      datePublished: post.frontmatter.date,
       description: post.excerpt,
       siteUrl: blogUrl  
     }
 
     return (
 		<React.Fragment>
-		<Head {...headProps} />
+			<Head {...headProps} />
+			<HeadBlog {...headProps} />
 			<Header mode={'compact'} title={post.frontmatter.title} />
 			<div className="o-main u-pv++ p-post">
 				<div className="o-wrap">
