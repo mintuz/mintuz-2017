@@ -72,7 +72,7 @@ class BlogList extends React.Component {
       <React.Fragment>
         <Head {...headProps} />
         <Header mode={'compact'} title="Blog Posts" />
-        <div className="o-main u-pv++ p-post">
+        <div className="o-main u-pv++">
             <div className="o-wrap">
                 <div className="o-grid">
                     <div className="o-grid__col o-grid__col--1/1 o-grid__col--2/3@bp-mx p-post__body">

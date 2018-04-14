@@ -25,7 +25,7 @@
 
 .c-site-header--mast {
 
-    @include mq($from: bp-s, $until: bp-m) {
+    @include mq($until: bp-m) {
         background-image: url(../images/me-small.jpg);
     }
 
