@@ -20,7 +20,7 @@ const projectData = [
     description: 'Currently working on the 2nd iteration of the BBC Live pages using React and Node delivering LIVE experiences for events like the Rio Olympics, EU Referendum and the US Election.',
     image: bbcLiveImage,
     imageAlt: 'An image of the BBC Live Page',
-    link: ''
+    link: 'https://www.bbc.co.uk/sport/live/olympics/36772591'
   },
   {
     title: 'BBC Homepage',
