@@ -6,11 +6,13 @@ import Head from '../components/head';
 import HeadBlog from '../components/head-blog';
 import Header from '../components/header';
 
+require("prismjs/themes/prism-tomorrow.css");
+
 class BlogPostTemplate extends React.Component {
   render() {
 
     const post = this.props.data.markdownRemark;
-		
+
 		const {
       siteTitle,
       siteUrl,
@@ -28,7 +30,7 @@ class BlogPostTemplate extends React.Component {
       author,
       datePublished: post.frontmatter.date,
       description: post.excerpt,
-      siteUrl: blogUrl  
+      siteUrl: blogUrl
     }
 
     return (

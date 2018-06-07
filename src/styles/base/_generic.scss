@@ -31,8 +31,13 @@ h6 {
 
 p {
     margin-bottom: double($base-spacing-unit);
-    
+
     &:last-of-type {
         margin-bottom: 0;
     }
+}
+
+.gatsby-highlight {
+    margin-top: double(double($base-spacing-unit));
+    margin-bottom: double(double($base-spacing-unit));
 }

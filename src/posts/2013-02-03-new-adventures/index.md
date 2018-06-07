@@ -30,10 +30,6 @@ Here are some pictures, enjoy.
 
 ![firstones](http://www.mintuz.com/wp-content/uploads/2013/02/firstones.png)
 
- 
-
 ![cup](http://www.mintuz.com/wp-content/uploads/2013/02/cup.png)
-
- 
 
 ![andrew](http://www.mintuz.com/wp-content/uploads/2013/02/andrew.png)
