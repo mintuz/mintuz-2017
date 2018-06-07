@@ -1,9 +1,43 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Software Engineer from Manchester writing posts on CSS, React, JavaScript and Web Performance.]]></description><link>https:/next.mintuz.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 07 Jun 2018 16:20:31 GMT</lastBuildDate><item><title><![CDATA[React Europe Conf 2016]]></title><description><![CDATA[I had a great time at React Europe Conf 2016 and thought I would share some of my opinions and things that stood out from the conference…]]></description><link>https:/next.mintuz.com/2016/06/05/react-europe-2016</link><guid isPermaLink="false">https:/next.mintuz.com/2016/06/05/react-europe-2016</guid><pubDate>Sun, 05 Jun 2016 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;I had a great time at React Europe Conf 2016 and thought I would share some of my opinions and things that stood out from the conference.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Software Engineer from Manchester writing posts on CSS, React, JavaScript and Web Performance.]]></description><link>https:/next.mintuz.com</link><generator>RSS for Node</generator><lastBuildDate>Thu, 07 Jun 2018 18:57:54 GMT</lastBuildDate><item><title><![CDATA[React Europe Conf 2016]]></title><description><![CDATA[I had a great time at React Europe Conf 2016 and thought I would share some of my opinions and things that stood out from the conference…]]></description><link>https:/next.mintuz.com/2016/06/05/react-europe-2016</link><guid isPermaLink="false">https:/next.mintuz.com/2016/06/05/react-europe-2016</guid><pubDate>Sun, 05 Jun 2016 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;I had a great time at React Europe Conf 2016 and thought I would share some of my opinions and things that stood out from the conference.&lt;/p&gt;
 &lt;h2&gt;GraphQL &lt;del&gt;vs&lt;/del&gt; and Falcor&lt;/h2&gt;
 &lt;p&gt;I’ve heard of both these frameworks for retrieving data from the server but I’ve never really understood the benefits by just viewing the documentation. After seeing both these frameworks I can honestly see the advantages of using both. Having the ability to retrieve data from the server without specifying a REST endpoint is amazing, it allows you to scale your data model easily.&lt;/p&gt;
 &lt;p&gt;The talk by Jafar Husain “Falcor: One Model Everywhere” demonstrated the way Falcor does it really well. He also gives credit to GraphQL saying both frameworks have a place in the ecosystem and picking the best one is subjective to your requirements. My take from his talk is that Falcor is better for smaller applications where the data model is known and that you should use GraphQL where the model may change and need to scale.&lt;/p&gt;
 &lt;p&gt;Falcor is less prescriptive, has fewer concepts and a smaller file size &amp;#x3C; 50%. It takes a segment of the model you defined and returns it from the data source. I have a few questions around how this works with a real database because the demo was using a JSON file but it’s something I am going to investigate, now I’ve seen it in action.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/wp-content/uploads/2016/06/CkBxU1nVEAAP8Ld.jpg&quot; alt=&quot;CkBxU1nVEAAP8Ld&quot;&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/CkBxU1nVEAAP8Ld-628c3f16b2328eb7e8c4631e9ea6415f-a5ccc.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 133.33333333333331%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQBBQYC/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQIA/9oADAMBAAIQAxAAAAFObBtnODwV2znjFiVhT//EABwQAQACAgMBAAAAAAAAAAAAAAIBAwAEEBEjM//aAAgBAQABBQKuibDOvZGKFE68eebX117eyrwJusKZSOJp8f/EABcRAQEBAQAAAAAAAAAAAAAAAAEAEBH/2gAIAQMBAT8BWLmf/8QAFhEAAwAAAAAAAAAAAAAAAAAAABAS/9oACAECAQE/AXJ//8QAHBAAAgIDAQEAAAAAAAAAAAAAAAECERAhgTHR/9oACAEBAAY/ArTPhtHccKUHr0qVotM02i5O8f/EAB0QAAMAAgIDAAAAAAAAAAAAAAABESExQXEQYYH/2gAIAQEAAT8heEFHMmnV7EFJ+0Q7sLgS/AffearAtVGrqjfgwqZzcYwTDLGfH//aAAwDAQACAAMAAAAQcMyP/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAwEBPxBBhps7Yc5f/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERIf/aAAgBAgEBPxDIYOCRqn//xAAfEAEAAwACAgMBAAAAAAAAAAABABEhMUFhcVGBkaH/2gAIAQEAAT8QaZ5A7k06/hf5Lfq+KmbJYoz8luz5s5gekIqC7GgK7sdyhKor6h9lgFE6lh4hYL9/MIG1HoRV1n//2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;CkBxU1nVEAAP8Ld&quot;
+        title=&quot;&quot;
+        src=&quot;/static/CkBxU1nVEAAP8Ld-628c3f16b2328eb7e8c4631e9ea6415f-f8fb9.jpg&quot;
+        srcset=&quot;/static/CkBxU1nVEAAP8Ld-628c3f16b2328eb7e8c4631e9ea6415f-e8976.jpg 148w,
+/static/CkBxU1nVEAAP8Ld-628c3f16b2328eb7e8c4631e9ea6415f-63df2.jpg 295w,
+/static/CkBxU1nVEAAP8Ld-628c3f16b2328eb7e8c4631e9ea6415f-f8fb9.jpg 590w,
+/static/CkBxU1nVEAAP8Ld-628c3f16b2328eb7e8c4631e9ea6415f-85e3d.jpg 885w,
+/static/CkBxU1nVEAAP8Ld-628c3f16b2328eb7e8c4631e9ea6415f-a5ccc.jpg 900w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;p&gt;The talk by Laney Kuenzel and Lee Byron named “GraphQL Future” was a nice insight into the ways Facebook use GraphQL and what they have planned for it in the future. They talk a little bit about the different experiments they are running with GraphQL and working on the BBC LIVE product I can really see how the directive @live in GraphQL will change the future of real time updates in applications. For their demo’s they also used &lt;a href=&quot;https://github.com/graphql/graphiql&quot;&gt;graphiql&lt;/a&gt; which looks really cool for testing out your graphQL queries.&lt;/p&gt;
 &lt;p&gt;Both talks were really well executed and two of the best talks at React Europe Conf 2016.&lt;/p&gt;
 &lt;h2&gt;Carte Blanche&lt;/h2&gt;
@@ -11,7 +45,41 @@
 &lt;h2&gt;A Deep dive into things…&lt;/h2&gt;
 &lt;p&gt;Oh my god, these talks! The subjects were around the inner workings of React Native and Flow and how they’ve been optimised. Most developers probably don’t care about this and to be honest shouldn’t care.  It may have been just me but this much information at a conference can be overwhelming. I think the picture below demonstrates how intense it got. Talks should be composed of quick and snappy bit’s of information which can easily be digested. Then again I may be just stupid because people on Twitter seemed to have enjoy the talks.&lt;/p&gt;
 &lt;p&gt;I am however going to re-watch these talks to make sure it wasn’t just the long day that caused me to feel overwhelmed. I’m sure there’s some value in these talks I just couldn’t see it on the day.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/wp-content/uploads/2016/06/CkAejpiUYAEvOOg.jpg&quot; alt=&quot;CkAejpiUYAEvOOg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/CkAejpiUYAEvOOg-fb1c26c7f2e42333ee0e71152afbc8aa-a5ccc.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 133.33333333333331%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGQAAAwEBAQAAAAAAAAAAAAAAAAIFBAMG/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/9oADAMBAAIQAxAAAAGOXexnzhWLStl0wpPB/8QAHhAAAgEEAwEAAAAAAAAAAAAAAQIDABESIQQQIjP/2gAIAQEAAQUCx63UXyqdbuJMFHIBpplvOxKRHxPt/wD/xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAwEBPwGkP//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EAB4QAAEDBAMAAAAAAAAAAAAAAAABAhADERIhMXGB/9oACAEBAAY/ApbHgmTVNIcWNlPqP//EABsQAAMBAQEBAQAAAAAAAAAAAAABESFhUXEx/9oACAEBAAE/Ia8ZH0+jKOCYhDgj0pleDLV/GPap1i8myj5Znjgzq/2H/9oADAMBAAIAAwAAABDMy8//xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQMBAT8QcsOlhbC//8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERIf/aAAgBAgEBPxAqGspEf//EAB0QAQEBAQACAwEAAAAAAAAAAAERADFBkSFhccH/2gAIAQEAAT8QIiQfMdN6Mlde8pS1/t1UoI/WERKOfrhMI+Afej4fYKY3cCQB1ksWQMn4oSQD156676jXf//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;CkAejpiUYAEvOOg&quot;
+        title=&quot;&quot;
+        src=&quot;/static/CkAejpiUYAEvOOg-fb1c26c7f2e42333ee0e71152afbc8aa-f8fb9.jpg&quot;
+        srcset=&quot;/static/CkAejpiUYAEvOOg-fb1c26c7f2e42333ee0e71152afbc8aa-e8976.jpg 148w,
+/static/CkAejpiUYAEvOOg-fb1c26c7f2e42333ee0e71152afbc8aa-63df2.jpg 295w,
+/static/CkAejpiUYAEvOOg-fb1c26c7f2e42333ee0e71152afbc8aa-f8fb9.jpg 590w,
+/static/CkAejpiUYAEvOOg-fb1c26c7f2e42333ee0e71152afbc8aa-85e3d.jpg 885w,
+/static/CkAejpiUYAEvOOg-fb1c26c7f2e42333ee0e71152afbc8aa-a5ccc.jpg 900w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;h2&gt;Redux Analytics&lt;/h2&gt;
 &lt;p&gt;Before this talk I didn’t really think about how much of a pain it is to set up analytics in an application but my general approach was to hook into some sort of event such as a click event and then send some data from the client to the server. Bertrand Karerangabo and Evan Schultz demonstrated a neat way of using redux middleware to track analytics without much configuration. Because Redux uses a single store and provides a single location for state changes, their middleware hooks into the redux event loop and its from there we can learn a lot about a user and what current state the application is in. So simple but so powerful that until this point I had overlooked the possibilities of using Redux for analytics.&lt;/p&gt;
 &lt;h2&gt;Lightning Talks&lt;/h2&gt;
@@ -20,7 +88,41 @@
 &lt;h2&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;I had an amazing time at React Europe 2016 and certainly recommend going next year if you can. Lots of insight, Lots of swag and great atmosphere. Now it’s time to play with all these new toys. I’m looking at you &lt;a href=&quot;https://github.com/carteb/carte-blanche&quot;&gt;carte-blanche&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Composable React Components]]></title><description><![CDATA[Hello in this blog post I want to talk about a problem I have recently had within the BBC Live team and how we solved it. To begin with I…]]></description><link>https:/next.mintuz.com/2016/05/19/composable-react-components</link><guid isPermaLink="false">https:/next.mintuz.com/2016/05/19/composable-react-components</guid><pubDate>Thu, 19 May 2016 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Hello in this blog post I want to talk about a problem I have recently had within the BBC Live team and how we solved it. To begin with I should probably give you a little bit of context to the problem.&lt;/p&gt;
 &lt;p&gt;I joined the BBC Homepage team at the end of 2014, at the same time ReactJS was really gaining traction within the web development community and people were releasing reusable components through npm. Awesome I thought… All these free components to use for my own use, I wonder if I could do something similar within the BBC because we have a &lt;a href=&quot;http://www.bbc.co.uk/gel/guidelines/promos&quot;&gt;Promo&lt;/a&gt; design pattern which is used all over the BBC implemented by different teams in different languages.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;/wp-content/uploads/2016/05/promo.png&quot; alt=&quot;promo&quot;&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/promo-47d0e23a9933380b4fcec748b4081489-41ba9.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 46.209016393442624%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAIAAAC9o5sfAAAACXBIWXMAAAsSAAALEgHS3X78AAAA+0lEQVQoz6VQ/apEUBzc938Iz+AJRD6LjlJ7VkRCQvJtfYS9E9q63a39406Zjjlnfr9pbq9/4IZvWZZxHLdt2/d9nue+74dhgFLXddM0wwHo4OcBHGC5zFmW2bZdliUucOB5XhRFXdcNw+A4TpIkRVEopWDo+BUEIQiCy4yd67qewxzHEQ5omgaDaZpgy7JMQiDKskwIwXTP8y7zCWQG4x3LsliiqmoURb7vIxEyw8kwTBzHYRgiXZIkH8xQXdfN8xyHNE3vlILRQlEUd/pAC13XtW2Lcb/Mf3F2htfTNKEkRKiqCgoYVx/M+4F3kDfQCPZjynIAHX3Z/BU/aML5VH0LWOMAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;promo&quot;
+        title=&quot;&quot;
+        src=&quot;/static/promo-47d0e23a9933380b4fcec748b4081489-fb8a0.png&quot;
+        srcset=&quot;/static/promo-47d0e23a9933380b4fcec748b4081489-1a291.png 148w,
+/static/promo-47d0e23a9933380b4fcec748b4081489-2bc4a.png 295w,
+/static/promo-47d0e23a9933380b4fcec748b4081489-fb8a0.png 590w,
+/static/promo-47d0e23a9933380b4fcec748b4081489-526de.png 885w,
+/static/promo-47d0e23a9933380b4fcec748b4081489-41ba9.png 976w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;p&gt;This obviously leads to loads of code duplication and the same bugs/challenges will occur.&lt;/p&gt;
 &lt;h2&gt;Old Approach&lt;/h2&gt;
 &lt;p&gt;The first iteration of the promo component I worked on was tightly coupled to the homepage codebase. The homepage codebase is comprised of several different modules, for example we have a top stories module and a tv radio module. Both modules make use of the promo design pattern. However the data for each module is passed down and it’s the modules responsibility to build the DOM for the Promo.&lt;/p&gt;
@@ -50,9 +152,84 @@
 &lt;h2&gt;Do something&lt;/h2&gt;
 &lt;p&gt;Don’t waste the time. If you go to sleep or simply listen to music, you are wasting a large chunk of the day which could be productive. Read blog posts, plan your day or develop. Whatever you do, make sure its productive.&lt;/p&gt;
 &lt;h2&gt;Conclusion&lt;/h2&gt;
-&lt;p&gt;If you can avoid a long commute, avoid it. I think one of the things that made it easier for me is I always knew it was short term. If its long term, I salute you because it will be a strain mentally and physically.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[A developers view on the Apple Watch]]></title><description><![CDATA[So I’ve been wearing my new Apple Watch 42mm stainless steel edition with a classic leather buckle for the last week and so far I am loving…]]></description><link>https:/next.mintuz.com/2015/06/13/a-developers-view-on-the-apple-watch</link><guid isPermaLink="false">https:/next.mintuz.com/2015/06/13/a-developers-view-on-the-apple-watch</guid><pubDate>Sat, 13 Jun 2015 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;So I’ve been wearing my new Apple Watch 42mm stainless steel edition with a classic leather buckle for the last week and so far I am loving it from a users perspective. From a developers point of view some improvements are needed but because it’s early days I have high hopes. Let’s begin. &lt;img src=&quot;/wp-content/uploads/2015/06/2015-06-08-18.54.24-768x1024.jpg&quot; alt=&quot;Apple Watch in case&quot;&gt;&lt;/p&gt;
+&lt;p&gt;If you can avoid a long commute, avoid it. I think one of the things that made it easier for me is I always knew it was short term. If its long term, I salute you because it will be a strain mentally and physically.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[A developers view on the Apple Watch]]></title><description><![CDATA[So I’ve been wearing my new Apple Watch 42mm stainless steel edition with a classic leather buckle for the last week and so far I am loving…]]></description><link>https:/next.mintuz.com/2015/06/13/a-developers-view-on-the-apple-watch</link><guid isPermaLink="false">https:/next.mintuz.com/2015/06/13/a-developers-view-on-the-apple-watch</guid><pubDate>Sat, 13 Jun 2015 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;So I’ve been wearing my new Apple Watch 42mm stainless steel edition with a classic leather buckle for the last week and so far I am loving it from a users perspective. From a developers point of view some improvements are needed but because it’s early days I have high hopes. Let’s begin.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2015-06-08-18.54.24-18d668e73e5e155b50efec2865accf25-53bcb.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 133.33333333333331%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAMEAQX/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/2gAMAwEAAhADEAAAAbK+ZiXigE1ZqAsj/8QAHhAAAQMEAwAAAAAAAAAAAAAAAQACAwQQERITIzH/2gAIAQEAAQUChd1BO9B44KQnZ+2ZGZZTxmMI3//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABURAQEAAAAAAAAAAAAAAAAAABEg/9oACAECAQE/ASP/xAAdEAEAAgEFAQAAAAAAAAAAAAABABExAhAgISJS/9oACAEBAAY/Aq+d1Msb7J5ajpI3nj//xAAcEAEAAgIDAQAAAAAAAAAAAAABABEhMUFRYYH/2gAIAQEAAT8hsHJV8mkToRMK1PkoqaOYuGeQ8SxRMBVOzqCZvuakI7Z//9oADAMBAAIAAwAAABCY1zH/xAAXEQADAQAAAAAAAAAAAAAAAAAAAREQ/9oACAEDAQE/EKUbz//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPxAxIr//xAAeEAEAAwEAAQUAAAAAAAAAAAABABEhMYEQQVGRwf/aAAgBAQABPxAG2/sWk+SKewZKrAh1S1H7LWwWmtNzrNegu23d8SsAdntXGC76YUxyXKhhIl6m+hPmn//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Apple Watch in case&quot;
+        title=&quot;&quot;
+        src=&quot;/static/2015-06-08-18.54.24-18d668e73e5e155b50efec2865accf25-f8fb9.jpg&quot;
+        srcset=&quot;/static/2015-06-08-18.54.24-18d668e73e5e155b50efec2865accf25-e8976.jpg 148w,
+/static/2015-06-08-18.54.24-18d668e73e5e155b50efec2865accf25-63df2.jpg 295w,
+/static/2015-06-08-18.54.24-18d668e73e5e155b50efec2865accf25-f8fb9.jpg 590w,
+/static/2015-06-08-18.54.24-18d668e73e5e155b50efec2865accf25-85e3d.jpg 885w,
+/static/2015-06-08-18.54.24-18d668e73e5e155b50efec2865accf25-d1924.jpg 1180w,
+/static/2015-06-08-18.54.24-18d668e73e5e155b50efec2865accf25-9452e.jpg 1770w,
+/static/2015-06-08-18.54.24-18d668e73e5e155b50efec2865accf25-53bcb.jpg 2448w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;h2&gt;Looks&lt;/h2&gt;
-&lt;p&gt;I love it, as with most apple devices designed by Jony Ive, he’s outdone himself and with support from Marc Newson, this watch feels and looks amazing. I’m not a fan of bulky watches or metal straps so I went for 42mm stainless steel classic leather buckle. The 38mm looked too small and I imagine it would be difficult to use, the 42mm even if it is slightly bigger isn’t too bulky for me and I recommend trying both on, before you buy one as I was set on getting the 38mm before trying the 42mm on. &lt;img src=&quot;/wp-content/uploads/2015/06/2015-06-08-19.05.14-225x300.jpg&quot; alt=&quot;2015-06-08 19.05.14&quot;&gt; As for the screen, the glare from the sun can be an issue whilst wearing sun glasses. I’ve also read somewhere that the issue is less with the sport edition but I can’t comment on that myself.&lt;/p&gt;
+&lt;p&gt;I love it, as with most apple devices designed by Jony Ive, he’s outdone himself and with support from Marc Newson, this watch feels and looks amazing. I’m not a fan of bulky watches or metal straps so I went for 42mm stainless steel classic leather buckle. The 38mm looked too small and I imagine it would be difficult to use, the 42mm even if it is slightly bigger isn’t too bulky for me and I recommend trying both on, before you buy one as I was set on getting the 38mm before trying the 42mm on.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2015-06-08-19.05.14-05c07b832118e07a5254f11fcdd94cf7-53bcb.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 133.33333333333331%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAQFAgP/xAAXAQEAAwAAAAAAAAAAAAAAAAABAAID/9oADAMBAAIQAxAAAAGXbVwNU4gzlxeFkSK6f//EAB4QAAEDBAMAAAAAAAAAAAAAAAMAAQIEEiExEyMy/9oACAEBAAEFAmVK3XLZqeIoAe0mHRz8kREsTTxLTaH5/8QAFxEBAQEBAAAAAAAAAAAAAAAAABEBEv/aAAgBAwEBPwGOdVX/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAIAQIBAT8Bq4iP/8QAGxAAAgIDAQAAAAAAAAAAAAAAABEBMRASQSD/2gAIAQEABj8CRyyzaGSu3hLxOP/EABoQAAIDAQEAAAAAAAAAAAAAAAABESFBMRD/2gAIAQEAAT8hi54umIT3biR0rIiyhzrIhgItakZCdJXJs3RQbjPNxP/aAAwDAQACAAMAAAAQqNnw/8QAFxEBAQEBAAAAAAAAAAAAAAAAAREAEP/aAAgBAwEBPxBYzhduKN//xAAXEQEBAQEAAAAAAAAAAAAAAAARAQAQ/9oACAECAQE/EBY8gGo3/8QAHBABAQACAwEBAAAAAAAAAAAAAREAITFBUXGR/9oACAEBAAE/EIhtVTYeZzt0i0JN+cYLNB7coCMGBJHcibE3bx3jGZcVXFbA/DDoJtqO07yB2fcRCfj9zYvmW2V2nOf/2Q==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;2015-06-08 19.05.14&quot;
+        title=&quot;&quot;
+        src=&quot;/static/2015-06-08-19.05.14-05c07b832118e07a5254f11fcdd94cf7-f8fb9.jpg&quot;
+        srcset=&quot;/static/2015-06-08-19.05.14-05c07b832118e07a5254f11fcdd94cf7-e8976.jpg 148w,
+/static/2015-06-08-19.05.14-05c07b832118e07a5254f11fcdd94cf7-63df2.jpg 295w,
+/static/2015-06-08-19.05.14-05c07b832118e07a5254f11fcdd94cf7-f8fb9.jpg 590w,
+/static/2015-06-08-19.05.14-05c07b832118e07a5254f11fcdd94cf7-85e3d.jpg 885w,
+/static/2015-06-08-19.05.14-05c07b832118e07a5254f11fcdd94cf7-d1924.jpg 1180w,
+/static/2015-06-08-19.05.14-05c07b832118e07a5254f11fcdd94cf7-9452e.jpg 1770w,
+/static/2015-06-08-19.05.14-05c07b832118e07a5254f11fcdd94cf7-53bcb.jpg 2448w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;As for the screen, the glare from the sun can be an issue whilst wearing sun glasses. I’ve also read somewhere that the issue is less with the sport edition but I can’t comment on that myself.&lt;/p&gt;
 &lt;h2&gt;Security&lt;/h2&gt;
 &lt;p&gt;A nice security feature on the Apple Watch is that if you take the watch off and you have the passcode enabled it will automatically lock. A subtle but useful feature.&lt;/p&gt;
 &lt;p&gt;However security stops there. If you take the Apple Watch off and it gets stolen or someone manages to take your watch off without you realising, consider it lost. There is no way of tracking it as it is dependent on the phone. I guess Apple made this decision because putting WiFi/GPS directly onto the watch would drain the battery considerably.&lt;/p&gt;
@@ -230,31 +407,64 @@ server {
 &lt;p&gt;Tools like &lt;a href=&quot;http://wpscan.org/&quot;&gt;wp-scan&lt;/a&gt; allow you to find out what plugins are running on the Wordpress installation and the names of the users on that system. With this information you have already lost half the battle. I urge you to download and install wp-scan. It’s simple to use but extremely powerful. It alerts you of any vulnerable plugins and if this occurs, you should instantly disable those plugins. The chances are it will also display one or more usernames, if you have your username as admin, please open a new tab, login to your Wordpress site and rename your admin user then come back and carry on reading.&lt;/p&gt;
 &lt;p&gt;If an attacker has a good password dictionary and you have a weak password, congratulations your website could be hacked. For password requirements you should read the &lt;a href=&quot;http://en.support.wordpress.com/selecting-a-strong-password/&quot;&gt;security requirements&lt;/a&gt; specified on the WordPress website. You should also &lt;a href=&quot;http://codex.wordpress.org/Hardening_WordPress&quot;&gt;restrict access&lt;/a&gt; to the wp-admin section of your website to only allow access from specific IP addresses. If you want to go to extreme lengths you can also take advantage of a&lt;a href=&quot;https://www.duosecurity.com/product&quot;&gt; third-party plugin from Duo Security&lt;/a&gt;, which enables one-time login codes sent via text message.&lt;/p&gt;
 &lt;p&gt;Now the way this attack works is from scanning domains for information such as strings like wp-content and wp-admin. If the bot finds a website with these strings present, it will simply spam the wp-login.php page with requests using the usernames found from tools like wp-scan and a password dictionary possibly using words from the website itself.&lt;/p&gt;
-&lt;p&gt;Tools like &lt;a href=&quot;http://www.thc.org/thc-hydra/&quot;&gt;xHydra&lt;/a&gt; allow such attacks to be carried out. **wp-scan and xHyrdra together are bad news for Wordpress sites. **To help reduce the risk of these tools, I urge you to download the wp-security plugin. You can configure the plugin to block an IP address from accessing your website if that IP address has multiple incorrect login attempts. It also allows you to rename the wp-content and wp-admin parts of the URL.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Why WEP Sucks]]></title><description><![CDATA[Recently I have noticed several WEP based wireless networks around my area with the majority of them using BT Home Hubs. This angers me, it…]]></description><link>https:/next.mintuz.com/2013/04/14/why-wep-sucks</link><guid isPermaLink="false">https:/next.mintuz.com/2013/04/14/why-wep-sucks</guid><pubDate>Sun, 14 Apr 2013 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;/wp-content/uploads/2013/04/Untitled.png&quot; alt=&quot;WEP Security&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Tools like &lt;a href=&quot;http://www.thc.org/thc-hydra/&quot;&gt;xHydra&lt;/a&gt; allow such attacks to be carried out. **wp-scan and xHyrdra together are bad news for Wordpress sites. **To help reduce the risk of these tools, I urge you to download the wp-security plugin. You can configure the plugin to block an IP address from accessing your website if that IP address has multiple incorrect login attempts. It also allows you to rename the wp-content and wp-admin parts of the URL.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Why WEP Sucks]]></title><description><![CDATA[Recently I have noticed several WEP based wireless networks around my area with the majority of them using BT Home Hubs. This angers me, it…]]></description><link>https:/next.mintuz.com/2013/04/14/why-wep-sucks</link><guid isPermaLink="false">https:/next.mintuz.com/2013/04/14/why-wep-sucks</guid><pubDate>Sun, 14 Apr 2013 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/Untitled-56e6141fc66c079ffb86355e4f7ff5b9-24611.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 75.39393939393939%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABcSAAAXEgFnn9JSAAACfUlEQVQ4y62TW09TURCFD7SlF0hbWigtpaWl0ntK+iK/yxbanpZIRUXSCyaIQWkMGjFKgoqXB2N80PiiPtIL9dcs9xptaXwz8SQrM2f2nm/PzD5HOzh8hJ3dfWw39nCneU/8rZ1d7O4/xOnrdzhoPUbr6BjPTl7i9Ow9Tl69VWuHuHu/NVRj7wGOnr7Ak+Pn0IrFAnS9hEqljEpZh14qYX19DQWlfD6HXO4a1tfWJLaxUZF9m5vXUVW6Ua2Kbm5toVQs4uzsDTT14H+pXK5Am5ychMVigd1uB3232w2v1wuHwwmr1QqbzSZx6m/faDTCYDBIPoHNZhMaX7hhdnZWrM/nQzKZFOji4iLm5+cxNzeHQCAAj8eDYDAoe/nO9bGxMYESWKvVoPEUQp1OJ8xmsySkUqkheGlpCcvLy+ITnk6nBRSLxUSjwHq9Ds1kMklr09PTAuTJTPb7/UgkEgKMRCLiM5bJZATIGA8aBTYajUugy+WSSpkUj8cFzGqYGA6HBbSwsDCsMBqNysEEsksCb93e/g3kgAfAUCgkSQMgYWyNFTK2srIiY2GMB48CiyV1y1NTU3LDBLJStpjNZgXMZLbFaghnbLDGAxgbHx8XDYGEcHasktXOzMxIa5wpLS+Ht8yqaAnjF8AL4vroDAsFHRpfGCSQCZwhPw/eOhNpqUEnFA9zOBwSI4iF0Jb0jcs/hXNgpbQTExOyyazsv/wpuXwB2pVMBKFUGKtXV2VePp9XqqTYll+1xdaCwQACf3yuDWK0nDu70HU1wy9fP+PDp4/49v0Hzs/bOG93RG2lnlJXqaPinW4P3d4F2p0uLvp9ZTvo93/K3m6vJ3H6vwCEnuC2PDzi5QAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;WEP Security&quot;
+        title=&quot;&quot;
+        src=&quot;/static/Untitled-56e6141fc66c079ffb86355e4f7ff5b9-fb8a0.png&quot;
+        srcset=&quot;/static/Untitled-56e6141fc66c079ffb86355e4f7ff5b9-1a291.png 148w,
+/static/Untitled-56e6141fc66c079ffb86355e4f7ff5b9-2bc4a.png 295w,
+/static/Untitled-56e6141fc66c079ffb86355e4f7ff5b9-fb8a0.png 590w,
+/static/Untitled-56e6141fc66c079ffb86355e4f7ff5b9-24611.png 825w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;p&gt;Recently I have noticed several WEP based wireless networks around my area with the majority of them using BT Home Hubs. This angers me, it has been known for several years WEP is insecure and allows young kids with basic knowledge of computing to hack your network. Here is why…&lt;/p&gt;
 &lt;p&gt;Two main versions of WEP exist, a 64bit key version and a 128bit key version. There is also a 256bit key but not all vendors support this version. All versions use an Initialisation vector of 24bits leaving a 40bit key, a 104bit key or a 232bit key.&lt;/p&gt;
 &lt;p&gt;WEP works by the wireless client sending an authentication request to the access point, the AP then responds with an authentication response including a challenge text in plain format. The wireless client then encrypts the challenge text with the WEP key and transmits the encrypted data to the AP, the AP then decrypts the encrypted message and if the transmitted message text matches the challenge text of the AP authentication is successful otherwise access is denied.&lt;/p&gt;
 &lt;p&gt;WEP can be cracked, by using freely available tools such as &lt;strong&gt;aircrack-ng&lt;/strong&gt;. One of the main weaknesses of WEP is that the key used for authentication is also used for encrypting data on the wireless network. The same encryption key is used for each frame sent across the wireless link. By sniffing packets on the wireless network, it is possible to work out the key, which encrypted the data, and once this is known, it will also be possible to be authorised on the wireless network since it uses the same key.&lt;/p&gt;
 &lt;p&gt;WEP uses RC4 as its encryption algorithm. It is a stream cipher and is weak because of the initialization vector length. The initialization vector is used to randomize the key, which is then used to encrypt the data. With a stream cipher the key used to encrypt traffic should never be used twice but because the IV is short, there is a possibility that an IV collision will occur.  24bits are used for the IV which gives you a possible 16.7 million possibilities, on a network with large amounts of traffic, this value can be met very quickly therefore the IV values will have to be reused.&lt;/p&gt;
-&lt;p&gt;The IV values are also sent in clear text making it much easier to determine the key if the IV is used multiple times.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[New Adventures In Web Design 2013]]></title><description><![CDATA[I should have written this blog post a week ago but with how busy I am currently, I have not had time. A week ago I had the privilege of…]]></description><link>https:/next.mintuz.com/2013/02/03/new-adventures-in-web-design-2013</link><guid isPermaLink="false">https:/next.mintuz.com/2013/02/03/new-adventures-in-web-design-2013</guid><pubDate>Sun, 03 Feb 2013 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;http://www.mintuz.com/wp-content/uploads/2013/02/2013-01-24-09.31.19.jpg&quot; alt=&quot;2013-01-24 09.31.19&quot;&gt;&lt;/p&gt;
-&lt;p&gt;I should have written this blog post a week ago but with how busy I am currently, I have not had time.&lt;/p&gt;
-&lt;p&gt;A week ago I had the privilege of attending the New Adventures in Web Design Conference with &lt;a href=&quot;http://www.forepoint.co.uk&quot;&gt;Forepoint&lt;/a&gt;, This was my first ever conference and hopefully not my last. If you cannot be bothered to read the rest of this post, Let me sum up the conference in one word. Inspiring.&lt;/p&gt;
-&lt;p&gt;It was an interesting angle on how I perceive Web Development, as the conference is aimed more towards designers I got to hear problems designers encounter all the time. The theme of the day seemed to revolve heavily around process, about the way that we work and it highlighted some key problems with how I currently work. &lt;/p&gt;
-&lt;p&gt;I enjoyed all the talks. A couple of talks I found particularly useful were the talks by &lt;strong&gt;Jessica Hische&lt;/strong&gt; and **Wayne Hemingway. **What I learnt from Jessica is that I should be Procrastiworking to stay motivated and get the tasks done. Wayne spoke about taking risks and how that can have a positive outcome on business. &lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Seb&lt;/strong&gt; was probably my favourite speaker and was a great start to the afternoon. He certainly got everybody out of their food comas. His talk was pure genius with live coding on a Commodore 64 and then demonstrated some JavaScript Prettyness. Seb had the whole hall laughing. I found his talk the most inspiring and I really want to get dirty with pixel particle work. &lt;/p&gt;
-&lt;p&gt;I should also probably mention that the Forepoint bowling team (including &lt;a href=&quot;https://twitter.com/eskins&quot;&gt;Richard Eskins&lt;/a&gt;) won the bowling night hosted by &lt;a href=&quot;http://erskinedesign.com/&quot;&gt;Erskine&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://www.mintuz.com/wp-content/uploads/2013/02/252707_10151203693456487_1694166284_n-1.jpg&quot; alt=&quot;252707_10151203693456487_1694166284_n (1)&quot;&gt;&lt;/p&gt;
-&lt;p&gt;Here are some pictures, enjoy.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://www.mintuz.com/wp-content/uploads/2013/02/cupcakes.png&quot; alt=&quot;cupcakes&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://www.mintuz.com/wp-content/uploads/2013/02/me.png&quot; alt=&quot;me&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://www.mintuz.com/wp-content/uploads/2013/02/goodies.png&quot; alt=&quot;goodies&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://www.mintuz.com/wp-content/uploads/2013/02/firstones.png&quot; alt=&quot;firstones&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://www.mintuz.com/wp-content/uploads/2013/02/cup.png&quot; alt=&quot;cup&quot;&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;http://www.mintuz.com/wp-content/uploads/2013/02/andrew.png&quot; alt=&quot;andrew&quot;&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Get in touch]]></title><description><![CDATA[I would love you to get in touch with me, I do not actively place my email address in the wild, so you can get in touch by  tweeting me  or…]]></description><link>https:/next.mintuz.com/get-in-touch</link><guid isPermaLink="false">https:/next.mintuz.com/get-in-touch</guid><pubDate>Sun, 03 Feb 2013 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;I would love you to get in touch with me, I do not actively place my email address in the wild, so you can get in touch by &lt;a href=&quot;https://twitter.com/mintuz&quot;&gt;tweeting me&lt;/a&gt; or by visiting my &lt;a href=&quot;https://www.linkedin.com/in/adambulmer&quot;&gt;Linkedin&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The IV values are also sent in clear text making it much easier to determine the key if the IV is used multiple times.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Get in touch]]></title><description><![CDATA[I would love you to get in touch with me, I do not actively place my email address in the wild, so you can get in touch by  tweeting me  or…]]></description><link>https:/next.mintuz.com/get-in-touch</link><guid isPermaLink="false">https:/next.mintuz.com/get-in-touch</guid><pubDate>Sun, 03 Feb 2013 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;I would love you to get in touch with me, I do not actively place my email address in the wild, so you can get in touch by &lt;a href=&quot;https://twitter.com/mintuz&quot;&gt;tweeting me&lt;/a&gt; or by visiting my &lt;a href=&quot;https://www.linkedin.com/in/adambulmer&quot;&gt;Linkedin&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Career opportunity &lt;strong&gt;&lt;a href=&quot;https://www.linkedin.com/in/adambulmer&quot;&gt;Linkedin&lt;/a&gt;&lt;/strong&gt; or &lt;strong&gt;&lt;a href=&quot;https://twitter.com/mintuz&quot;&gt;tweet me&lt;/a&gt;&lt;/strong&gt; and we can DM.&lt;/li&gt;
 &lt;li&gt;Development question &lt;strong&gt;&lt;a href=&quot;https://twitter.com/mintuz&quot;&gt;tweet me&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Question about an open source project I work on &lt;strong&gt;&lt;a href=&quot;https://github.com/mintuz&quot;&gt;Github&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;Domain you wish to buy from me &lt;strong&gt;&lt;a href=&quot;https://twitter.com/mintuz&quot;&gt;tweet me&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Please no recruitment agencies.&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;p&gt;Please no recruitment agencies.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[New Adventures In Web Design 2013]]></title><description><![CDATA[I should have written this blog post a week ago but with how busy I am currently, I have not had time. A week ago I had the privilege of…]]></description><link>https:/next.mintuz.com/2013/02/03/new-adventures-in-web-design-2013</link><guid isPermaLink="false">https:/next.mintuz.com/2013/02/03/new-adventures-in-web-design-2013</guid><pubDate>Sun, 03 Feb 2013 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src=&quot;2013-01-24-09.31.19.jpg&quot; alt=&quot;2013-01-24 09.31.19&quot;&gt;&lt;/p&gt;
+&lt;p&gt;I should have written this blog post a week ago but with how busy I am currently, I have not had time.&lt;/p&gt;
+&lt;p&gt;A week ago I had the privilege of attending the New Adventures in Web Design Conference with &lt;a href=&quot;http://www.forepoint.co.uk&quot;&gt;Forepoint&lt;/a&gt;, This was my first ever conference and hopefully not my last. If you cannot be bothered to read the rest of this post, Let me sum up the conference in one word. Inspiring.&lt;/p&gt;
+&lt;p&gt;It was an interesting angle on how I perceive Web Development, as the conference is aimed more towards designers I got to hear problems designers encounter all the time. The theme of the day seemed to revolve heavily around process, about the way that we work and it highlighted some key problems with how I currently work. &lt;/p&gt;
+&lt;p&gt;I enjoyed all the talks. A couple of talks I found particularly useful were the talks by &lt;strong&gt;Jessica Hische&lt;/strong&gt; and **Wayne Hemingway. **What I learnt from Jessica is that I should be Procrastiworking to stay motivated and get the tasks done. Wayne spoke about taking risks and how that can have a positive outcome on business. &lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Seb&lt;/strong&gt; was probably my favourite speaker and was a great start to the afternoon. He certainly got everybody out of their food comas. His talk was pure genius with live coding on a Commodore 64 and then demonstrated some JavaScript Prettyness. Seb had the whole hall laughing. I found his talk the most inspiring and I really want to get dirty with pixel particle work. &lt;/p&gt;
+&lt;p&gt;I should also probably mention that the Forepoint bowling team (including &lt;a href=&quot;https://twitter.com/eskins&quot;&gt;Richard Eskins&lt;/a&gt;) won the bowling night hosted by &lt;a href=&quot;http://erskinedesign.com/&quot;&gt;Erskine&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;252707_10151203693456487_1694166284_n-1.jpg&quot; alt=&quot;252707_10151203693456487_1694166284_n (1)&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Here are some pictures, enjoy.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;cupcakes.png&quot; alt=&quot;cupcakes&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;me.png&quot; alt=&quot;me&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;goodies.png&quot; alt=&quot;goodies&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;firstones.png&quot; alt=&quot;firstones&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;cup.png&quot; alt=&quot;cup&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;andrew.png&quot; alt=&quot;andrew&quot;&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
