@@ -12,7 +12,6 @@ import bookingGoImage from '../images/rideways.jpg';
 import bbcLiveImage from '../images/bbc_live.png';
 import bbcHomePageImage from '../images/bbc_homepage.png';
 import aweImage from '../images/awe.png';
-import s4bmanchesterImage from '../images/s4bmanchester.png';
 
 const projectData = [
   {
@@ -46,14 +45,6 @@ const projectData = [
     image: aweImage,
     imageAlt: 'An image of the AWE Homepage',
     link: 'http://www.awe.co.uk/'
-  },
-  {
-    title: 'S4BManchester',
-    jobTitle: 'Web Developer',
-    description: 'Website developed at Forepoint for S4BManchester, who will be responsible for making improvements to homes within the Brunswick area.',
-    image: s4bmanchesterImage,
-    imageAlt: 'An image of the S4BManchester Homepage',
-    link: 'http://s4bmanchester.co.uk'
   }
 ];
 
