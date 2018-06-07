@@ -54,3 +54,10 @@
 .c-site-header__content {
     color: rgb(255,255,255);
 }
+
+@include mq($until: bp-m) {
+    .c-site-header__content--text-content {
+        padding-top: 88px;
+        padding-bottom: 32px;
+    }
+}

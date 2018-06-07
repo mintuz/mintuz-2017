@@ -48,7 +48,7 @@ export default class Header extends React.Component {
     }
 
     return (
-        <div className="c-site-header__content u-pv++">
+        <div className="c-site-header__content c-site-header__content--text-content [ u-pv++@bp-m ]">
             <div className="o-wrap">
                 <h1 className="c-site-header__heading u-type-canon">{props.title}</h1>
             </div>
