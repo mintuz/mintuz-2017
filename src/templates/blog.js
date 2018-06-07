@@ -83,12 +83,7 @@ class BlogList extends React.Component {
                               {post.node.frontmatter.title}
                             </Link>
                           </h2>
-                          <p className="u-mb+" dangerouslySetInnerHTML={{ __html: post.node.excerpt }} />
-                          <div aria-hidden="true">
-                            <Link className="o-btn o-btn--large o-btn--light-gray u-type-minion" to={post.node.frontmatter.path}>
-                              Read more
-                            </Link>
-                          </div>
+                          <p dangerouslySetInnerHTML={{ __html: post.node.excerpt }} />
                         </article>
                       ))}
                       {this.renderPagination(this.props.pathContext)}
