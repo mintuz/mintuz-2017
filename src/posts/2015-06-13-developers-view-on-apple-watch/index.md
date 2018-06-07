@@ -7,13 +7,13 @@ features: "cta-contact"
 
 So I've been wearing my new Apple Watch 42mm stainless steel edition with a classic leather buckle for the last week and so far I am loving it from a users perspective. From a developers point of view some improvements are needed but because it's early days I have high hopes. Let's begin.
 
-![Apple Watch in case](/images/2015-06-08-18.54.24.jpg)
+![Apple Watch in case](2015-06-08-18.54.24.jpg)
 
 ## Looks
 
 I love it, as with most apple devices designed by Jony Ive, he's outdone himself and with support from Marc Newson, this watch feels and looks amazing. I'm not a fan of bulky watches or metal straps so I went for 42mm stainless steel classic leather buckle. The 38mm looked too small and I imagine it would be difficult to use, the 42mm even if it is slightly bigger isn't too bulky for me and I recommend trying both on, before you buy one as I was set on getting the 38mm before trying the 42mm on.
 
-![2015-06-08 19.05.14](/images/2015-06-08-19.05.14.jpg)
+![2015-06-08 19.05.14](2015-06-08-19.05.14.jpg)
 
 As for the screen, the glare from the sun can be an issue whilst wearing sun glasses. I've also read somewhere that the issue is less with the sport edition but I can't comment on that myself.
 
