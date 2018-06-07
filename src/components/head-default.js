@@ -10,11 +10,9 @@ export default (props) => {
             <meta name="author" content={props.author} />
             <meta property="og:type" content="website" />
             <meta name="twitter:card" content="summary" />
-            <meta name="twitter:creator" content={props.twitterHandle} />    
+            <meta name="twitter:creator" content={props.twitterHandle} />
             <meta name="google-site-verification" content={props.googleVerification} />
             <link rel="alternate" type="application/rss+xml" title={`RSS Feed | ${props.siteTitle}`} href={`${props.siteUrl}/rss.xml`} />
-            <link rel="preconnect" href="https://www.google-analytics.com" />
-            <link rel="dns-prefetch" href="https://www.google-analytics.com" />    
         </Helmet>
     );
 };
