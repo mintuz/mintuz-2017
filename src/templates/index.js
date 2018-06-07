@@ -17,7 +17,7 @@ const projectData = [
   {
     title: 'BookingGo',
     jobTitle: 'Senior Frontend Engineer',
-    description: 'I am currently working as a Senior Frontend Engineer on Rideways, the ground transport division of Booking.com using technologies such as React and Node to delivery a progressive web app experience.',
+    description: 'I am currently working as a Senior Frontend Engineer at Rideways, the ground transport division of Booking.com using technologies such as React and Node to delivery a progressive web app experience.',
     image: bookingGoImage,
     imageAlt: 'An image of Rideways',
     link: 'http://www.rideways.com'
