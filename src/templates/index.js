@@ -8,6 +8,7 @@ import HeadHomepage from '../components/head-index';
 import Header from '../components/header';
 import Project from '../components/project';
 
+import bookingGoImage from '../images/rideways.jpg';
 import bbcLiveImage from '../images/bbc_live.png';
 import bbcHomePageImage from '../images/bbc_homepage.png';
 import aweImage from '../images/awe.png';
@@ -15,9 +16,17 @@ import s4bmanchesterImage from '../images/s4bmanchester.png';
 
 const projectData = [
   {
+    title: 'BookingGo',
+    jobTitle: 'Senior Frontend Engineer',
+    description: 'I am currently working as a Senior Frontend Engineer on Rideways, the ground transport division of Booking.com using technologies such as React and Node to delivery a progressive web app experience.',
+    image: bookingGoImage,
+    imageAlt: 'An image of Rideways',
+    link: 'http://www.rideways.com'
+  },
+  {
     title: 'BBC Live',
     jobTitle: 'Senior Software Engineer',
-    description: 'Currently working on the 2nd iteration of the BBC Live pages using React and Node delivering LIVE experiences for events like the Rio Olympics, EU Referendum and the US Election.',
+    description: 'I was the Senior Software Engineer on the 2nd iteration of the BBC Live pages using React and Node delivering LIVE experiences for events like the Rio Olympics, EU Referendum and the US Election.',
     image: bbcLiveImage,
     imageAlt: 'An image of the BBC Live Page',
     link: 'https://www.bbc.co.uk/sport/live/olympics/36772591'
@@ -80,9 +89,9 @@ class BlogIndex extends React.Component {
                     <div className="u-pv++ u-p++@m u-p+++@l">
                         <div className="o-grid">
                             <h2 className="o-grid__col u-mb++ u-type-about">I create things that scale well and are performant on the web.</h2>
-                            <p className="o-grid__col o-grid__col--1/2@bp-l">I am a full stack web developer with a specialisation in frontend development, currently working as a Senior Software Engineer within the BBC Live team in MediaCity UK. I have expertise in the creation of scalable HTML/CSS working across multiple devices and browsers.</p>
+                            <p className="o-grid__col o-grid__col--1/2@bp-l">I am a full stack web developer with a specialisation in frontend development, currently working as a Senior Frontend Engineer at BookingGo, the ground transport division of Booking.com in Manchester. I have expertise in the creation of scalable HTML/CSS working across multiple devices and browsers.</p>
                             <p className="o-grid__col o-grid__col--1/2@bp-l">Whilst working on projects, my main focus is delivering features that are both performant on the web and easy to maintain ensuring the audience get the content they require quickly and that the development team can deliver those features efficiently.</p>
-                            <p className="o-grid__col">Before working at the BBC I developed websites for government departments, defence sector and public sector organisations at a web agency called Forepoint.</p>   
+                            <p className="o-grid__col">Before working at BookingGo, I worked at the BBC developing the live events page and BBC Homepage and have developed websites for government departments, defence sector and public sector organisations at a web agency called Forepoint.</p>
                         </div>
                     </div>
                 </div>
@@ -91,7 +100,7 @@ class BlogIndex extends React.Component {
                 <div className="o-wrap">
                     <h2 className="u-type-trafalgar">Professional projects</h2>
                     {projectData.map((data, id) => {
-                      return <Project key={`project-${id}`} {...data} />  
+                      return <Project key={`project-${id}`} {...data} />
                     })}
                 </div>
             </div>
