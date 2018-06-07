@@ -1,7 +1,7 @@
 ---
 title: New Adventures In Web Design 2013
 date: "2013-02-03T22:40:32.169Z"
-path: "/blog/2013/02/03/new-adventures-in-web-design-2013"
+path: "/2013/02/03/new-adventures-in-web-design-2013"
 ---
 
 ![2013-01-24 09.31.19](http://www.mintuz.com/wp-content/uploads/2013/02/2013-01-24-09.31.19.jpg)
@@ -24,13 +24,9 @@ Here are some pictures, enjoy.
 
 ![cupcakes](http://www.mintuz.com/wp-content/uploads/2013/02/cupcakes.png)
 
- 
-
 ![me](http://www.mintuz.com/wp-content/uploads/2013/02/me.png)
 
 ![goodies](http://www.mintuz.com/wp-content/uploads/2013/02/goodies.png)
-
- 
 
 ![firstones](http://www.mintuz.com/wp-content/uploads/2013/02/firstones.png)
 

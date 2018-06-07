@@ -1,7 +1,7 @@
 ---
 title: Dealing with a long commute
 date: "2015-07-18T22:40:32.169Z"
-path: "/blog/2015/07/18/dealing-with-a-long-commute"
+path: "/2015/07/18/dealing-with-a-long-commute"
 ---
 
 For the last year I have been doing 5 hours worth of commuting 5 days a week since changing my job and I'm finally at the point where I can finally cut down my journey to a more sane 40 minutes. Some days have been a struggle, some days have been pleasant, here are some things you can do to make your commute more pleasant.

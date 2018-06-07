@@ -1,7 +1,7 @@
 ---
 title: Composable React Components
 date: "2016-05-19T22:40:32.169Z"
-path: "/blog/2016/05/19/composable-react-components"
+path: "/2016/05/19/composable-react-components"
 ---
 
 Hello in this blog post I want to talk about a problem I have recently had within the BBC Live team and how we solved it. To begin with I should probably give you a little bit of context to the problem. I joined the BBC Homepage team at the end of 2014, at the same time ReactJS was really gaining traction within the web development community and people were releasing reusable components through npm. Awesome I thought... All these free components to use for my own use, I wonder if I could do something similar within the BBC because we have a [Promo](http://www.bbc.co.uk/gel/guidelines/promos) design pattern which is used all over the BBC implemented by different teams in different languages. ![promo](/wp-content/uploads/2016/05/promo.png) This obviously leads to loads of code duplication and the same bugs/challenges will occur.

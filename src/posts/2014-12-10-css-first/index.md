@@ -1,7 +1,7 @@
 ---
 title: CSS First
 date: "2014-12-10T22:40:32.169Z"
-path: "/blog/2014/12/10/css-first"
+path: "/2014/12/10/css-first"
 ---
 
 Let me start by saying not every codebase I have worked on have had the issues I'm about to talk about and some projects were executed extremely well. This blog post is more of a general rant to the web community as a whole. Why is it that CSS is not treated as a first class citizen in projects? We spend hours optimising backend code and javascript frontend code but CSS is put to the side if it works and left for the next developer to pick up and fight with. CSS should be planned from the very start of development, from architecture planning to the naming of classes. However this is not the case and is left until the end, with no thought of the implications when doing X. I've seen comments like "if it works why does it matter" and "it's just CSS" and "ugh CSS is hard" Hopefully I am going to give a counter argument for each one of those points and actually change peoples attitudes towards CSS.

@@ -1,7 +1,7 @@
 ---
 title: Why WEP Sucks
 date: "2013-04-14T22:40:32.169Z"
-path: "/blog/2013/04/14/why-wep-sucks"
+path: "/2013/04/14/why-wep-sucks"
 ---
 
 ![WEP Security](/wp-content/uploads/2013/04/Untitled.png)
