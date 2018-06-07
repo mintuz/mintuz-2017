@@ -5,7 +5,7 @@ path: "/2013/02/03/new-adventures-in-web-design-2013"
 features: "cta-contact"
 ---
 
-![2013-01-24 09.31.19](http://www.mintuz.com/wp-content/uploads/2013/02/2013-01-24-09.31.19.jpg)
+![2013-01-24 09.31.19](/images/2013-01-24-09.31.19.jpg)
 
 I should have written this blog post a week ago but with how busy I am currently, I have not had time.
 
@@ -19,18 +19,18 @@ I enjoyed all the talks. A couple of talks I found particularly useful were the 
 
 I should also probably mention that the Forepoint bowling team (including [Richard Eskins](https://twitter.com/eskins)) won the bowling night hosted by [Erskine](http://erskinedesign.com/).
 
-![252707_10151203693456487_1694166284_n \(1\)](http://www.mintuz.com/wp-content/uploads/2013/02/252707_10151203693456487_1694166284_n-1.jpg)
+![252707_10151203693456487_1694166284_n \(1\)](/images/252707_10151203693456487_1694166284_n-1.jpg)
 
 Here are some pictures, enjoy.
 
-![cupcakes](http://www.mintuz.com/wp-content/uploads/2013/02/cupcakes.png)
+![cupcakes](/images/cupcakes.png)
 
-![me](http://www.mintuz.com/wp-content/uploads/2013/02/me.png)
+![me](/images/me.png)
 
-![goodies](http://www.mintuz.com/wp-content/uploads/2013/02/goodies.png)
+![goodies](/images/goodies.png)
 
-![firstones](http://www.mintuz.com/wp-content/uploads/2013/02/firstones.png)
+![firstones](/images/firstones.png)
 
-![cup](http://www.mintuz.com/wp-content/uploads/2013/02/cup.png)
+![cup](/images/cup.png)
 
-![andrew](http://www.mintuz.com/wp-content/uploads/2013/02/andrew.png)
+![andrew](/images/andrew.png)

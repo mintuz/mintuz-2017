@@ -5,7 +5,7 @@ path: "/2013/04/14/why-wep-sucks"
 features: "cta-contact"
 ---
 
-![WEP Security](/wp-content/uploads/2013/04/Untitled.png)
+![WEP Security](/images/Untitled.png)
 
 Recently I have noticed several WEP based wireless networks around my area with the majority of them using BT Home Hubs. This angers me, it has been known for several years WEP is insecure and allows young kids with basic knowledge of computing to hack your network. Here is why...
 

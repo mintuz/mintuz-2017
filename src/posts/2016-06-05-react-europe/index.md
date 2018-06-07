@@ -15,7 +15,7 @@ The talk by Jafar Husain "Falcor: One Model Everywhere" demonstrated the way Fa
 
 Falcor is less prescriptive, has fewer concepts and a smaller file size < 50%. It takes a segment of the model you defined and returns it from the data source. I have a few questions around how this works with a real database because the demo was using a JSON file but it's something I am going to investigate, now I've seen it in action.
 
-![CkBxU1nVEAAP8Ld](/wp-content/uploads/2016/06/CkBxU1nVEAAP8Ld.jpg)
+![CkBxU1nVEAAP8Ld](/images/CkBxU1nVEAAP8Ld.jpg)
 
 The talk by Laney Kuenzel and Lee Byron named "GraphQL Future" was a nice insight into the ways Facebook use GraphQL and what they have planned for it in the future. They talk a little bit about the different experiments they are running with GraphQL and working on the BBC LIVE product I can really see how the directive @live in GraphQL will change the future of real time updates in applications. For their demo's they also used [graphiql](https://github.com/graphql/graphiql) which looks really cool for testing out your graphQL queries.
 
@@ -31,7 +31,7 @@ Oh my god, these talks! The subjects were around the inner workings of React Nat
 
 I am however going to re-watch these talks to make sure it wasn't just the long day that caused me to feel overwhelmed. I'm sure there's some value in these talks I just couldn't see it on the day.
 
-![CkAejpiUYAEvOOg](/wp-content/uploads/2016/06/CkAejpiUYAEvOOg.jpg)
+![CkAejpiUYAEvOOg](/images/CkAejpiUYAEvOOg.jpg)
 
 ## Redux Analytics
 
