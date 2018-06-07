@@ -48,6 +48,7 @@
     "url": "git+https://github.com/mintuz/mintuz-2017.git"
   },
   "scripts": {
+    "image-resize": "sips --resampleWidth 600 src/posts/**/*.jpg && sips --resampleWidth 600 src/posts/**/*.png",
     "dev": "gatsby develop",
     "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
     "test": "echo \"Error: no test specified\" && exit 1",
