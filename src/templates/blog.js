@@ -24,11 +24,11 @@ class BlogList extends React.Component {
 
     if (pageCount > 1) {
       return (
-        <div className="c-pagination u-mt+">
-          <div className="c-pagination__previous">
+        <div className="c-pagination">
+          <div className="c-pagination__previous o-btn o-btn--large o-btn--light-gray">
             <NavLink test={first} url={previousUrl} text="Previous Page" />
           </div>
-          <div className="c-pagination__next">
+          <div className="c-pagination__next o-btn o-btn--large o-btn--light-gray">
             <NavLink test={last} url={nextUrl} text="Next Page" />
           </div>
         </div>
