@@ -2,6 +2,7 @@
 title: My 2014
 date: "2015-03-04T22:40:32.169Z"
 path: "/2015/03/04/my-2014"
+features: "cta-contact"
 ---
 
 I'm writing this post to remind me in the future how awesome my 2014 was and for a kick in the bum to make my 2015 as equally awesome.

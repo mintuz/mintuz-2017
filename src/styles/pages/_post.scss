@@ -43,3 +43,9 @@
         margin-bottom: double($base-spacing-unit);
     }
 }
+
+.p-post__body {
+    a {
+        text-decoration: underline;
+    }
+}

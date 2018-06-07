@@ -29,6 +29,20 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
               }
             }
           }
+          pages: allMarkdownRemark(
+            sort: { fields: [frontmatter___date], order: DESC }
+          ) {
+            edges {
+              node {
+                frontmatter {
+                  title
+                  path
+                  features
+                }
+                excerpt
+              }
+            }
+          }
       }
     `).then(result => {
         if (result.errors) {
@@ -56,6 +70,17 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
 
         // Create blog posts pages.
         _.each(result.data.posts.edges, edge => {
+          createPage({
+            path: edge.node.frontmatter.path,
+            component: blogPost,
+            context: {
+              path: edge.node.frontmatter.path
+            },
+          })
+        })
+
+        // Create blog pages.
+        _.each(result.data.pages.edges, edge => {
           createPage({
             path: edge.node.frontmatter.path,
             component: blogPost,

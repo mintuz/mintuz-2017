@@ -2,6 +2,7 @@
 title: A developers view on the Apple Watch
 date: "2015-06-13T22:40:32.169Z"
 path: "/2015/06/13/a-developers-view-on-the-apple-watch"
+features: "cta-contact"
 ---
 
 So I've been wearing my new Apple Watch 42mm stainless steel edition with a classic leather buckle for the last week and so far I am loving it from a users perspective. From a developers point of view some improvements are needed but because it's early days I have high hopes. Let's begin. ![Apple Watch in case](/wp-content/uploads/2015/06/2015-06-08-18.54.24-768x1024.jpg)

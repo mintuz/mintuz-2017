@@ -2,6 +2,7 @@
 title: CSS First
 date: "2014-12-10T22:40:32.169Z"
 path: "/2014/12/10/css-first"
+features: "cta-contact"
 ---
 
 Let me start by saying not every codebase I have worked on have had the issues I'm about to talk about and some projects were executed extremely well. This blog post is more of a general rant to the web community as a whole.

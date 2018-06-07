@@ -2,6 +2,7 @@
 title: New Adventures In Web Design 2013
 date: "2013-02-03T22:40:32.169Z"
 path: "/2013/02/03/new-adventures-in-web-design-2013"
+features: "cta-contact"
 ---
 
 ![2013-01-24 09.31.19](http://www.mintuz.com/wp-content/uploads/2013/02/2013-01-24-09.31.19.jpg)

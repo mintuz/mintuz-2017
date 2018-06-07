@@ -2,6 +2,7 @@
 title: Securing Wordpress
 date: "2013-04-21T22:40:32.169Z"
 path: "/2013/04/21/how-to-secure-wordpress"
+features: "cta-contact"
 ---
 
 Let me start by saying Wordpress is an **extremely secure platform** and is in fact exploited due to poorly written 3rd party plugins and uneducated Wordpress users. This is a brief overview of the things you can do to detect issues with your Wordpress site and how to secure it.

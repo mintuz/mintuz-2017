@@ -2,6 +2,7 @@
 title: React Europe Conf 2016
 date: "2016-06-05T22:40:32.169Z"
 path: "/2016/06/05/react-europe-2016"
+features: "cta-contact"
 ---
 
 I had a great time at React Europe Conf 2016 and thought I would share some of my opinions and things that stood out from the conference.

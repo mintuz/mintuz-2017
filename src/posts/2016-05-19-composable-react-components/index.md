@@ -2,6 +2,7 @@
 title: Composable React Components
 date: "2016-05-19T22:40:32.169Z"
 path: "/2016/05/19/composable-react-components"
+features: "cta-contact"
 ---
 
 Hello in this blog post I want to talk about a problem I have recently had within the BBC Live team and how we solved it. To begin with I should probably give you a little bit of context to the problem.

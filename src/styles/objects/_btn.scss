@@ -21,10 +21,18 @@
 }
 
 .o-btn--light-blue {
-    
+
     border: 1px solid $brand-light-blue;
 
     &:hover {
         border: 1px solid $brand-dark-blue;
     }
+}
+
+.o-btn__icon--twitter {
+    color: #1da1f2;
+}
+
+.o-btn__icon svg {
+    fill: currentColor;
 }

@@ -8,7 +8,45 @@ import Header from '../components/header';
 
 require("prismjs/themes/prism-tomorrow.css");
 
+const isFeatureOn = (feature, features) => {
+
+  if (!features) {
+    return false;
+  }
+
+  const featuresArray = features.split(':');
+
+  if (featuresArray.includes(feature)) {
+    return true;
+  }
+
+  return false;
+};
+
 class BlogPostTemplate extends React.Component {
+
+  renderGetInTouch(features) {
+
+    if (isFeatureOn('cta-contact', features)) {
+      return (
+        <div className="o-grid__col o-grid__col--1/1 o-grid__col--1/3@bp-mx p-post__sidebar">
+          <div className="p-post__sidebar-content u-pt+ u-pt0@bp-mx">
+            <a
+              href="/get-in-touch"
+              className="o-btn o-btn--large o-btn--light-gray o-btn--block u-text-align-center u-mb+"
+            >
+            Get in touch
+            </a>
+          </div>
+        </div>
+      );
+    }
+
+    return (
+      <noscript />
+    );
+  }
+
   render() {
 
     const post = this.props.data.markdownRemark;
@@ -34,31 +72,22 @@ class BlogPostTemplate extends React.Component {
     }
 
     return (
-		<React.Fragment>
-			<Head {...headProps} />
-			<HeadBlog {...headProps} />
-			<Header mode={'compact'} title={post.frontmatter.title} />
-			<div className="o-main u-pv++ p-post">
-				<div className="o-wrap">
-					<div className="o-grid">
-						<div
-							className="o-grid__col o-grid__col--1/1 o-grid__col--2/3@bp-mx p-post__body u-pb+ u-pb0@bp-mx u-mb+ u-mb0@bp-mx"
-							dangerouslySetInnerHTML={{ __html: post.html }}
-						/>
-						<div className="o-grid__col o-grid__col--1/1 o-grid__col--1/3@bp-mx p-post__sidebar">
-							<div className="p-post__sidebar-content u-pt+ u-pt0@bp-mx">
-								<a
-									href="#"
-									className="o-btn o-btn--large o-btn--light-gray o-btn--block u-text-align-center u-mb+"
-								>
-								Get in touch
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</React.Fragment>
+      <React.Fragment>
+        <Head {...headProps} />
+        <HeadBlog {...headProps} />
+        <Header mode={'compact'} title={post.frontmatter.title} />
+        <div className="o-main u-pv++ p-post">
+          <div className="o-wrap">
+            <div className="o-grid">
+              <div
+                className="o-grid__col o-grid__col--1/1 o-grid__col--2/3@bp-mx p-post__body u-pb+ u-pb0@bp-mx u-mb+ u-mb0@bp-mx"
+                dangerouslySetInnerHTML={{ __html: post.html }}
+              />
+              {this.renderGetInTouch(post.frontmatter.features)}
+            </div>
+          </div>
+        </div>
+      </React.Fragment>
     );
   }
 }
@@ -85,7 +114,8 @@ export const pageQuery = graphql`
 			html
 			excerpt
       frontmatter {
-				path
+        path
+        features
 				title
         date(formatString: "MMMM DD, YYYY")
       }

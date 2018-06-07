@@ -2,6 +2,7 @@
 title: New start
 date: "2014-10-06T22:40:32.169Z"
 path: "/2014/10/06/new-start"
+features: "cta-contact"
 ---
 
 Starting next Monday I will be joining the BBC as a web developer in the content discovery department, meaning I will be leaving [Forepoint](http://forepoint.co.uk) on Friday after two years of being apart of the web team. I would like to thank [Forepoint](http://forepoint.co.uk) for making me feel apart of the team from the very start and some people will be greatly missed. Without [Forepoint](http://forepoint.co.uk) taking a chance with me, my career could be very different right now and I am greatful for having the chance to follow my passion.

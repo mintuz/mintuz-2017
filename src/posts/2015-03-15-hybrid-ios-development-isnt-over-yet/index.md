@@ -2,6 +2,7 @@
 title: Hybrid iOS development isn't over yet
 date: "2015-03-15T22:40:32.169Z"
 path: "/2015/03/15/hybrid-ios-development-isnt-over-yet"
+features: "cta-contact"
 ---
 
 To give you a bit of background, I have been working on an iOS application for a while now and I've got the majority of it written using Node.js for the backend and Swift for the actual app.

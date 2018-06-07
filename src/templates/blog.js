@@ -65,7 +65,7 @@ class BlogList extends React.Component {
       title: blogListingTitle,
       keywords,
       description,
-      siteUrl: blogListingUrl  
+      siteUrl: blogListingUrl
     }
 
     return (
@@ -75,7 +75,7 @@ class BlogList extends React.Component {
         <div className="o-main u-pv++">
             <div className="o-wrap">
                 <div className="o-grid">
-                    <div className="o-grid__col o-grid__col--1/1 o-grid__col--2/3@bp-mx p-post__body">
+                    <div className="o-grid__col o-grid__col--1/1 o-grid__col--2/3@bp-mx">
                       {group.map((post) => (
                         <article key={post.node.frontmatter.path} className="o-article-list__item">
                           <h2 className="u-type-double-pica u-mb+">

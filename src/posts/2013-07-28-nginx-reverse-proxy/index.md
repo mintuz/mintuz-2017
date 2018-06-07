@@ -2,6 +2,7 @@
 title: Nginx Reverse Proxy with Apache 2 and Puma
 date: "2013-07-28T22:40:32.169Z"
 path: "/2013/07/28/nginx-reverse-proxy-with-apache-2-and-puma"
+features: "cta-contact"
 ---
 
 I decided to alter my web server setup after realising a standard Apache 2 install comes with too much overhead whilst serving out static content. At the same time I thought it would be a good opportunity to look into different methods of serving web applications written in ruby, primarily Rails and Sinatra. Originally my web server was running Apache2 with libapache2-mod-php5 and mysql. Nothing special about it, infact it was pretty basic. For serving out ruby applications I used [mod_passenger](https://www.phusionpassenger.com/) developed by Phusion.
