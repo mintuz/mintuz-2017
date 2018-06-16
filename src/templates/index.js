@@ -17,7 +17,7 @@ const projectData = [
   {
     title: 'BookingGo',
     jobTitle: 'Senior Frontend Engineer',
-    description: 'I am currently working as a Senior Frontend Engineer at Rideways, the ground transport division of Booking.com using technologies such as React and Node to delivery a progressive web app experience.',
+    description: 'I am currently working as a Senior Frontend Engineer at Rideways, the ground transport division of Booking.com using technologies such as React and Node with a focus on performance.',
     image: bookingGoImage,
     imageAlt: 'An image of Rideways',
     link: 'http://www.rideways.com'
@@ -82,7 +82,7 @@ class BlogIndex extends React.Component {
                             <h2 className="o-grid__col u-mb++ u-type-about">I create things that scale well and are performant on the web.</h2>
                             <p className="o-grid__col o-grid__col--1/2@bp-l">I am a full stack web developer with a specialisation in frontend development, currently working as a Senior Frontend Engineer at BookingGo, the ground transport division of Booking.com in Manchester. I have expertise in the creation of scalable HTML/CSS working across multiple devices and browsers.</p>
                             <p className="o-grid__col o-grid__col--1/2@bp-l">Whilst working on projects, my main focus is delivering features that are both performant on the web and easy to maintain ensuring the audience get the content they require quickly and that the development team can deliver those features efficiently.</p>
-                            <p className="o-grid__col">Before working at BookingGo, I worked at the BBC developing the live events page and BBC Homepage and have developed websites for government departments, defence sector and public sector organisations at a web agency called Forepoint.</p>
+                            <p className="o-grid__col">Before working at BookingGo, I worked at the BBC developing the live events page and BBC Homepage. I have also developed websites for government departments, defence sector and public sector organisations at a web agency called Forepoint.</p>
                         </div>
                     </div>
                 </div>

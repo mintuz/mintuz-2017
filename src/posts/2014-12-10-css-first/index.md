@@ -2,6 +2,7 @@
 title: CSS First
 date: "2014-12-10T22:40:32.169Z"
 path: "/2014/12/10/css-first"
+type: "post"
 features: "cta-contact"
 ---
 

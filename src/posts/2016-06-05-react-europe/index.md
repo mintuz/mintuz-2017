@@ -2,6 +2,7 @@
 title: React Europe Conf 2016
 date: "2016-06-05T22:40:32.169Z"
 path: "/2016/06/05/react-europe-2016"
+type: "post"
 features: "cta-contact"
 ---
 

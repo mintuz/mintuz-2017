@@ -2,6 +2,7 @@
 title: New start
 date: "2014-10-06T22:40:32.169Z"
 path: "/2014/10/06/new-start"
+type: "post"
 features: "cta-contact"
 ---
 

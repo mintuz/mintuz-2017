@@ -2,6 +2,7 @@
 title: Securing Wordpress
 date: "2013-04-21T22:40:32.169Z"
 path: "/2013/04/21/how-to-secure-wordpress"
+type: "post"
 features: "cta-contact"
 ---
 

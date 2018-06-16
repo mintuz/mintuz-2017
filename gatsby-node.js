@@ -24,19 +24,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
                 frontmatter {
                   title
                   path
-                }
-                excerpt
-              }
-            }
-          }
-          pages: allMarkdownRemark(
-            sort: { fields: [frontmatter___date], order: DESC }
-          ) {
-            edges {
-              node {
-                frontmatter {
-                  title
-                  path
+                  type
                   features
                 }
                 excerpt
@@ -50,17 +38,26 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           reject(result.errors)
         }
 
+        const posts = result.data.posts.edges.filter((edge) => {
+          return edge.node.frontmatter.type === 'post';
+        });
+
+        const pages = result.data.posts.edges.filter((edge) => {
+          return edge.node.frontmatter.type === 'page';
+        });
+
         // Create Paginated List of blog posts
         createPaginatedPages({
-          edges: result.data.posts.edges,
+          edges: posts,
           createPage: createPage,
           pageTemplate: "./src/templates/blog.js",
           pageLength: 5,
           pathPrefix: "blog"
         });
 
+        // Create homepage
         createPage({
-          edges: result.data.posts.edges,
+          edges: posts,
           path: '/',
           component: homepage,
           context: {
@@ -68,8 +65,8 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           }
         });
 
-        // Create blog posts pages.
-        _.each(result.data.posts.edges, edge => {
+        // Create blog posts.
+        _.each(posts, edge => {
           createPage({
             path: edge.node.frontmatter.path,
             component: blogPost,
@@ -80,7 +77,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         })
 
         // Create blog pages.
-        _.each(result.data.pages.edges, edge => {
+        _.each(pages, edge => {
           createPage({
             path: edge.node.frontmatter.path,
             component: blogPost,

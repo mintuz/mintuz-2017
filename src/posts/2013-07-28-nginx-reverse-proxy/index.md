@@ -2,6 +2,7 @@
 title: Nginx Reverse Proxy with Apache 2 and Puma
 date: "2013-07-28T22:40:32.169Z"
 path: "/2013/07/28/nginx-reverse-proxy-with-apache-2-and-puma"
+type: "post"
 features: "cta-contact"
 ---
 

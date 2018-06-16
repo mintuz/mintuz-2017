@@ -90,7 +90,7 @@ class BlogList extends React.Component {
                     </div>
                     <div className="o-grid__col o-grid__col--1/1 o-grid__col--1/3@bp-mx u-mt+ u-mt0@bp-mx">
                         <div>
-                            <a href="#" className="o-btn o-btn--large o-btn--block o-btn--light-gray u-text-align-center u-mb+">Get in touch</a>
+                            <a href="/get-in-touch" className="o-btn o-btn--large o-btn--block o-btn--light-gray u-text-align-center u-mb+">Get in touch</a>
                         </div>
                     </div>
                 </div>

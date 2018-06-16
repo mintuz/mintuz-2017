@@ -2,6 +2,7 @@
 title: My 2014
 date: "2015-03-04T22:40:32.169Z"
 path: "/2015/03/04/my-2014"
+type: "post"
 features: "cta-contact"
 ---
 

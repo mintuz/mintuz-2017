@@ -2,6 +2,7 @@
 title: Hybrid iOS development isn't over yet
 date: "2015-03-15T22:40:32.169Z"
 path: "/2015/03/15/hybrid-ios-development-isnt-over-yet"
+type: "post"
 features: "cta-contact"
 ---
 

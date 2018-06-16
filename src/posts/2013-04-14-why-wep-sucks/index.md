@@ -2,6 +2,7 @@
 title: Why WEP Sucks
 date: "2013-04-14T22:40:32.169Z"
 path: "/2013/04/14/why-wep-sucks"
+type: "post"
 features: "cta-contact"
 ---
 

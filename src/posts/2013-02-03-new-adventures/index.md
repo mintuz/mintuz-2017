@@ -2,6 +2,7 @@
 title: New Adventures In Web Design 2013
 date: "2013-02-03T22:40:32.169Z"
 path: "/2013/02/03/new-adventures-in-web-design-2013"
+type: "post"
 features: "cta-contact"
 ---
 

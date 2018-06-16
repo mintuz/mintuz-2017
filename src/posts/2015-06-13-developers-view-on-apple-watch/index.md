@@ -2,6 +2,7 @@
 title: A developers view on the Apple Watch
 date: "2015-06-13T22:40:32.169Z"
 path: "/2015/06/13/a-developers-view-on-the-apple-watch"
+type: "post"
 features: "cta-contact"
 ---
 

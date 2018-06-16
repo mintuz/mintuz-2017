@@ -2,6 +2,7 @@
 title: Dealing with a long commute
 date: "2015-07-18T22:40:32.169Z"
 path: "/2015/07/18/dealing-with-a-long-commute"
+type: "post"
 features: "cta-contact"
 ---
 

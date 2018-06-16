@@ -2,6 +2,7 @@
 title: Composable React Components
 date: "2016-05-19T22:40:32.169Z"
 path: "/2016/05/19/composable-react-components"
+type: "post"
 features: "cta-contact"
 ---
 

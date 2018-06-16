@@ -2,6 +2,7 @@
 title: Get in touch
 date: "2013-02-03T22:40:32.169Z"
 path: "/get-in-touch"
+type: "page"
 features: "!cta-contact"
 ---
 
