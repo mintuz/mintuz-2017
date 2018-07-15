@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
-<url> <loc>https:/next.mintuz.com/blog</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https:/next.mintuz.com/blog/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https:/next.mintuz.com/blog/3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https:/next.mintuz.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https:/next.mintuz.com/2016/06/05/react-europe-2016</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https:/next.mintuz.com/2016/05/19/composable-react-components</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https:/next.mintuz.com/2015/07/18/dealing-with-a-long-commute</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https:/next.mintuz.com/2015/06/13/a-developers-view-on-the-apple-watch</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https:/next.mintuz.com/2015/03/15/hybrid-ios-development-isnt-over-yet</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https:/next.mintuz.com/2015/03/04/my-2014</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https:/next.mintuz.com/2014/12/10/css-first</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https:/next.mintuz.com/2014/10/06/new-start</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https:/next.mintuz.com/2013/07/28/nginx-reverse-proxy-with-apache-2-and-puma</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https:/next.mintuz.com/2013/04/21/how-to-secure-wordpress</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https:/next.mintuz.com/2013/04/14/why-wep-sucks</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https:/next.mintuz.com/2013/02/03/new-adventures-in-web-design-2013</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https:/next.mintuz.com/get-in-touch</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mintuz.com/blog</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mintuz.com/blog/2</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mintuz.com/blog/3</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mintuz.com/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mintuz.com/2016/06/05/react-europe-2016</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mintuz.com/2016/05/19/composable-react-components</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mintuz.com/2015/07/18/dealing-with-a-long-commute</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mintuz.com/2015/06/13/a-developers-view-on-the-apple-watch</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mintuz.com/2015/03/15/hybrid-ios-development-isnt-over-yet</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mintuz.com/2015/03/04/my-2014</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mintuz.com/2014/12/10/css-first</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mintuz.com/2014/10/06/new-start</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mintuz.com/2013/07/28/nginx-reverse-proxy-with-apache-2-and-puma</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mintuz.com/2013/04/21/how-to-secure-wordpress</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mintuz.com/2013/04/14/why-wep-sucks</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mintuz.com/2013/02/03/new-adventures-in-web-design-2013</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://mintuz.com/get-in-touch</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
