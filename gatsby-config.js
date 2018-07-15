@@ -5,7 +5,7 @@ module.exports = {
     locale: 'en_GB',
     googleVerification: 'RnXDiD3_kyC6xc4y2AbSsJoXcLZvza1W7rYVHBGA89M',
     author: "Adam Bulmer",
-    siteUrl: "https:/next.mintuz.com",
+    siteUrl: "https://mintuz.com",
     twitterHandle: '@mintuz',
     description: 'Software Engineer from Manchester writing posts on CSS, React, JavaScript and Web Performance.',
     keywords: ['Web Performance', 'Web Developer', 'Web Developer Manchester', 'Software Engineer Manchester', 'ReactJS', 'React', 'React Components']
