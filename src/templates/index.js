@@ -8,19 +8,19 @@ import HeadHomepage from '../components/head-index';
 import Header from '../components/header';
 import Project from '../components/project';
 
-import bookingGoImage from '../images/rideways.jpg';
+import bookingGoImage from '../images/booking.jpg';
 import bbcLiveImage from '../images/bbc_live.png';
 import bbcHomePageImage from '../images/bbc_homepage.png';
 import aweImage from '../images/awe.png';
 
 const projectData = [
   {
-    title: 'BookingGo',
+    title: 'Booking.com',
     jobTitle: 'Senior Frontend Engineer',
-    description: 'I am currently working as a Senior Frontend Engineer at Rideways, the ground transport division of Booking.com using technologies such as React and Node with a focus on performance.',
+    description: 'I am currently working as a Senior Frontend Engineer on the ground transport division of Booking.com\'s Taxi product using technologies such as React and Node with a focus on performance.',
     image: bookingGoImage,
-    imageAlt: 'An image of Rideways',
-    link: 'http://www.rideways.com'
+    imageAlt: 'An image of Booking.com taxi\'s product',
+    link: 'https://taxi.booking.com'
   },
   {
     title: 'BBC Live',
