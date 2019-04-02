@@ -12,13 +12,10 @@
 @import 'objects/article-list';
 
 @import 'components/header';
+@import 'components/about';
 @import 'components/navigation';
 @import 'components/project';
 @import 'components/pagination';
 @import 'components/footer';
 
 @import 'pages/post';
-
-.about {
-    background-color: $white;
-}

@@ -75,7 +75,7 @@ class BlogIndex extends React.Component {
         <HeadHomepage {...headProps} />
         <Header mode='homepage' animateLogo={true} />
         <div className="o-main p-home">
-            <div className="about u-text-align-left">
+            <div className="c-about u-text-align-left">
                 <div className="o-wrap">
                     <div className="u-pv++ u-p++@m u-p+++@l">
                         <div className="o-grid">

@@ -2,16 +2,15 @@
  * Breakpoints
  */
 $mq-breakpoints: (
-	bp-s: 400px,
-	bp-m: 500px,
+  bp-s: 400px,
+  bp-m: 500px,
   bp-mx: 700px,
-	bp-l: 900px,
+  bp-l: 900px,
   bp-xl: 1008px,
   bp-xxl: 1280px
 ) !default;
 
 $type-settings: (
-    /* Used */
     'mast-title': (
         'group-a': (
           'font-size': 36px,
@@ -26,7 +25,6 @@ $type-settings: (
           'line-height': 56px
         )
     ),
-    /* Used */
     'about': (
       'group-a': (
           'font-size': 28px,
@@ -81,7 +79,6 @@ $type-settings: (
             'letter-spacing': -1px
         )
     ),
-    /* Used */
     'paragon': (
       'group-a': (
         'font-size': 20px,
@@ -118,7 +115,6 @@ $type-settings: (
             'letter-spacing': -1px
         )
     ),
-    /* Used */
     'great-primer': (
         'group-a': (
           'font-size': 18px,
