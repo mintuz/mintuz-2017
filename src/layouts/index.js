@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import HeadDefault from '../components/head-default';
 import get from 'lodash/get'
 import Footer from '../components/footer';
-import "../styles/main.scss";
 
 import meSmall from "../images/me-small.jpg";
 import meMedium from "../images/me-medium.jpg";
@@ -11,7 +10,7 @@ import meMedium from "../images/me-medium.jpg";
 class Template extends React.Component {
 
   render() {
-    
+
     const { location, children } = this.props;
 
     const headProps = {

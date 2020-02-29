@@ -1,0 +1,15 @@
+.c-logo-strip {
+    background-color: rgb(250, 250, 250);
+    border-top: 1px solid rgb(234, 234, 234);
+}
+
+.c-logo-strip__logos {
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.c-logo-strip__img {
+    height: 38px;
+}

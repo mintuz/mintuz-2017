@@ -53,7 +53,6 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sass`,
-    `gatsby-plugin-react-next`,
     {
       resolve: `gatsby-plugin-feed`,
       options: {
