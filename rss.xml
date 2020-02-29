@@ -1,42 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Software Engineer from Manchester writing posts on CSS, React, JavaScript and Web Performance.]]></description><link>https://mintuz.com</link><generator>RSS for Node</generator><lastBuildDate>Tue, 02 Apr 2019 19:42:04 GMT</lastBuildDate><item><title><![CDATA[React Europe Conf 2016]]></title><description><![CDATA[I had a great time at React Europe Conf 2016 and thought I would share some of my opinions and things that stood out from the conference…]]></description><link>https://mintuz.com/2016/06/05/react-europe-2016</link><guid isPermaLink="false">https://mintuz.com/2016/06/05/react-europe-2016</guid><pubDate>Sun, 05 Jun 2016 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;I had a great time at React Europe Conf 2016 and thought I would share some of my opinions and things that stood out from the conference.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Untitled RSS Feed]]></title><description><![CDATA[Software Engineer from Manchester writing posts on CSS, React, JavaScript and Web Performance.]]></description><link>https://mintuz.com</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 29 Feb 2020 18:28:24 GMT</lastBuildDate><item><title><![CDATA[React Europe Conf 2016]]></title><description><![CDATA[I had a great time at React Europe Conf 2016 and thought I would share some of my opinions and things that stood out from the conference…]]></description><link>https://mintuz.com/2016/06/05/react-europe-2016</link><guid isPermaLink="false">https://mintuz.com/2016/06/05/react-europe-2016</guid><pubDate>Sun, 05 Jun 2016 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;I had a great time at React Europe Conf 2016 and thought I would share some of my opinions and things that stood out from the conference.&lt;/p&gt;
 &lt;h2&gt;GraphQL &lt;del&gt;vs&lt;/del&gt; and Falcor&lt;/h2&gt;
 &lt;p&gt;I’ve heard of both these frameworks for retrieving data from the server but I’ve never really understood the benefits by just viewing the documentation. After seeing both these frameworks I can honestly see the advantages of using both. Having the ability to retrieve data from the server without specifying a REST endpoint is amazing, it allows you to scale your data model easily.&lt;/p&gt;
 &lt;p&gt;The talk by Jafar Husain “Falcor: One Model Everywhere” demonstrated the way Falcor does it really well. He also gives credit to GraphQL saying both frameworks have a place in the ecosystem and picking the best one is subjective to your requirements. My take from his talk is that Falcor is better for smaller applications where the data model is known and that you should use GraphQL where the model may change and need to scale.&lt;/p&gt;
 &lt;p&gt;Falcor is less prescriptive, has fewer concepts and a smaller file size &amp;#x3C; 50%. It takes a segment of the model you defined and returns it from the data source. I have a few questions around how this works with a real database because the demo was using a JSON file but it’s something I am going to investigate, now I’ve seen it in action.&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/CkBxU1nVEAAP8Ld-fdabd9f2720d29a1fb88cf778da27a18-9b0e7.jpg&quot;
+    href=&quot;/static/fdabd9f2720d29a1fb88cf778da27a18/b4294/CkBxU1nVEAAP8Ld.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 133.33333333333331%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAUBBAYC/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQIA/9oADAMBAAIQAxAAAAGl0wuM5sYBU2s6YYiwp//EABwQAQACAgMBAAAAAAAAAAAAAAIBAwAEEBEjM//aAAgBAQABBQKuibDOvZGTCidePPNr6a93ZV4E3WFMpHE0+P/EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAwEBPwFZk//EABcRAAMBAAAAAAAAAAAAAAAAAAABAhD/2gAIAQIBAT8B1Sf/xAAdEAACAQUBAQAAAAAAAAAAAAAAARECECEiMYGR/9oACAEBAAY/ApTOfDKPbeEKh46bYJTNW0TU5t//xAAbEAADAQEBAQEAAAAAAAAAAAAAAREhMXEQYf/aAAgBAQABPyF4QUc049eiWk/1EvYRx8G1vbJrBaTulVlJ8tQqanYyAyyxfP/aAAwDAQACAAMAAAAQgAi//8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAwEBPxBBjps7Yc5f/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAgEBPxDmXJSFNv/EAB8QAQADAAIBBQAAAAAAAAAAAAEAESExYUFRcYGhsf/aAAgBAQABPxBtVktuXNNh0v1L16eK2WCWKuewS1GvdnM11fsyz8fABedSJuvECfEX1zBpIqlcWCzv1j5Q2PgirrP/2Q==&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 133.33333333333331%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAUBBAYC/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQIA/9oADAMBAAIQAxAAAAGl0wuM5sYBU2s6YYiwp//EABwQAQACAgMBAAAAAAAAAAAAAAIBAwAEEBEjM//aAAgBAQABBQKuibDOvZGTCidePPNr6a93ZV4E3WFMpHE0+P/EABYRAQEBAAAAAAAAAAAAAAAAAAEQEf/aAAgBAwEBPwFZk//EABcRAAMBAAAAAAAAAAAAAAAAAAABAhD/2gAIAQIBAT8B1Sf/xAAdEAACAQUBAQAAAAAAAAAAAAAAARECECEiMYGR/9oACAEBAAY/ApTOfDKPbeEKh46bYJTNW0TU5t//xAAbEAADAQEBAQEAAAAAAAAAAAAAAREhMXEQYf/aAAgBAQABPyF4QUc049eiWk/1EvYRx8G1vbJrBaTulVlJ8tQqanYyAyyxfP/aAAwDAQACAAMAAAAQgAi//8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAwEBPxBBjps7Yc5f/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAgEBPxDmXJSFNv/EAB8QAQADAAIBBQAAAAAAAAAAAAEAESExYUFRcYGhsf/aAAgBAQABPxBtVktuXNNh0v1L16eK2WCWKuewS1GvdnM11fsyz8fABedSJuvECfEX1zBpIqlcWCzv1j5Q2PgirrP/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;CkBxU1nVEAAP8Ld&quot;
-        title=&quot;&quot;
-        src=&quot;/static/CkBxU1nVEAAP8Ld-fdabd9f2720d29a1fb88cf778da27a18-f8fb9.jpg&quot;
-        srcset=&quot;/static/CkBxU1nVEAAP8Ld-fdabd9f2720d29a1fb88cf778da27a18-e8976.jpg 148w,
-/static/CkBxU1nVEAAP8Ld-fdabd9f2720d29a1fb88cf778da27a18-63df2.jpg 295w,
-/static/CkBxU1nVEAAP8Ld-fdabd9f2720d29a1fb88cf778da27a18-f8fb9.jpg 590w,
-/static/CkBxU1nVEAAP8Ld-fdabd9f2720d29a1fb88cf778da27a18-9b0e7.jpg 600w&quot;
+        title=&quot;CkBxU1nVEAAP8Ld&quot;
+        src=&quot;/static/fdabd9f2720d29a1fb88cf778da27a18/1c72d/CkBxU1nVEAAP8Ld.jpg&quot;
+        srcset=&quot;/static/fdabd9f2720d29a1fb88cf778da27a18/a80bd/CkBxU1nVEAAP8Ld.jpg 148w,
+/static/fdabd9f2720d29a1fb88cf778da27a18/1c91a/CkBxU1nVEAAP8Ld.jpg 295w,
+/static/fdabd9f2720d29a1fb88cf778da27a18/1c72d/CkBxU1nVEAAP8Ld.jpg 590w,
+/static/fdabd9f2720d29a1fb88cf778da27a18/b4294/CkBxU1nVEAAP8Ld.jpg 600w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;The talk by Laney Kuenzel and Lee Byron named “GraphQL Future” was a nice insight into the ways Facebook use GraphQL and what they have planned for it in the future. They talk a little bit about the different experiments they are running with GraphQL and working on the BBC LIVE product I can really see how the directive @live in GraphQL will change the future of real time updates in applications. For their demo’s they also used &lt;a href=&quot;https://github.com/graphql/graphiql&quot;&gt;graphiql&lt;/a&gt; which looks really cool for testing out your graphQL queries.&lt;/p&gt;
 &lt;p&gt;Both talks were really well executed and two of the best talks at React Europe Conf 2016.&lt;/p&gt;
 &lt;h2&gt;Carte Blanche&lt;/h2&gt;
@@ -44,40 +40,36 @@
 &lt;h2&gt;A Deep dive into things…&lt;/h2&gt;
 &lt;p&gt;Oh my god, these talks! The subjects were around the inner workings of React Native and Flow and how they’ve been optimised. Most developers probably don’t care about this and to be honest shouldn’t care.  It may have been just me but this much information at a conference can be overwhelming. I think the picture below demonstrates how intense it got. Talks should be composed of quick and snappy bit’s of information which can easily be digested. Then again I may be just stupid because people on Twitter seemed to have enjoy the talks.&lt;/p&gt;
 &lt;p&gt;I am however going to re-watch these talks to make sure it wasn’t just the long day that caused me to feel overwhelmed. I’m sure there’s some value in these talks I just couldn’t see it on the day.&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/CkAejpiUYAEvOOg-334987faa4b8cf05cdc0fe0f37a13dde-9b0e7.jpg&quot;
+    href=&quot;/static/334987faa4b8cf05cdc0fe0f37a13dde/b4294/CkAejpiUYAEvOOg.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 133.33333333333331%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAUCAwQG/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/9oADAMBAAIQAxAAAAFOPLzPODkmqWfS0ReZf//EAB0QAAEEAwEBAAAAAAAAAAAAAAIAAQMEESEzEBL/2gAIAQEAAQUCx5tRclMOSaT4BrAuinFWCdwi52Nyf//EABYRAQEBAAAAAAAAAAAAAAAAABEAEP/aAAgBAwEBPwFnC//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABwQAAICAgMAAAAAAAAAAAAAAAABAhAhgQMRMf/aAAgBAQAGPwK41oXcWYTPDJxmj//EABoQAAMBAQEBAAAAAAAAAAAAAAABESFxUTH/2gAIAQEAAT8hvxkfrOjPAvBKHEFqLzK8GGrjKtddZBtlHyi+edGdGP/aAAwDAQACAAMAAAAQ7BhN/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAEDAQE/EHLGrBbF/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERIf/aAAgBAgEBPxAqGspEf//EAB4QAQACAgIDAQAAAAAAAAAAAAEAESExQVFhcZHB/9oACAEBAAE/ECsSjupW6Iid/sdY28vbAqWIfEodYaDtgqg8A/ZT6HOBSJN2GgGHLFLVB3L6zSyEdctsELaj9n//2Q==&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 133.33333333333331%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAUCAwQG/8QAFgEBAQEAAAAAAAAAAAAAAAAAAQAC/9oADAMBAAIQAxAAAAFOPLzPODkmqWfS0ReZf//EAB0QAAEEAwEBAAAAAAAAAAAAAAIAAQMEESEzEBL/2gAIAQEAAQUCx5tRclMOSaT4BrAuinFWCdwi52Nyf//EABYRAQEBAAAAAAAAAAAAAAAAABEAEP/aAAgBAwEBPwFnC//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABwQAAICAgMAAAAAAAAAAAAAAAABAhAhgQMRMf/aAAgBAQAGPwK41oXcWYTPDJxmj//EABoQAAMBAQEBAAAAAAAAAAAAAAABESFxUTH/2gAIAQEAAT8hvxkfrOjPAvBKHEFqLzK8GGrjKtddZBtlHyi+edGdGP/aAAwDAQACAAMAAAAQ7BhN/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAEDAQE/EHLGrBbF/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERIf/aAAgBAgEBPxAqGspEf//EAB4QAQACAgIDAQAAAAAAAAAAAAEAESExQVFhcZHB/9oACAEBAAE/ECsSjupW6Iid/sdY28vbAqWIfEodYaDtgqg8A/ZT6HOBSJN2GgGHLFLVB3L6zSyEdctsELaj9n//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;CkAejpiUYAEvOOg&quot;
-        title=&quot;&quot;
-        src=&quot;/static/CkAejpiUYAEvOOg-334987faa4b8cf05cdc0fe0f37a13dde-f8fb9.jpg&quot;
-        srcset=&quot;/static/CkAejpiUYAEvOOg-334987faa4b8cf05cdc0fe0f37a13dde-e8976.jpg 148w,
-/static/CkAejpiUYAEvOOg-334987faa4b8cf05cdc0fe0f37a13dde-63df2.jpg 295w,
-/static/CkAejpiUYAEvOOg-334987faa4b8cf05cdc0fe0f37a13dde-f8fb9.jpg 590w,
-/static/CkAejpiUYAEvOOg-334987faa4b8cf05cdc0fe0f37a13dde-9b0e7.jpg 600w&quot;
+        title=&quot;CkAejpiUYAEvOOg&quot;
+        src=&quot;/static/334987faa4b8cf05cdc0fe0f37a13dde/1c72d/CkAejpiUYAEvOOg.jpg&quot;
+        srcset=&quot;/static/334987faa4b8cf05cdc0fe0f37a13dde/a80bd/CkAejpiUYAEvOOg.jpg 148w,
+/static/334987faa4b8cf05cdc0fe0f37a13dde/1c91a/CkAejpiUYAEvOOg.jpg 295w,
+/static/334987faa4b8cf05cdc0fe0f37a13dde/1c72d/CkAejpiUYAEvOOg.jpg 590w,
+/static/334987faa4b8cf05cdc0fe0f37a13dde/b4294/CkAejpiUYAEvOOg.jpg 600w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h2&gt;Redux Analytics&lt;/h2&gt;
 &lt;p&gt;Before this talk I didn’t really think about how much of a pain it is to set up analytics in an application but my general approach was to hook into some sort of event such as a click event and then send some data from the client to the server. Bertrand Karerangabo and Evan Schultz demonstrated a neat way of using redux middleware to track analytics without much configuration. Because Redux uses a single store and provides a single location for state changes, their middleware hooks into the redux event loop and its from there we can learn a lot about a user and what current state the application is in. So simple but so powerful that until this point I had overlooked the possibilities of using Redux for analytics.&lt;/p&gt;
 &lt;h2&gt;Lightning Talks&lt;/h2&gt;
@@ -86,40 +78,36 @@
 &lt;h2&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;I had an amazing time at React Europe 2016 and certainly recommend going next year if you can. Lots of insight, Lots of swag and great atmosphere. Now it’s time to play with all these new toys. I’m looking at you &lt;a href=&quot;https://github.com/carteb/carte-blanche&quot;&gt;carte-blanche&lt;/a&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Composable React Components]]></title><description><![CDATA[Hello in this blog post I want to talk about a problem I have recently had within the BBC Live team and how we solved it. To begin with I…]]></description><link>https://mintuz.com/2016/05/19/composable-react-components</link><guid isPermaLink="false">https://mintuz.com/2016/05/19/composable-react-components</guid><pubDate>Thu, 19 May 2016 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Hello in this blog post I want to talk about a problem I have recently had within the BBC Live team and how we solved it. To begin with I should probably give you a little bit of context to the problem.&lt;/p&gt;
 &lt;p&gt;I joined the BBC Homepage team at the end of 2014, at the same time ReactJS was really gaining traction within the web development community and people were releasing reusable components through npm. Awesome I thought… All these free components to use for my own use, I wonder if I could do something similar within the BBC because we have a &lt;a href=&quot;http://www.bbc.co.uk/gel/guidelines/promos&quot;&gt;Promo&lt;/a&gt; design pattern which is used all over the BBC implemented by different teams in different languages.&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/promo-27d74f618e13da6396a5f6d401ef62ee-d9514.png&quot;
+    href=&quot;/static/27d74f618e13da6396a5f6d401ef62ee/0a47e/promo.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 46.166666666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAIAAAC9o5sfAAAACXBIWXMAAAsSAAALEgHS3X78AAABBElEQVQoz6WRaWqEUBCE5/7X8AAeQZ1RRwRFnLhGBRUUBYm7zzUp1EBCBuZHCmzaZ33dvPLy+Q9d8MzzPAzDsizruhJCmqZp27bv+49d6Luug6H9FgzTNJ1wnueu68IHk+M4HMfxPC/LsqqqDMMIgiBJkmma/C68siwbhuEJYyHWYti2bZ7nXXcBsG1bURTbtgzD0DQNg0RRPJogCE74EEhUXddpmobpfhejKHbd97IsCRlvtytFURGO4tiyrDRNf8GHcOr7Pi6SJAmq5/tZluGe6B+PNwyq67qqqnEcn8A/hfCKooAbVsSBHrmAR8WnJ/C26+8g/BHsR+aIBiQyerH5pb4AeMf5bz2e5eIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 46.166666666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAIAAAC9o5sfAAAACXBIWXMAAAsSAAALEgHS3X78AAABBElEQVQoz6WRaWqEUBCE5/7X8AAeQZ1RRwRFnLhGBRUUBYm7zzUp1EBCBuZHCmzaZ33dvPLy+Q9d8MzzPAzDsizruhJCmqZp27bv+49d6Luug6H9FgzTNJ1wnueu68IHk+M4HMfxPC/LsqqqDMMIgiBJkmma/C68siwbhuEJYyHWYti2bZ7nXXcBsG1bURTbtgzD0DQNg0RRPJogCE74EEhUXddpmobpfhejKHbd97IsCRlvtytFURGO4tiyrDRNf8GHcOr7Pi6SJAmq5/tZluGe6B+PNwyq67qqqnEcn8A/hfCKooAbVsSBHrmAR8WnJ/C26+8g/BHsR+aIBiQyerH5pb4AeMf5bz2e5eIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;promo&quot;
-        title=&quot;&quot;
-        src=&quot;/static/promo-27d74f618e13da6396a5f6d401ef62ee-fb8a0.png&quot;
-        srcset=&quot;/static/promo-27d74f618e13da6396a5f6d401ef62ee-1a291.png 148w,
-/static/promo-27d74f618e13da6396a5f6d401ef62ee-2bc4a.png 295w,
-/static/promo-27d74f618e13da6396a5f6d401ef62ee-fb8a0.png 590w,
-/static/promo-27d74f618e13da6396a5f6d401ef62ee-d9514.png 600w&quot;
+        title=&quot;promo&quot;
+        src=&quot;/static/27d74f618e13da6396a5f6d401ef62ee/fcda8/promo.png&quot;
+        srcset=&quot;/static/27d74f618e13da6396a5f6d401ef62ee/12f09/promo.png 148w,
+/static/27d74f618e13da6396a5f6d401ef62ee/e4a3f/promo.png 295w,
+/static/27d74f618e13da6396a5f6d401ef62ee/fcda8/promo.png 590w,
+/static/27d74f618e13da6396a5f6d401ef62ee/0a47e/promo.png 600w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;This obviously leads to loads of code duplication and the same bugs/challenges will occur.&lt;/p&gt;
 &lt;h2&gt;Old Approach&lt;/h2&gt;
 &lt;p&gt;The first iteration of the promo component I worked on was tightly coupled to the homepage codebase. The homepage codebase is comprised of several different modules, for example we have a top stories module and a tv radio module. Both modules make use of the promo design pattern. However the data for each module is passed down and it’s the modules responsibility to build the DOM for the Promo.&lt;/p&gt;
@@ -150,76 +138,68 @@
 &lt;p&gt;Don’t waste the time. If you go to sleep or simply listen to music, you are wasting a large chunk of the day which could be productive. Read blog posts, plan your day or develop. Whatever you do, make sure its productive.&lt;/p&gt;
 &lt;h2&gt;Conclusion&lt;/h2&gt;
 &lt;p&gt;If you can avoid a long commute, avoid it. I think one of the things that made it easier for me is I always knew it was short term. If its long term, I salute you because it will be a strain mentally and physically.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[A developers view on the Apple Watch]]></title><description><![CDATA[So I’ve been wearing my new Apple Watch 42mm stainless steel edition with a classic leather buckle for the last week and so far I am loving…]]></description><link>https://mintuz.com/2015/06/13/a-developers-view-on-the-apple-watch</link><guid isPermaLink="false">https://mintuz.com/2015/06/13/a-developers-view-on-the-apple-watch</guid><pubDate>Sat, 13 Jun 2015 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;So I’ve been wearing my new Apple Watch 42mm stainless steel edition with a classic leather buckle for the last week and so far I am loving it from a users perspective. From a developers point of view some improvements are needed but because it’s early days I have high hopes. Let’s begin.&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/2015-06-08-18.54.24-efa14226bd8ce3fdfc2aaf8333be9777-9b0e7.jpg&quot;
+    href=&quot;/static/efa14226bd8ce3fdfc2aaf8333be9777/b4294/2015-06-08-18.54.24.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 133.33333333333331%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQBAgMF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAFxvmQj5UKYNxqQZkf/xAAfEAABAwMFAAAAAAAAAAAAAAABAgMRAAQQEhMhIzH/2gAIAQEAAQUCZV1ClHlJ22LVStZmXG5RbtlsTRwff//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABURAQEAAAAAAAAAAAAAAAAAABEg/9oACAECAQE/ASP/xAAeEAACAQMFAAAAAAAAAAAAAAAAARECEjEQICEiUv/aAAgBAQAGPwKPOrqWWOXKOvBah3Z2/wD/xAAdEAACAwACAwAAAAAAAAAAAAAAARExQRBhIXGB/9oACAEBAAE/IZk20fChgQ7ok+hxLoNY9yHoQyqIRZBnjw8Gx+LD/9oADAMBAAIAAwAAABAP1z3/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAIAQMBAT8Qqqx//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/EDEiv//EACAQAQEAAgEDBQAAAAAAAAAAAAERACFBMYGRYXGhwdH/2gAIAQEAAT8QBRvlmz7zkcUZQMgcBGLKhr3uIC1xmN4+coQ5DavftkjjbPCGnzlzmkaBH7mg9cSjeuGNw//Z&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 133.33333333333331%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAGQAAAgMBAAAAAAAAAAAAAAAAAAQBAgMF/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/9oADAMBAAIQAxAAAAFxvmQj5UKYNxqQZkf/xAAfEAABAwMFAAAAAAAAAAAAAAABAgMRAAQQEhMhIzH/2gAIAQEAAQUCZV1ClHlJ22LVStZmXG5RbtlsTRwff//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQMBAT8BH//EABURAQEAAAAAAAAAAAAAAAAAABEg/9oACAECAQE/ASP/xAAeEAACAQMFAAAAAAAAAAAAAAAAARECEjEQICEiUv/aAAgBAQAGPwKPOrqWWOXKOvBah3Z2/wD/xAAdEAACAwACAwAAAAAAAAAAAAAAARExQRBhIXGB/9oACAEBAAE/IZk20fChgQ7ok+hxLoNY9yHoQyqIRZBnjw8Gx+LD/9oADAMBAAIAAwAAABAP1z3/xAAWEQEBAQAAAAAAAAAAAAAAAAAAEQH/2gAIAQMBAT8Qqqx//8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oACAECAQE/EDEiv//EACAQAQEAAgEDBQAAAAAAAAAAAAERACFBMYGRYXGhwdH/2gAIAQEAAT8QBRvlmz7zkcUZQMgcBGLKhr3uIC1xmN4+coQ5DavftkjjbPCGnzlzmkaBH7mg9cSjeuGNw//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Apple Watch in case&quot;
-        title=&quot;&quot;
-        src=&quot;/static/2015-06-08-18.54.24-efa14226bd8ce3fdfc2aaf8333be9777-f8fb9.jpg&quot;
-        srcset=&quot;/static/2015-06-08-18.54.24-efa14226bd8ce3fdfc2aaf8333be9777-e8976.jpg 148w,
-/static/2015-06-08-18.54.24-efa14226bd8ce3fdfc2aaf8333be9777-63df2.jpg 295w,
-/static/2015-06-08-18.54.24-efa14226bd8ce3fdfc2aaf8333be9777-f8fb9.jpg 590w,
-/static/2015-06-08-18.54.24-efa14226bd8ce3fdfc2aaf8333be9777-9b0e7.jpg 600w&quot;
+        title=&quot;Apple Watch in case&quot;
+        src=&quot;/static/efa14226bd8ce3fdfc2aaf8333be9777/1c72d/2015-06-08-18.54.24.jpg&quot;
+        srcset=&quot;/static/efa14226bd8ce3fdfc2aaf8333be9777/a80bd/2015-06-08-18.54.24.jpg 148w,
+/static/efa14226bd8ce3fdfc2aaf8333be9777/1c91a/2015-06-08-18.54.24.jpg 295w,
+/static/efa14226bd8ce3fdfc2aaf8333be9777/1c72d/2015-06-08-18.54.24.jpg 590w,
+/static/efa14226bd8ce3fdfc2aaf8333be9777/b4294/2015-06-08-18.54.24.jpg 600w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h2&gt;Looks&lt;/h2&gt;
 &lt;p&gt;I love it, as with most apple devices designed by Jony Ive, he’s outdone himself and with support from Marc Newson, this watch feels and looks amazing. I’m not a fan of bulky watches or metal straps so I went for 42mm stainless steel classic leather buckle. The 38mm looked too small and I imagine it would be difficult to use, the 42mm even if it is slightly bigger isn’t too bulky for me and I recommend trying both on, before you buy one as I was set on getting the 38mm before trying the 42mm on.&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/2015-06-08-19.05.14-d2d16ab1fb10ffcf63185dad8ac52c5f-9b0e7.jpg&quot;
+    href=&quot;/static/d2d16ab1fb10ffcf63185dad8ac52c5f/b4294/2015-06-08-19.05.14.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 133.33333333333331%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EABcBAQADAAAAAAAAAAAAAAAAAAEAAgP/2gAMAwEAAhADEAAAAZllbMa5iDOWF4WhArp//8QAHhAAAgICAgMAAAAAAAAAAAAAAQMAAgQxEhMhIzL/2gAIAQEAAQUCExR6zG49VUQeLNx7+yiWcIL+DoaX8//EABcRAQEBAQAAAAAAAAAAAAAAAAARARL/2gAIAQMBAT8BjnVV/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oACAECAQE/AauIj//EABwQAAEDBQAAAAAAAAAAAAAAAAEAEBESICExYf/aAAgBAQAGPwKHqyUe7aIsLf/EABwQAAIDAAMBAAAAAAAAAAAAAAABESFBEDFRkf/aAAgBAQABPyGNpKl09I2tW/Sr7X0fUbJ9KlkVZ2Sisl3IiU7ooZ5xrn//2gAMAwEAAgADAAAAEHvbwP/EABcRAQEBAQAAAAAAAAAAAAAAAAERABD/2gAIAQMBAT8QWM4Xbijf/8QAFxEBAQEBAAAAAAAAAAAAAAAAEQEAEP/aAAgBAgEBPxAWPIBqN//EAB4QAQADAAICAwAAAAAAAAAAAAEAESFBUTFhcbHw/9oACAEBAAE/ELeaN2DqX9HUNtBVvUaJRnSAVgC6fUAz1KVpWj+7nGW8Xc0HGnqKUmrKcp4lBWnzG04OCeB6IkbVpQ2f/9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 133.33333333333331%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAbABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EABcBAQADAAAAAAAAAAAAAAAAAAEAAgP/2gAMAwEAAhADEAAAAZllbMa5iDOWF4WhArp//8QAHhAAAgICAgMAAAAAAAAAAAAAAQMAAgQxEhMhIzL/2gAIAQEAAQUCExR6zG49VUQeLNx7+yiWcIL+DoaX8//EABcRAQEBAQAAAAAAAAAAAAAAAAARARL/2gAIAQMBAT8BjnVV/8QAFhEBAQEAAAAAAAAAAAAAAAAAABEB/9oACAECAQE/AauIj//EABwQAAEDBQAAAAAAAAAAAAAAAAEAEBESICExYf/aAAgBAQAGPwKHqyUe7aIsLf/EABwQAAIDAAMBAAAAAAAAAAAAAAABESFBEDFRkf/aAAgBAQABPyGNpKl09I2tW/Sr7X0fUbJ9KlkVZ2Sisl3IiU7ooZ5xrn//2gAMAwEAAgADAAAAEHvbwP/EABcRAQEBAQAAAAAAAAAAAAAAAAERABD/2gAIAQMBAT8QWM4Xbijf/8QAFxEBAQEBAAAAAAAAAAAAAAAAEQEAEP/aAAgBAgEBPxAWPIBqN//EAB4QAQADAAICAwAAAAAAAAAAAAEAESFBUTFhcbHw/9oACAEBAAE/ELeaN2DqX9HUNtBVvUaJRnSAVgC6fUAz1KVpWj+7nGW8Xc0HGnqKUmrKcp4lBWnzG04OCeB6IkbVpQ2f/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;2015-06-08 19.05.14&quot;
-        title=&quot;&quot;
-        src=&quot;/static/2015-06-08-19.05.14-d2d16ab1fb10ffcf63185dad8ac52c5f-f8fb9.jpg&quot;
-        srcset=&quot;/static/2015-06-08-19.05.14-d2d16ab1fb10ffcf63185dad8ac52c5f-e8976.jpg 148w,
-/static/2015-06-08-19.05.14-d2d16ab1fb10ffcf63185dad8ac52c5f-63df2.jpg 295w,
-/static/2015-06-08-19.05.14-d2d16ab1fb10ffcf63185dad8ac52c5f-f8fb9.jpg 590w,
-/static/2015-06-08-19.05.14-d2d16ab1fb10ffcf63185dad8ac52c5f-9b0e7.jpg 600w&quot;
+        title=&quot;2015-06-08 19.05.14&quot;
+        src=&quot;/static/d2d16ab1fb10ffcf63185dad8ac52c5f/1c72d/2015-06-08-19.05.14.jpg&quot;
+        srcset=&quot;/static/d2d16ab1fb10ffcf63185dad8ac52c5f/a80bd/2015-06-08-19.05.14.jpg 148w,
+/static/d2d16ab1fb10ffcf63185dad8ac52c5f/1c91a/2015-06-08-19.05.14.jpg 295w,
+/static/d2d16ab1fb10ffcf63185dad8ac52c5f/1c72d/2015-06-08-19.05.14.jpg 590w,
+/static/d2d16ab1fb10ffcf63185dad8ac52c5f/b4294/2015-06-08-19.05.14.jpg 600w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;As for the screen, the glare from the sun can be an issue whilst wearing sun glasses. I’ve also read somewhere that the issue is less with the sport edition but I can’t comment on that myself.&lt;/p&gt;
 &lt;h2&gt;Security&lt;/h2&gt;
 &lt;p&gt;A nice security feature on the Apple Watch is that if you take the watch off and you have the passcode enabled it will automatically lock. A subtle but useful feature.&lt;/p&gt;
@@ -275,7 +255,7 @@
 &lt;p&gt;Now onto the other point that “CSS is hard”. CSS isn’t hard at all, we as developers make it harder by over complicating things and introducing things which at first seem like a good idea but actually turn out to be a massive pain to fix. If you find it hard, thats fine ask for help but don’t make it harder for yourself by over complicating it. keep things simple.&lt;/p&gt;
 &lt;h2&gt;It’s just CSS&lt;/h2&gt;
 &lt;p&gt;The last issue i’d like to raise is the “It’s just CSS”, this to me is screaming you are a arrogant b***ard and you don’t think its important. Yea great your backend code wizardry can process an excel spreadsheet in a millisecond and cook me a pop tart but if the browser is dancing round drunkenly trying to render the page you decided to hack together then your hard work is gone to waste right? If you don’t like CSS because “Its just CSS” then don’t do it, let someone else do it because they will do a better job of it than you. There are things I don’t like about development and I try to avoid those tasks, not because I can’t do it but because I don’t like doing them so I feel as if my effort would not be as high causing my quality of work to decrease.&lt;/p&gt;
-&lt;p&gt;Hopefully I’ve not pissed anyone of with this rant but I thought this needed to be said. CSS is a first class citizen so start treating it like one.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[New start]]></title><description><![CDATA[Starting next Monday I will be joining the BBC as a web developer in the content discovery department, meaning I will be leaving  Forepoint…]]></description><link>https://mintuz.com/2014/10/06/new-start</link><guid isPermaLink="false">https://mintuz.com/2014/10/06/new-start</guid><pubDate>Mon, 06 Oct 2014 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Starting next Monday I will be joining the BBC as a web developer in the content discovery department, meaning I will be leaving &lt;a href=&quot;http://forepoint.co.uk&quot;&gt;Forepoint&lt;/a&gt; on Friday after two years of being apart of the web team. I would like to thank &lt;a href=&quot;http://forepoint.co.uk&quot;&gt;Forepoint&lt;/a&gt; for making me feel apart of the team from the very start and some people will be greatly missed. Without &lt;a href=&quot;http://forepoint.co.uk&quot;&gt;Forepoint&lt;/a&gt; taking a chance with me, my career could be very different right now and I am greatful for having the chance to follow my passion.&lt;/p&gt;
+&lt;p&gt;Hopefully I’ve not pissed anyone of with this rant but I thought this needed to be said. CSS is a first class citizen so start treating it like one.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[New start]]></title><description><![CDATA[Starting next Monday I will be joining the BBC as a web developer in the content discovery department, meaning I will be leaving Forepoint…]]></description><link>https://mintuz.com/2014/10/06/new-start</link><guid isPermaLink="false">https://mintuz.com/2014/10/06/new-start</guid><pubDate>Mon, 06 Oct 2014 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Starting next Monday I will be joining the BBC as a web developer in the content discovery department, meaning I will be leaving &lt;a href=&quot;http://forepoint.co.uk&quot;&gt;Forepoint&lt;/a&gt; on Friday after two years of being apart of the web team. I would like to thank &lt;a href=&quot;http://forepoint.co.uk&quot;&gt;Forepoint&lt;/a&gt; for making me feel apart of the team from the very start and some people will be greatly missed. Without &lt;a href=&quot;http://forepoint.co.uk&quot;&gt;Forepoint&lt;/a&gt; taking a chance with me, my career could be very different right now and I am greatful for having the chance to follow my passion.&lt;/p&gt;
 &lt;p&gt;I have enjoyed working on various websites within the nuclear, defence and public sectors including projects like &lt;a href=&quot;http://www.derwentsidehomes.co.uk&quot;&gt;derwentsidehomes&lt;/a&gt;, &lt;a href=&quot;http://magnoxsites.co.uk&quot;&gt;Magnox ltd&lt;/a&gt;, &lt;a href=&quot;http://s4bmanchester.co.uk&quot;&gt;s4bmanchester&lt;/a&gt; and &lt;a href=&quot;http://moto-way.com&quot;&gt;Moto&lt;/a&gt; where I have been given the chance to learn and develop my skills as a developer and more importantly a person.&lt;/p&gt;
 &lt;p&gt;Forepoint are also recruiting for new web developers so if you are interested, be sure to visit the &lt;a href=&quot;http://forepoint.co.uk/careers/&quot;&gt;careers section&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Nginx Reverse Proxy with Apache 2 and Puma]]></title><description><![CDATA[I decided to alter my web server setup after realising a standard Apache 2 install comes with too much overhead whilst serving out static…]]></description><link>https://mintuz.com/2013/07/28/nginx-reverse-proxy-with-apache-2-and-puma</link><guid isPermaLink="false">https://mintuz.com/2013/07/28/nginx-reverse-proxy-with-apache-2-and-puma</guid><pubDate>Sun, 28 Jul 2013 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;I decided to alter my web server setup after realising a standard Apache 2 install comes with too much overhead whilst serving out static content. At the same time I thought it would be a good opportunity to look into different methods of serving web applications written in ruby, primarily Rails and Sinatra. Originally my web server was running Apache2 with libapache2-mod-php5 and mysql. Nothing special about it, infact it was pretty basic. For serving out ruby applications I used &lt;a href=&quot;https://www.phusionpassenger.com/&quot;&gt;mod_passenger&lt;/a&gt; developed by Phusion.&lt;/p&gt;
 &lt;h2&gt;&lt;strong&gt;Benchmark&lt;/strong&gt;&lt;/h2&gt;
@@ -284,12 +264,9 @@
 &lt;p&gt;I have setup my web server to use Apache 2 and Puma with Nginx as a reverse proxy listening on port 80. This allows you to serve out ruby based applications and PHP based websites driven by content management systems such as Wordpress.&lt;/p&gt;
 &lt;h3&gt;Setting up Nginx with Apache 2&lt;/h3&gt;
 &lt;p&gt;Lets get started, First we will setup Nginx to be the Reverse Proxy in front of Apache 2, I am using Ubuntu 12.04 so I use aptitude as my package manager.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; nginx&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;apt-get&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; nginx&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;The first thing to do is alter your default site configuration located in** /etc/nginx/sites-availble/** to look like the configuration below. This is used to serve out PHP based websites mainly running Wordpress. Thanks to &lt;a href=&quot;http://www.applicious.co/2013/06/upgraded-to-nginx/&quot;&gt;@iceicetimmy&lt;/a&gt; for providing the basis of this config. [work] I have made a few alterations for my scenario such as adding default to the listen directive, doing this forces the server block to run as the default configuration. Without it, the Puma server block further down would override it causing every website to redirect to your ruby applications. I also removed the &lt;strong&gt;rewrite ^(.*) $scheme&lt;/strong&gt; line because it simply breaks.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;server {
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;server {
 
         listen 80 default;
     index index.php;
@@ -323,11 +300,9 @@
 
     }
 
-}&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;The next step is to configure Apache 2 to listen on port 8080 instead of the standard 80. Change &lt;strong&gt;/etc/apache2/ports.conf&lt;/strong&gt; to look similar to this.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# If you just change the port or add more ports here, you will likely also
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;# If you just change the port or add more ports here, you will likely also
 # have to change the VirtualHost statement in
 # /etc/apache2/sites-enabled/000-default
 # This is also true if you have upgraded from before 2.2.9-3 (i.e. from
@@ -342,30 +317,20 @@ Listen 8080
 # to
 # Server Name Indication for SSL named virtual hosts is currently not
 # supported by MSIE on Windows XP.
-Listen 443&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+Listen 443&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Within your &lt;strong&gt;/etc/apache2/apache2.conf&lt;/strong&gt; towards the bottom of the configuration file add&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;NameVirtualHost *:8080&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;NameVirtualHost *:8080&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;For each virtual host you need to alter your VirtualHost directives to listen on &lt;strong&gt;127.0.0.1:8080&lt;/strong&gt; Do a quick restart of the Apache2 and the Nginx Services so the changes take effect.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; /etc/init.d/apache2 restart
-$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; nginx -s reload&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; /etc/init.d/apache2 restart
+$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; nginx -s reload&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Hopefully things are still working, if your browser is getting stuck in a redirect loop, try restarting your browser as it caches the Headers.&lt;/p&gt;
 &lt;h3&gt;Setting Up Puma&lt;/h3&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ gem &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; puma&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ gem &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; puma&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;The next thing to do is create a site configuration file in Nginx which will redirect requests to the Puma process. Place it in the &lt;strong&gt;/etc/nginx/sites-available/&lt;/strong&gt; directory and create a symbolic link in the &lt;strong&gt;/etc/nginx/sites-enabled&lt;/strong&gt; directory.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;touch&lt;/span&gt; /etc/nginx/sites-available/rails-app.com
-$ &lt;span class=&quot;token function&quot;&gt;ln&lt;/span&gt; -s /etc/nginx/sites-available/rails-app.com /etc/nginx/sites-enabled/rails-app.com&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;touch&lt;/span&gt; /etc/nginx/sites-available/rails-app.com
+$ &lt;span class=&quot;token function&quot;&gt;ln&lt;/span&gt; -s /etc/nginx/sites-available/rails-app.com /etc/nginx/sites-enabled/rails-app.com&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Copy the configuration file below into the file we just created&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;upstream rails-app.com { server 127.0.0.1:9292; }
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;text&quot;&gt;&lt;pre class=&quot;language-text&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;upstream rails-app.com { server 127.0.0.1:9292; }
 
 server {
 
@@ -383,339 +348,298 @@ server {
             proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
     }
 
-}&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Navigate to the root of where your Rails/Sinatra application will be based and run the following command, This command essentially runs Puma as a daemon and forces it to bind to 127.0.0.1:9292. It also creates a .pid file to make it easier to restart after you make changes to your web application.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;RAILS_ENV&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;production bundle &lt;span class=&quot;token function&quot;&gt;exec&lt;/span&gt; puma -e production -b tcp://127.0.0.1:9292 -d --pidfile /var/run/puma.pid&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token assign-left variable&quot;&gt;RAILS_ENV&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;production bundle &lt;span class=&quot;token builtin class-name&quot;&gt;exec&lt;/span&gt; puma -e production -b tcp://127.0.0.1:9292 -d --pidfile /var/run/puma.pid&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Restart Nginx so the changes occur and that should be it, everything should be working, with PHP based websites and Ruby based websites getting served through Nginx. Pretty cool huh? To restart the Puma process run the following command&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot;&gt;
-      &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;kill&lt;/span&gt; -s SIGUSR2 &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;cat&lt;/span&gt; /var/run/puma.pid&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
-      &lt;/div&gt;</content:encoded></item><item><title><![CDATA[Securing Wordpress]]></title><description><![CDATA[Let me start by saying Wordpress is an  extremely secure platform  and is in fact exploited due to poorly written 3rd party plugins and…]]></description><link>https://mintuz.com/2013/04/21/how-to-secure-wordpress</link><guid isPermaLink="false">https://mintuz.com/2013/04/21/how-to-secure-wordpress</guid><pubDate>Sun, 21 Apr 2013 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Let me start by saying Wordpress is an &lt;strong&gt;extremely secure platform&lt;/strong&gt; and is in fact exploited due to poorly written 3rd party plugins and uneducated Wordpress users. This is a brief overview of the things you can do to detect issues with your Wordpress site and how to secure it.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;bash&quot;&gt;&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;token function&quot;&gt;kill&lt;/span&gt; -s SIGUSR2 &lt;span class=&quot;token variable&quot;&gt;&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;cat&lt;/span&gt; /var/run/puma.pid&lt;span class=&quot;token variable&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Securing Wordpress]]></title><description><![CDATA[Let me start by saying Wordpress is an extremely secure platform and is in fact exploited due to poorly written 3rd party plugins and…]]></description><link>https://mintuz.com/2013/04/21/how-to-secure-wordpress</link><guid isPermaLink="false">https://mintuz.com/2013/04/21/how-to-secure-wordpress</guid><pubDate>Sun, 21 Apr 2013 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Let me start by saying Wordpress is an &lt;strong&gt;extremely secure platform&lt;/strong&gt; and is in fact exploited due to poorly written 3rd party plugins and uneducated Wordpress users. This is a brief overview of the things you can do to detect issues with your Wordpress site and how to secure it.&lt;/p&gt;
 &lt;p&gt;There is a large spread attack happening across the Internet aimed towards Wordpress at the moment (14/04/2013). The series of online attacks designed to break into poorly-secured &lt;strong&gt;WordPress&lt;/strong&gt; blogs is fuelling the growth of an unusually powerful botnet currently made up of more than 90,000 Web servers. This attack is using a typical &lt;strong&gt;brute force attack against passwords&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;Every attack against a computer system starts with reconnaissance which is the gathering of as much information as possible against the target. In terms of &lt;strong&gt;Wordpress security&lt;/strong&gt;, Information from the Whois database and data exposed fron the website itself is extremely useful.&lt;/p&gt;
 &lt;p&gt;Tools like &lt;a href=&quot;http://wpscan.org/&quot;&gt;wp-scan&lt;/a&gt; allow you to find out what plugins are running on the Wordpress installation and the names of the users on that system. With this information you have already lost half the battle. I urge you to download and install wp-scan. It’s simple to use but extremely powerful. It alerts you of any vulnerable plugins and if this occurs, you should instantly disable those plugins. The chances are it will also display one or more usernames, if you have your username as admin, please open a new tab, login to your Wordpress site and rename your admin user then come back and carry on reading.&lt;/p&gt;
 &lt;p&gt;If an attacker has a good password dictionary and you have a weak password, congratulations your website could be hacked. For password requirements you should read the &lt;a href=&quot;http://en.support.wordpress.com/selecting-a-strong-password/&quot;&gt;security requirements&lt;/a&gt; specified on the WordPress website. You should also &lt;a href=&quot;http://codex.wordpress.org/Hardening_WordPress&quot;&gt;restrict access&lt;/a&gt; to the wp-admin section of your website to only allow access from specific IP addresses. If you want to go to extreme lengths you can also take advantage of a&lt;a href=&quot;https://www.duosecurity.com/product&quot;&gt; third-party plugin from Duo Security&lt;/a&gt;, which enables one-time login codes sent via text message.&lt;/p&gt;
 &lt;p&gt;Now the way this attack works is from scanning domains for information such as strings like wp-content and wp-admin. If the bot finds a website with these strings present, it will simply spam the wp-login.php page with requests using the usernames found from tools like wp-scan and a password dictionary possibly using words from the website itself.&lt;/p&gt;
-&lt;p&gt;Tools like &lt;a href=&quot;http://www.thc.org/thc-hydra/&quot;&gt;xHydra&lt;/a&gt; allow such attacks to be carried out. **wp-scan and xHyrdra together are bad news for Wordpress sites. **To help reduce the risk of these tools, I urge you to download the wp-security plugin. You can configure the plugin to block an IP address from accessing your website if that IP address has multiple incorrect login attempts. It also allows you to rename the wp-content and wp-admin parts of the URL.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Why WEP Sucks]]></title><description><![CDATA[Recently I have noticed several WEP based wireless networks around my area with the majority of them using BT Home Hubs. This angers me, it…]]></description><link>https://mintuz.com/2013/04/14/why-wep-sucks</link><guid isPermaLink="false">https://mintuz.com/2013/04/14/why-wep-sucks</guid><pubDate>Sun, 14 Apr 2013 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;
-  &lt;a
+&lt;p&gt;Tools like &lt;a href=&quot;http://www.thc.org/thc-hydra/&quot;&gt;xHydra&lt;/a&gt; allow such attacks to be carried out. **wp-scan and xHyrdra together are bad news for Wordpress sites. **To help reduce the risk of these tools, I urge you to download the wp-security plugin. You can configure the plugin to block an IP address from accessing your website if that IP address has multiple incorrect login attempts. It also allows you to rename the wp-content and wp-admin parts of the URL.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Why WEP Sucks]]></title><description><![CDATA[Recently I have noticed several WEP based wireless networks around my area with the majority of them using BT Home Hubs. This angers me, it…]]></description><link>https://mintuz.com/2013/04/14/why-wep-sucks</link><guid isPermaLink="false">https://mintuz.com/2013/04/14/why-wep-sucks</guid><pubDate>Sun, 14 Apr 2013 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/Untitled-8a989e855c9c826a95787bf179ac93bd-d9514.png&quot;
+    href=&quot;/static/8a989e855c9c826a95787bf179ac93bd/0a47e/Untitled.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 75.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABcSAAAXEgFnn9JSAAACjklEQVQ4y62TW08TURSFpzeg3FJoyrVQWqCFQAuYPqq/SYTadnrhkhi0FtsQUYwI8RaURBKCPPhmjInGN/WhV+SXTJdn7TBa9cnESXbWnH3OfHvtc85oD3f3cad4H7fv3kOusI1ccRs3c0VsPdjF0fEpdnafYO/pAV68eo3j07c4PDrB1s7eRTwWLWw/auw/e4nnB4eGlojHoScTSOlJpFI6OL4RW5ZYWrqOxcVrWF5eQkyNdbVGTyaRzaRVZLC6siKxvrbaSCbiODl5Y2jqwX+IBjWbzRpaV1cXOjo60Nvbi+7ubng8HoyOjsrY6XTKHKO9vf3nuzluaWmB3W5Ha2urAAuFgqGpATo7OwXERV6vF5FIRHRqakqUBcbGxjA8PIxgMIihoSHR8fFxWCwWWK1WAebzeUOz2x0C6unpQVtbG/x+P8LhMHw+nyg/mpmZwezsrICj0ajkpqenEQqFfgNubm4amsPhkBZM4MjIiAAIpNNAIIDJyUlxS+DCwoIU5ZjRDJSWCWx2yLZYmUC6opqOzO0gmDDToc1mE+DGxq2/HXIxHdKFqfxwYmJC5ubm5qQIc9zHZqCuZwyNMJ4ugTxVbv78/Lwo3dCd2bI5xyJ0/GfLeuoCaF4PXoO+vj5xwlMnYHBwULaBOZ4unQ4MDIhL5pqBST3NU7bDYrUIlDAeSn9/vzgmwO12y7vL5RLl/WQx5tkZgYohwFQ6++tPoTu65L0knIWo//KnxGIJQwtdCsIfDuDK5avSjle1R5dsx6uUrTG4b+a7XPSLHFXtcYPdra6tG9qnzx/x7sN7fPn6DaVyGZVKFWUV1LqKmopquYJqrY5avY5KtYb62ZnSKs6+n8s6NdeoqnypVDZ+APo/5fWTxVBJAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 75.33333333333333%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAPCAYAAADkmO9VAAAACXBIWXMAABcSAAAXEgFnn9JSAAACjklEQVQ4y62TW08TURSFpzeg3FJoyrVQWqCFQAuYPqq/SYTadnrhkhi0FtsQUYwI8RaURBKCPPhmjInGN/WhV+SXTJdn7TBa9cnESXbWnH3OfHvtc85oD3f3cad4H7fv3kOusI1ccRs3c0VsPdjF0fEpdnafYO/pAV68eo3j07c4PDrB1s7eRTwWLWw/auw/e4nnB4eGlojHoScTSOlJpFI6OL4RW5ZYWrqOxcVrWF5eQkyNdbVGTyaRzaRVZLC6siKxvrbaSCbiODl5Y2jqwX+IBjWbzRpaV1cXOjo60Nvbi+7ubng8HoyOjsrY6XTKHKO9vf3nuzluaWmB3W5Ha2urAAuFgqGpATo7OwXERV6vF5FIRHRqakqUBcbGxjA8PIxgMIihoSHR8fFxWCwWWK1WAebzeUOz2x0C6unpQVtbG/x+P8LhMHw+nyg/mpmZwezsrICj0ajkpqenEQqFfgNubm4amsPhkBZM4MjIiAAIpNNAIIDJyUlxS+DCwoIU5ZjRDJSWCWx2yLZYmUC6opqOzO0gmDDToc1mE+DGxq2/HXIxHdKFqfxwYmJC5ubm5qQIc9zHZqCuZwyNMJ4ugTxVbv78/Lwo3dCd2bI5xyJ0/GfLeuoCaF4PXoO+vj5xwlMnYHBwULaBOZ4unQ4MDIhL5pqBST3NU7bDYrUIlDAeSn9/vzgmwO12y7vL5RLl/WQx5tkZgYohwFQ6++tPoTu65L0knIWo//KnxGIJQwtdCsIfDuDK5avSjle1R5dsx6uUrTG4b+a7XPSLHFXtcYPdra6tG9qnzx/x7sN7fPn6DaVyGZVKFWUV1LqKmopquYJqrY5avY5KtYb62ZnSKs6+n8s6NdeoqnypVDZ+APo/5fWTxVBJAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;WEP Security&quot;
-        title=&quot;&quot;
-        src=&quot;/static/Untitled-8a989e855c9c826a95787bf179ac93bd-fb8a0.png&quot;
-        srcset=&quot;/static/Untitled-8a989e855c9c826a95787bf179ac93bd-1a291.png 148w,
-/static/Untitled-8a989e855c9c826a95787bf179ac93bd-2bc4a.png 295w,
-/static/Untitled-8a989e855c9c826a95787bf179ac93bd-fb8a0.png 590w,
-/static/Untitled-8a989e855c9c826a95787bf179ac93bd-d9514.png 600w&quot;
+        title=&quot;WEP Security&quot;
+        src=&quot;/static/8a989e855c9c826a95787bf179ac93bd/fcda8/Untitled.png&quot;
+        srcset=&quot;/static/8a989e855c9c826a95787bf179ac93bd/12f09/Untitled.png 148w,
+/static/8a989e855c9c826a95787bf179ac93bd/e4a3f/Untitled.png 295w,
+/static/8a989e855c9c826a95787bf179ac93bd/fcda8/Untitled.png 590w,
+/static/8a989e855c9c826a95787bf179ac93bd/0a47e/Untitled.png 600w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Recently I have noticed several WEP based wireless networks around my area with the majority of them using BT Home Hubs. This angers me, it has been known for several years WEP is insecure and allows young kids with basic knowledge of computing to hack your network. Here is why…&lt;/p&gt;
 &lt;p&gt;Two main versions of WEP exist, a 64bit key version and a 128bit key version. There is also a 256bit key but not all vendors support this version. All versions use an Initialisation vector of 24bits leaving a 40bit key, a 104bit key or a 232bit key.&lt;/p&gt;
 &lt;p&gt;WEP works by the wireless client sending an authentication request to the access point, the AP then responds with an authentication response including a challenge text in plain format. The wireless client then encrypts the challenge text with the WEP key and transmits the encrypted data to the AP, the AP then decrypts the encrypted message and if the transmitted message text matches the challenge text of the AP authentication is successful otherwise access is denied.&lt;/p&gt;
 &lt;p&gt;WEP can be cracked, by using freely available tools such as &lt;strong&gt;aircrack-ng&lt;/strong&gt;. One of the main weaknesses of WEP is that the key used for authentication is also used for encrypting data on the wireless network. The same encryption key is used for each frame sent across the wireless link. By sniffing packets on the wireless network, it is possible to work out the key, which encrypted the data, and once this is known, it will also be possible to be authorised on the wireless network since it uses the same key.&lt;/p&gt;
 &lt;p&gt;WEP uses RC4 as its encryption algorithm. It is a stream cipher and is weak because of the initialization vector length. The initialization vector is used to randomize the key, which is then used to encrypt the data. With a stream cipher the key used to encrypt traffic should never be used twice but because the IV is short, there is a possibility that an IV collision will occur.  24bits are used for the IV which gives you a possible 16.7 million possibilities, on a network with large amounts of traffic, this value can be met very quickly therefore the IV values will have to be reused.&lt;/p&gt;
-&lt;p&gt;The IV values are also sent in clear text making it much easier to determine the key if the IV is used multiple times.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[New Adventures In Web Design 2013]]></title><description><![CDATA[I should have written this blog post a week ago but with how busy I am currently, I have not had time. A week ago I had the privilege of…]]></description><link>https://mintuz.com/2013/02/03/new-adventures-in-web-design-2013</link><guid isPermaLink="false">https://mintuz.com/2013/02/03/new-adventures-in-web-design-2013</guid><pubDate>Sun, 03 Feb 2013 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;
-  &lt;a
+&lt;p&gt;The IV values are also sent in clear text making it much easier to determine the key if the IV is used multiple times.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[New Adventures In Web Design 2013]]></title><description><![CDATA[I should have written this blog post a week ago but with how busy I am currently, I have not had time. A week ago I had the privilege of…]]></description><link>https://mintuz.com/2013/02/03/new-adventures-in-web-design-2013</link><guid isPermaLink="false">https://mintuz.com/2013/02/03/new-adventures-in-web-design-2013</guid><pubDate>Sun, 03 Feb 2013 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/2013-01-24-09.31.19-aaf4efb0a449965ce2727036aeb259dc-9b0e7.jpg&quot;
+    href=&quot;/static/aaf4efb0a449965ce2727036aeb259dc/b4294/2013-01-24-09.31.19.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQBAwX/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAgED/9oADAMBAAIQAxAAAAGLpT0jpIpJ8fS2Bn//xAAbEAADAAIDAAAAAAAAAAAAAAAAAQIREgMQIv/aAAgBAQABBQKUatG7MzVeUnfGZ6yf/8QAGBEAAgMAAAAAAAAAAAAAAAAAABEBECH/2gAIAQMBAT8BWMZFf//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABwQAAIABwAAAAAAAAAAAAAAAAABESAhMUFhof/aAAgBAQAGPwIiYNCdC3JP/8QAGxABAAMBAAMAAAAAAAAAAAAAAQARIUFRYXH/2gAIAQEAAT8htW9zzNAsgZ19lchYOnYvZEU9RDkL0S7Nimf/2gAMAwEAAgADAAAAEC8v/wD/xAAZEQADAAMAAAAAAAAAAAAAAAAAAREhMVH/2gAIAQMBAT8QTPAVw3Kf/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAEREP/aAAgBAgEBPxB2kQ8//8QAHhABAAMAAQUBAAAAAAAAAAAAAQARITFBUXGBweH/2gAIAQEAAT8QEgtw6/yNwIO2nyEgfUuJoIloFkCVeFCGtNaYp0rJ3Rp7kENl8xwsMK4n/9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQBAwX/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAgED/9oADAMBAAIQAxAAAAGLpT0jpIpJ8fS2Bn//xAAbEAADAAIDAAAAAAAAAAAAAAAAAQIREgMQIv/aAAgBAQABBQKUatG7MzVeUnfGZ6yf/8QAGBEAAgMAAAAAAAAAAAAAAAAAABEBECH/2gAIAQMBAT8BWMZFf//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABwQAAIABwAAAAAAAAAAAAAAAAABESAhMUFhof/aAAgBAQAGPwIiYNCdC3JP/8QAGxABAAMBAAMAAAAAAAAAAAAAAQARIUFRYXH/2gAIAQEAAT8htW9zzNAsgZ19lchYOnYvZEU9RDkL0S7Nimf/2gAMAwEAAgADAAAAEC8v/wD/xAAZEQADAAMAAAAAAAAAAAAAAAAAAREhMVH/2gAIAQMBAT8QTPAVw3Kf/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAEREP/aAAgBAgEBPxB2kQ8//8QAHhABAAMAAQUBAAAAAAAAAAAAAQARITFBUXGBweH/2gAIAQEAAT8QEgtw6/yNwIO2nyEgfUuJoIloFkCVeFCGtNaYp0rJ3Rp7kENl8xwsMK4n/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;2013-01-24 09.31.19&quot;
-        title=&quot;&quot;
-        src=&quot;/static/2013-01-24-09.31.19-aaf4efb0a449965ce2727036aeb259dc-f8fb9.jpg&quot;
-        srcset=&quot;/static/2013-01-24-09.31.19-aaf4efb0a449965ce2727036aeb259dc-e8976.jpg 148w,
-/static/2013-01-24-09.31.19-aaf4efb0a449965ce2727036aeb259dc-63df2.jpg 295w,
-/static/2013-01-24-09.31.19-aaf4efb0a449965ce2727036aeb259dc-f8fb9.jpg 590w,
-/static/2013-01-24-09.31.19-aaf4efb0a449965ce2727036aeb259dc-9b0e7.jpg 600w&quot;
+        title=&quot;2013-01-24 09.31.19&quot;
+        src=&quot;/static/aaf4efb0a449965ce2727036aeb259dc/1c72d/2013-01-24-09.31.19.jpg&quot;
+        srcset=&quot;/static/aaf4efb0a449965ce2727036aeb259dc/a80bd/2013-01-24-09.31.19.jpg 148w,
+/static/aaf4efb0a449965ce2727036aeb259dc/1c91a/2013-01-24-09.31.19.jpg 295w,
+/static/aaf4efb0a449965ce2727036aeb259dc/1c72d/2013-01-24-09.31.19.jpg 590w,
+/static/aaf4efb0a449965ce2727036aeb259dc/b4294/2013-01-24-09.31.19.jpg 600w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;I should have written this blog post a week ago but with how busy I am currently, I have not had time.&lt;/p&gt;
 &lt;p&gt;A week ago I had the privilege of attending the New Adventures in Web Design Conference with &lt;a href=&quot;http://www.forepoint.co.uk&quot;&gt;Forepoint&lt;/a&gt;, This was my first ever conference and hopefully not my last. If you cannot be bothered to read the rest of this post, Let me sum up the conference in one word. Inspiring.&lt;/p&gt;
 &lt;p&gt;It was an interesting angle on how I perceive Web Development, as the conference is aimed more towards designers I got to hear problems designers encounter all the time. The theme of the day seemed to revolve heavily around process, about the way that we work and it highlighted some key problems with how I currently work. &lt;/p&gt;
 &lt;p&gt;I enjoyed all the talks. A couple of talks I found particularly useful were the talks by &lt;strong&gt;Jessica Hische&lt;/strong&gt; and **Wayne Hemingway. **What I learnt from Jessica is that I should be Procrastiworking to stay motivated and get the tasks done. Wayne spoke about taking risks and how that can have a positive outcome on business. &lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Seb&lt;/strong&gt; was probably my favourite speaker and was a great start to the afternoon. He certainly got everybody out of their food comas. His talk was pure genius with live coding on a Commodore 64 and then demonstrated some JavaScript Prettyness. Seb had the whole hall laughing. I found his talk the most inspiring and I really want to get dirty with pixel particle work. &lt;/p&gt;
 &lt;p&gt;I should also probably mention that the Forepoint bowling team (including &lt;a href=&quot;https://twitter.com/eskins&quot;&gt;Richard Eskins&lt;/a&gt;) won the bowling night hosted by &lt;a href=&quot;http://erskinedesign.com/&quot;&gt;Erskine&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/252707_10151203693456487_1694166284_n-1-7ea11ac3b96cd8c60706317602e2a5fc-9b0e7.jpg&quot;
+    href=&quot;/static/7ea11ac3b96cd8c60706317602e2a5fc/b4294/252707_10151203693456487_1694166284_n-1.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCBP/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/2gAMAwEAAhADEAAAAcb47Z6QRLuYkgf/xAAZEAACAwEAAAAAAAAAAAAAAAABAgAREhP/2gAIAQEAAQUCXOWCw5sGg5uaZYzGujQkmf/EABYRAQEBAAAAAAAAAAAAAAAAACEAEP/aAAgBAwEBPwEjf//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABsQAAEEAwAAAAAAAAAAAAAAAAABECExEUGB/9oACAEBAAY/AkJbdlVBhBOP/8QAHhABAAICAQUAAAAAAAAAAAAAAQARIWExUXGRwfD/2gAIAQEAAT8heRyUMJFypxqd0UJR2X3Fa1A9JSsY9IsJjm/vMUyz/9oADAMBAAIAAwAAABCgFz//xAAXEQEBAQEAAAAAAAAAAAAAAAABABEQ/9oACAEDAQE/EMRBiOf/xAAXEQADAQAAAAAAAAAAAAAAAAAAASEQ/9oACAECAQE/EKkXf//EACAQAQACAgIBBQAAAAAAAAAAAAERIQAxQWHBcYGhsfD/2gAIAQEAAT8Qt4g6LGEsImgfvJFuVBTJtgVUHIX8ZcDLR2G/bWSsAAA894hBZB9IeMYFI6c/litsJ12z5z//2Q==&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMCBP/EABcBAQEBAQAAAAAAAAAAAAAAAAABAgP/2gAMAwEAAhADEAAAAcb47Z6QRLuYkgf/xAAZEAACAwEAAAAAAAAAAAAAAAABAgAREhP/2gAIAQEAAQUCXOWCw5sGg5uaZYzGujQkmf/EABYRAQEBAAAAAAAAAAAAAAAAACEAEP/aAAgBAwEBPwEjf//EABQRAQAAAAAAAAAAAAAAAAAAACD/2gAIAQIBAT8BH//EABsQAAEEAwAAAAAAAAAAAAAAAAABECExEUGB/9oACAEBAAY/AkJbdlVBhBOP/8QAHhABAAICAQUAAAAAAAAAAAAAAQARIWExUXGRwfD/2gAIAQEAAT8heRyUMJFypxqd0UJR2X3Fa1A9JSsY9IsJjm/vMUyz/9oADAMBAAIAAwAAABCgFz//xAAXEQEBAQEAAAAAAAAAAAAAAAABABEQ/9oACAEDAQE/EMRBiOf/xAAXEQADAQAAAAAAAAAAAAAAAAAAASEQ/9oACAECAQE/EKkXf//EACAQAQACAgIBBQAAAAAAAAAAAAERIQAxQWHBcYGhsfD/2gAIAQEAAT8Qt4g6LGEsImgfvJFuVBTJtgVUHIX8ZcDLR2G/bWSsAAA894hBZB9IeMYFI6c/litsJ12z5z//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;252707_10151203693456487_1694166284_n (1)&quot;
-        title=&quot;&quot;
-        src=&quot;/static/252707_10151203693456487_1694166284_n-1-7ea11ac3b96cd8c60706317602e2a5fc-f8fb9.jpg&quot;
-        srcset=&quot;/static/252707_10151203693456487_1694166284_n-1-7ea11ac3b96cd8c60706317602e2a5fc-e8976.jpg 148w,
-/static/252707_10151203693456487_1694166284_n-1-7ea11ac3b96cd8c60706317602e2a5fc-63df2.jpg 295w,
-/static/252707_10151203693456487_1694166284_n-1-7ea11ac3b96cd8c60706317602e2a5fc-f8fb9.jpg 590w,
-/static/252707_10151203693456487_1694166284_n-1-7ea11ac3b96cd8c60706317602e2a5fc-9b0e7.jpg 600w&quot;
+        title=&quot;252707_10151203693456487_1694166284_n (1)&quot;
+        src=&quot;/static/7ea11ac3b96cd8c60706317602e2a5fc/1c72d/252707_10151203693456487_1694166284_n-1.jpg&quot;
+        srcset=&quot;/static/7ea11ac3b96cd8c60706317602e2a5fc/a80bd/252707_10151203693456487_1694166284_n-1.jpg 148w,
+/static/7ea11ac3b96cd8c60706317602e2a5fc/1c91a/252707_10151203693456487_1694166284_n-1.jpg 295w,
+/static/7ea11ac3b96cd8c60706317602e2a5fc/1c72d/252707_10151203693456487_1694166284_n-1.jpg 590w,
+/static/7ea11ac3b96cd8c60706317602e2a5fc/b4294/252707_10151203693456487_1694166284_n-1.jpg 600w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;Here are some pictures, enjoy.&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/cupcakes-1d54f804c59b0b60bc31733a76ff5413-d9514.png&quot;
+    href=&quot;/static/1d54f804c59b0b60bc31733a76ff5413/0a47e/cupcakes.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEiElEQVQ4yyVU+VPTRxxdSL73feZLAuUICIgJIGIhpKIgUJCSCAIGAyEHgUBiAoLNeIBUlIGKtKiUowhe0Mp0qGgVPOpQnE6nHet0+h/0L+nSzn5mZ/eHt2/3vc9bgBMYRZFwxgiM4RiaYyg4aIIiUBxHUFSvQ3Q8jUkslmpgOo5mDjj2h6rMPZWZ+1I1QJA4RRE8z8uqomoaLElROIHTBFrhCIbCFRYvz5Z95RkDDXnxRmusPufciX22vBSUYgFB4AzLSjJEGlSDQTGocCHIcpIqlGVIBUbWlsZ7y9IGG/LPNx4carReara2HcsmGY6iaUCSJCcIsqLsMRsMe0domqIqjCAezjREKjKjdZbhlsMjro9HXMVjnsMjHSUmTURwnKRIQNIUx/OCJEmKDGlhaUkGzaipqior8tnPCqe7yie8R274PxlzF0932235aQkIStEkThKAZll4bUguytJ/z1bhluc5SRITEaw4N3nSZ7/mKR1tK57ylXpqLAhO4CTkJQiKApLIUQwDFRIkUZJlQRQ+ra4Yvz48PTUW6g2kpiQPOUtX+hpmApXnmkoEntWhCHQCI3AUR4HVrCAEfDYnSiLUoMvvfv/zxh+Tl3+LBf68Pf5s+c68o2HNUf8q1PlduOu8o05iKZTA8f/B3voC6BUEkzRZYM3b2V5/6W3eMElPzclPc9J+Hx1auX6hXGSDOeYHp50fbox2HrOBxARoMIIhYLKv2qAINMfqEf2ZtlPv1uZ+zM/aqil743G+bqvfLi/efXLXfiDLjGPXjtvfDQ8+i0dzU5KALgH2FbgRqUpPVkmGwXA04GnZgeBDuVuOiq0a2zNL5nZlycvVmYbSAhOGn8xO3+wP7o4Pf+VtYSmCJDEw0Vtl1ESSpnGCaKy1ba4vbIY61lPVjXTjTxbz83jow87DwUBzEoKWJWsrvtbX45dfXRoYcVZXWDQwFalTZZ5kKATDW5xHV7+5sHH/5pubw7sj4V8Xr3/Yuf/P35s1FaUAAKsqzrtPbl+7+PzS4Nv+vlHHETDdX5ueIkPNoHtFRZbVxS/ebkz+8mJ258XMX7vfvn85F3DV6nWJiag+TeRmOxofX4z+EI99391xu+UE+DJafSDLBK3neFaPobWVZWuLV3e355/cuzL5+ZnywkydLgH2E1TYYcla6nYtRHwrseBywLXQ2QgmwlX5OUY9hrEsjZLkfkVstZjbK23hU3UHPjLC2+pQFOh1uZo80XR8Lty+EPYuRf0PY77loAuMdh+15hh1KEYzFOx1GOciTXHnpkbthVed1Z32osIMU1V+9tjJqjuBplsh93zEv9zvX433LvWcBv2th3LMBgimaAqGBCqnx7GSDNNUu3N1qO9xzP/orGc15psPuma6T890td7ucS+e9T2Kh+5G3aDZnpaSxO9FjCZhQX74j8DtfqN6teXEUsT3aKh3LR65G/XP9pz5Oui61eOei3junQ8uxzpAdaHJZOAxGJI9GEWzMCUszdKJKHowJWnyVO29iPfhYOjBud6lsH+uzzPb1z4fdi/3+1YG2v8FN0MwJi+dVPcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEiElEQVQ4yyVU+VPTRxxdSL73feZLAuUICIgJIGIhpKIgUJCSCAIGAyEHgUBiAoLNeIBUlIGKtKiUowhe0Mp0qGgVPOpQnE6nHet0+h/0L+nSzn5mZ/eHt2/3vc9bgBMYRZFwxgiM4RiaYyg4aIIiUBxHUFSvQ3Q8jUkslmpgOo5mDjj2h6rMPZWZ+1I1QJA4RRE8z8uqomoaLElROIHTBFrhCIbCFRYvz5Z95RkDDXnxRmusPufciX22vBSUYgFB4AzLSjJEGlSDQTGocCHIcpIqlGVIBUbWlsZ7y9IGG/LPNx4carReara2HcsmGY6iaUCSJCcIsqLsMRsMe0domqIqjCAezjREKjKjdZbhlsMjro9HXMVjnsMjHSUmTURwnKRIQNIUx/OCJEmKDGlhaUkGzaipqior8tnPCqe7yie8R274PxlzF0932235aQkIStEkThKAZll4bUguytJ/z1bhluc5SRITEaw4N3nSZ7/mKR1tK57ylXpqLAhO4CTkJQiKApLIUQwDFRIkUZJlQRQ+ra4Yvz48PTUW6g2kpiQPOUtX+hpmApXnmkoEntWhCHQCI3AUR4HVrCAEfDYnSiLUoMvvfv/zxh+Tl3+LBf68Pf5s+c68o2HNUf8q1PlduOu8o05iKZTA8f/B3voC6BUEkzRZYM3b2V5/6W3eMElPzclPc9J+Hx1auX6hXGSDOeYHp50fbox2HrOBxARoMIIhYLKv2qAINMfqEf2ZtlPv1uZ+zM/aqil743G+bqvfLi/efXLXfiDLjGPXjtvfDQ8+i0dzU5KALgH2FbgRqUpPVkmGwXA04GnZgeBDuVuOiq0a2zNL5nZlycvVmYbSAhOGn8xO3+wP7o4Pf+VtYSmCJDEw0Vtl1ESSpnGCaKy1ba4vbIY61lPVjXTjTxbz83jow87DwUBzEoKWJWsrvtbX45dfXRoYcVZXWDQwFalTZZ5kKATDW5xHV7+5sHH/5pubw7sj4V8Xr3/Yuf/P35s1FaUAAKsqzrtPbl+7+PzS4Nv+vlHHETDdX5ueIkPNoHtFRZbVxS/ebkz+8mJ258XMX7vfvn85F3DV6nWJiag+TeRmOxofX4z+EI99391xu+UE+DJafSDLBK3neFaPobWVZWuLV3e355/cuzL5+ZnywkydLgH2E1TYYcla6nYtRHwrseBywLXQ2QgmwlX5OUY9hrEsjZLkfkVstZjbK23hU3UHPjLC2+pQFOh1uZo80XR8Lty+EPYuRf0PY77loAuMdh+15hh1KEYzFOx1GOciTXHnpkbthVed1Z32osIMU1V+9tjJqjuBplsh93zEv9zvX433LvWcBv2th3LMBgimaAqGBCqnx7GSDNNUu3N1qO9xzP/orGc15psPuma6T890td7ucS+e9T2Kh+5G3aDZnpaSxO9FjCZhQX74j8DtfqN6teXEUsT3aKh3LR65G/XP9pz5Oui61eOei3junQ8uxzpAdaHJZOAxGJI9GEWzMCUszdKJKHowJWnyVO29iPfhYOjBud6lsH+uzzPb1z4fdi/3+1YG2v8FN0MwJi+dVPcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;cupcakes&quot;
-        title=&quot;&quot;
-        src=&quot;/static/cupcakes-1d54f804c59b0b60bc31733a76ff5413-fb8a0.png&quot;
-        srcset=&quot;/static/cupcakes-1d54f804c59b0b60bc31733a76ff5413-1a291.png 148w,
-/static/cupcakes-1d54f804c59b0b60bc31733a76ff5413-2bc4a.png 295w,
-/static/cupcakes-1d54f804c59b0b60bc31733a76ff5413-fb8a0.png 590w,
-/static/cupcakes-1d54f804c59b0b60bc31733a76ff5413-d9514.png 600w&quot;
+        title=&quot;cupcakes&quot;
+        src=&quot;/static/1d54f804c59b0b60bc31733a76ff5413/fcda8/cupcakes.png&quot;
+        srcset=&quot;/static/1d54f804c59b0b60bc31733a76ff5413/12f09/cupcakes.png 148w,
+/static/1d54f804c59b0b60bc31733a76ff5413/e4a3f/cupcakes.png 295w,
+/static/1d54f804c59b0b60bc31733a76ff5413/fcda8/cupcakes.png 590w,
+/static/1d54f804c59b0b60bc31733a76ff5413/0a47e/cupcakes.png 600w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/p&gt;
-&lt;p&gt;
-  &lt;a
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/me-f307749221a6f1e4d6ad8902a477a410-d9514.png&quot;
+    href=&quot;/static/f307749221a6f1e4d6ad8902a477a410/0a47e/me.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEu0lEQVQ4yxXP2VMaBwDH8X1rJ5MUEBWVaxFQkMOAAZR7l10WloUFXOOFYozxymHUmFYTk1rr5GjM0el02nTSTsemRzqd6ZXMZNJJH9JJtEdqinLsGkBANOn0pZ28l/wBn/n+fgC/nNMgFesMDU55DVkPHpLKxhTqGdgetRFBOBpsJj9AqTN+q80gNchFKh5vDKxGQZmTL2Lv2QOoLVq1RddRL6Jk8hNK5ZRK822kP9kWeoC734XQUxayG93f6TEjZiuqa7aIhHN1wnZJXahJNdDtASKjhMeoGmjSHDPr5z2mYWvgYf/ITld/vrs/Hwz/5A9fheE5GLKrnKMa/YBcdhasGVarSFi/2OcHLs4QN8bDfQh+K+i8FrSfDfYVZxf+W1n798Ef2d6DeTLwN+VfJ7FlAr0N2XxShUsgsmrUlr2KjnoZMH+SWLo+MT08stDW90UHHh/q3Tk99yKZe5HKbQ4MMzjBBLybpCdHItmAc8lhVMslCimorAWlEjHw9lT7D0uvL50fPD7Ufy0SLhw7zHg9hemZ3PgEjRO0P8AQ2AaBpnA4DhnvhxDMqFHWiku4vlYETI9Qs0fCb02G5qf8N+ZGM709TACnvQjtdTMBf8qHp3zuFA4l3faVFuMtytVqUcpAsVwslIoFQA9m6PDbewNOCtv3/dHozv7WZMDDkDjt99IEnvRhSRyJY44EYv1So76I1B8wS0BRCQukYiEw7G441hfsJg+SWMcnkdFVn48mS9jNEAjtQxM4nMAcMdS6DrW8KZG1yiqiTfxakVBWKosEwOKJ9jOD7on+tiASwuDohxZnIeSm/cgG4Ur54ITXvu62xpDmlZZ9BwRCHZelr2BJxXyJsEbMrwLu37l5slV7bjr89VTXZ7B12evMhlGGgGkCKl2NY/YY2rKOmG7r1eJdu6tf3dUiqKgTvZQSIR/IFJLnx1rHI661icHnYVc6hD4NQk9JB0PYky+ztieIiYZ072mtsNZ8ocN3Z3bEoBALeJVgDQ/Y+Sdz57uPFwe8W4coOgRthJANEqIDNibgTGLWOGZecxkT0N67PZHVSwuZ6/MrlyZRvbS6slzC5wFbxXgiG/t98fRWG5xuc6Up1wZhSUfDm1NHmd72da8tYW+MH+6OXX4ncfni8oXRT4dgq4pfXcEVV1cCuUIsk1vfOTeVCdsznSUMM3hz/o0juZnjG4M9iRBWmr02O3h3+uhXEc9VymSuLRdWcwU8Lr+qDNgsrm/9di/fhWQoR7YDZkJ2hoJ2rixsTgzRkVCqt/VXyPS+rSHqNc1gunFTHX/XnqYqDr+CU89lA/nttcKf93JXprNHqEybrdjqyFGOzHBnemww0UXEI6GHzaqgTFZXL9EZjXKhyFXBcley9Cw29hoLKG4/KWzHslurzNrPHw0R1zHtj35TDNdncBPjMdBe6+c6mRisc1RVyUCQo9AYOSwnlxXmlnWWlwHPnv1V3HqcTT8qbK9+c/NSmwNssjVAxrpJt/UGiT6yayYVwlc4HK1SDXM5WpVSWytFyjiDlWVUFRt49vxJsfg4n1su5B9l07+ciqIOsxQ0yGoaFY3tUYNRJ+Vx2KzdApXK3aiWs9l7TRpPDS9cXl7DLvsf5LDNYFfyNBUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEu0lEQVQ4yxXP2VMaBwDH8X1rJ5MUEBWVaxFQkMOAAZR7l10WloUFXOOFYozxymHUmFYTk1rr5GjM0el02nTSTsemRzqd6ZXMZNJJH9JJtEdqinLsGkBANOn0pZ28l/wBn/n+fgC/nNMgFesMDU55DVkPHpLKxhTqGdgetRFBOBpsJj9AqTN+q80gNchFKh5vDKxGQZmTL2Lv2QOoLVq1RddRL6Jk8hNK5ZRK822kP9kWeoC734XQUxayG93f6TEjZiuqa7aIhHN1wnZJXahJNdDtASKjhMeoGmjSHDPr5z2mYWvgYf/ITld/vrs/Hwz/5A9fheE5GLKrnKMa/YBcdhasGVarSFi/2OcHLs4QN8bDfQh+K+i8FrSfDfYVZxf+W1n798Ef2d6DeTLwN+VfJ7FlAr0N2XxShUsgsmrUlr2KjnoZMH+SWLo+MT08stDW90UHHh/q3Tk99yKZe5HKbQ4MMzjBBLybpCdHItmAc8lhVMslCimorAWlEjHw9lT7D0uvL50fPD7Ufy0SLhw7zHg9hemZ3PgEjRO0P8AQ2AaBpnA4DhnvhxDMqFHWiku4vlYETI9Qs0fCb02G5qf8N+ZGM709TACnvQjtdTMBf8qHp3zuFA4l3faVFuMtytVqUcpAsVwslIoFQA9m6PDbewNOCtv3/dHozv7WZMDDkDjt99IEnvRhSRyJY44EYv1So76I1B8wS0BRCQukYiEw7G441hfsJg+SWMcnkdFVn48mS9jNEAjtQxM4nMAcMdS6DrW8KZG1yiqiTfxakVBWKosEwOKJ9jOD7on+tiASwuDohxZnIeSm/cgG4Ur54ITXvu62xpDmlZZ9BwRCHZelr2BJxXyJsEbMrwLu37l5slV7bjr89VTXZ7B12evMhlGGgGkCKl2NY/YY2rKOmG7r1eJdu6tf3dUiqKgTvZQSIR/IFJLnx1rHI661icHnYVc6hD4NQk9JB0PYky+ztieIiYZ072mtsNZ8ocN3Z3bEoBALeJVgDQ/Y+Sdz57uPFwe8W4coOgRthJANEqIDNibgTGLWOGZecxkT0N67PZHVSwuZ6/MrlyZRvbS6slzC5wFbxXgiG/t98fRWG5xuc6Up1wZhSUfDm1NHmd72da8tYW+MH+6OXX4ncfni8oXRT4dgq4pfXcEVV1cCuUIsk1vfOTeVCdsznSUMM3hz/o0juZnjG4M9iRBWmr02O3h3+uhXEc9VymSuLRdWcwU8Lr+qDNgsrm/9di/fhWQoR7YDZkJ2hoJ2rixsTgzRkVCqt/VXyPS+rSHqNc1gunFTHX/XnqYqDr+CU89lA/nttcKf93JXprNHqEybrdjqyFGOzHBnemww0UXEI6GHzaqgTFZXL9EZjXKhyFXBcley9Cw29hoLKG4/KWzHslurzNrPHw0R1zHtj35TDNdncBPjMdBe6+c6mRisc1RVyUCQo9AYOSwnlxXmlnWWlwHPnv1V3HqcTT8qbK9+c/NSmwNssjVAxrpJt/UGiT6yayYVwlc4HK1SDXM5WpVSWytFyjiDlWVUFRt49vxJsfg4n1su5B9l07+ciqIOsxQ0yGoaFY3tUYNRJ+Vx2KzdApXK3aiWs9l7TRpPDS9cXl7DLvsf5LDNYFfyNBUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;me&quot;
-        title=&quot;&quot;
-        src=&quot;/static/me-f307749221a6f1e4d6ad8902a477a410-fb8a0.png&quot;
-        srcset=&quot;/static/me-f307749221a6f1e4d6ad8902a477a410-1a291.png 148w,
-/static/me-f307749221a6f1e4d6ad8902a477a410-2bc4a.png 295w,
-/static/me-f307749221a6f1e4d6ad8902a477a410-fb8a0.png 590w,
-/static/me-f307749221a6f1e4d6ad8902a477a410-d9514.png 600w&quot;
+        title=&quot;me&quot;
+        src=&quot;/static/f307749221a6f1e4d6ad8902a477a410/fcda8/me.png&quot;
+        srcset=&quot;/static/f307749221a6f1e4d6ad8902a477a410/12f09/me.png 148w,
+/static/f307749221a6f1e4d6ad8902a477a410/e4a3f/me.png 295w,
+/static/f307749221a6f1e4d6ad8902a477a410/fcda8/me.png 590w,
+/static/f307749221a6f1e4d6ad8902a477a410/0a47e/me.png 600w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/p&gt;
-&lt;p&gt;
-  &lt;a
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/goodies-9038b5ee64e4581087597fa88e6f57ae-d9514.png&quot;
+    href=&quot;/static/9038b5ee64e4581087597fa88e6f57ae/0a47e/goodies.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEzUlEQVQ4yw3PZ1OaBwAA4PcStXEUXCxZvggCgggSBAULojiIE42igCCKiIrsqSIq4kxFBJO4oleNNdFIjEmbqWnOa0ZHxvWu/dJ+yQ+pP+D58ABQSDKTTvv8/vU/H8///vjm67+fvv73+a8/T9+/OX77Ovbi8c7JwcbTo63Y3s3NaHAp4HDrmw1t4gG5yNReBnxzJUHC53559+rju5dvz44/nD/+/Mfpm7PYiye7z57sPjpcPznajN1bO9y7dXtpMjRld/Y2DbZLBtrENpUEuBQfx2MXnD768dXJ/vOHd58+3P3l2eFv5z9/+f3004eXv56dnD29f34a+yl2585KIBSw2XsazJ1VJkWFs6sauBR3mV1ADwXtPq9yNqi7MW8ILw5urHv396cPDmeOYvMHB3OxWOju9szWykQoYLJoay3qarOy3N1dA8TFX2bl0xxysaFTYhlq9DhaXfZms6nO6Wzxj6vGJ9sDkx0jY2KPt2wzMjHr05u7rw0pJY6uar+hEUhJSizMpw+Ki43KNrfDGJjw+kdcXqd5xGVdnAkuzk0vL4YXZg0mM29l3h1wdTn7GgbaRWOGxqCpFUiHphbl50lL2YVo+AibailiDJYW6cUCTY24qbLMpLi+5bDP+OUaLX3UonH3Nzn1dTNO1aJHM29XAKlQKAXEiflMUVbGKh62jMkI4xHf4xBzWMQ0iJ0mZ0cIoLGFqdVxJt26MbvCppNGJ/pXx/tujvYAiUlJ8IxUDoNUByLWc7OW8IgQDraIhc+jMucQGTcQaZNoGBaRrmyV3F6wBl2d7u6qYb30Ake8XUBicjIsPZVFI3TQsvdYOVEcPJKVEYVDw3DIEiItgsqwozIz0yDGnubNsMuprp6U0swSur6BN95bC6RAICh4Jp8GevX1L9c998a6tgeaNzokO43CtZL8jVxcPwae/G2yqrl8Ozrq7W+xcEEzAyWjwK/lYS8wFIPKquFQIqOK0/2xB6uO8NzA/KzxeHd2f8V1HDbb5OWJVxKulXOWguap4T6zXKjlgkPfEYNtQiApOQWFQFawqRFf5/Pd8Z2wYyfq3VvxrYWG10KuR1vDapkgIT5eXEz32dQ+h27KqdbUcWtYoKWCBkChqWg4or6U/WDD/2De9oNRfn/BuTzrdKgb/Sb14U1HvYgRF59QwiY7B9qdxs5Jh9ahrVZUsyUkBEBAoSlovLyi5MCn2a7M3+DiN4W0aG/bYnXpplV7dGeihJlzOS6uTMD2DKn8VnXA0W3qrO2QsETgBUZmUbB4t7L+SM7ZljJvtYgiQvoyI3ulgh+RChd6W6pKaAhYmojPsuhkQXfPmFVlUNaWF+bmIjMALAxJwOA0XOqzwboj2dUoGb7KxIQ4lD4CRo6GyZHpAiYJjUznsvOGemRek9KmbzFqZVXF9Mw0KICDIUlYbCUV31rMsNQKPFTEQuXVcblUUUqVFeU2omEpKUlJiVcYFLBfU281XDfpZIaupgYJFwvPBEAk5qJNIxKzs7C0HCKVQKIQSIzsbA4R5IIYXg42E5YKgSRxWGSvWeUxKzxmlbW/o1tRV0gGARIah4OjyDgiK7dAwODxGSVF9KJcHImEIxJxhLwcCpOcRwaxvIK8pkphfYVAViVsk0qkfB6LAP4PUj+qTSjnCMgAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEzUlEQVQ4yw3PZ1OaBwAA4PcStXEUXCxZvggCgggSBAULojiIE42igCCKiIrsqSIq4kxFBJO4oleNNdFIjEmbqWnOa0ZHxvWu/dJ+yQ+pP+D58ABQSDKTTvv8/vU/H8///vjm67+fvv73+a8/T9+/OX77Ovbi8c7JwcbTo63Y3s3NaHAp4HDrmw1t4gG5yNReBnxzJUHC53559+rju5dvz44/nD/+/Mfpm7PYiye7z57sPjpcPznajN1bO9y7dXtpMjRld/Y2DbZLBtrENpUEuBQfx2MXnD768dXJ/vOHd58+3P3l2eFv5z9/+f3004eXv56dnD29f34a+yl2585KIBSw2XsazJ1VJkWFs6sauBR3mV1ADwXtPq9yNqi7MW8ILw5urHv396cPDmeOYvMHB3OxWOju9szWykQoYLJoay3qarOy3N1dA8TFX2bl0xxysaFTYhlq9DhaXfZms6nO6Wzxj6vGJ9sDkx0jY2KPt2wzMjHr05u7rw0pJY6uar+hEUhJSizMpw+Ki43KNrfDGJjw+kdcXqd5xGVdnAkuzk0vL4YXZg0mM29l3h1wdTn7GgbaRWOGxqCpFUiHphbl50lL2YVo+AibailiDJYW6cUCTY24qbLMpLi+5bDP+OUaLX3UonH3Nzn1dTNO1aJHM29XAKlQKAXEiflMUVbGKh62jMkI4xHf4xBzWMQ0iJ0mZ0cIoLGFqdVxJt26MbvCppNGJ/pXx/tujvYAiUlJ8IxUDoNUByLWc7OW8IgQDraIhc+jMucQGTcQaZNoGBaRrmyV3F6wBl2d7u6qYb30Ake8XUBicjIsPZVFI3TQsvdYOVEcPJKVEYVDw3DIEiItgsqwozIz0yDGnubNsMuprp6U0swSur6BN95bC6RAICh4Jp8GevX1L9c998a6tgeaNzokO43CtZL8jVxcPwae/G2yqrl8Ozrq7W+xcEEzAyWjwK/lYS8wFIPKquFQIqOK0/2xB6uO8NzA/KzxeHd2f8V1HDbb5OWJVxKulXOWguap4T6zXKjlgkPfEYNtQiApOQWFQFawqRFf5/Pd8Z2wYyfq3VvxrYWG10KuR1vDapkgIT5eXEz32dQ+h27KqdbUcWtYoKWCBkChqWg4or6U/WDD/2De9oNRfn/BuTzrdKgb/Sb14U1HvYgRF59QwiY7B9qdxs5Jh9ahrVZUsyUkBEBAoSlovLyi5MCn2a7M3+DiN4W0aG/bYnXpplV7dGeihJlzOS6uTMD2DKn8VnXA0W3qrO2QsETgBUZmUbB4t7L+SM7ZljJvtYgiQvoyI3ulgh+RChd6W6pKaAhYmojPsuhkQXfPmFVlUNaWF+bmIjMALAxJwOA0XOqzwboj2dUoGb7KxIQ4lD4CRo6GyZHpAiYJjUznsvOGemRek9KmbzFqZVXF9Mw0KICDIUlYbCUV31rMsNQKPFTEQuXVcblUUUqVFeU2omEpKUlJiVcYFLBfU281XDfpZIaupgYJFwvPBEAk5qJNIxKzs7C0HCKVQKIQSIzsbA4R5IIYXg42E5YKgSRxWGSvWeUxKzxmlbW/o1tRV0gGARIah4OjyDgiK7dAwODxGSVF9KJcHImEIxJxhLwcCpOcRwaxvIK8pkphfYVAViVsk0qkfB6LAP4PUj+qTSjnCMgAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;goodies&quot;
-        title=&quot;&quot;
-        src=&quot;/static/goodies-9038b5ee64e4581087597fa88e6f57ae-fb8a0.png&quot;
-        srcset=&quot;/static/goodies-9038b5ee64e4581087597fa88e6f57ae-1a291.png 148w,
-/static/goodies-9038b5ee64e4581087597fa88e6f57ae-2bc4a.png 295w,
-/static/goodies-9038b5ee64e4581087597fa88e6f57ae-fb8a0.png 590w,
-/static/goodies-9038b5ee64e4581087597fa88e6f57ae-d9514.png 600w&quot;
+        title=&quot;goodies&quot;
+        src=&quot;/static/9038b5ee64e4581087597fa88e6f57ae/fcda8/goodies.png&quot;
+        srcset=&quot;/static/9038b5ee64e4581087597fa88e6f57ae/12f09/goodies.png 148w,
+/static/9038b5ee64e4581087597fa88e6f57ae/e4a3f/goodies.png 295w,
+/static/9038b5ee64e4581087597fa88e6f57ae/fcda8/goodies.png 590w,
+/static/9038b5ee64e4581087597fa88e6f57ae/0a47e/goodies.png 600w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/p&gt;
-&lt;p&gt;
-  &lt;a
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/firstones-3a9f453a56c10b225cfef07aad65ed55-d9514.png&quot;
+    href=&quot;/static/3a9f453a56c10b225cfef07aad65ed55/0a47e/firstones.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEvElEQVQ4yxXMW0xTBwAG4PPitNBzTk9P23NKr7S0lLbn0h7aQ0tLC1jacZGLXEqpbREKLcygYClImVpAKwYVFUV3ixrnJXh3iZnZ4uYcM0qMu2TMPWjinFuWPSy7uAczVpLv4X/4/x+ghRAlAGlhFkwJVtEiiBRmZQOPXAVTGI/EEFrMt8gxl0FZ66DmZmeWv/8GIPhcUgASKEii2ReYEKzOVol4NM43iflmiZCRYcUKnFVL3IS61mFq9Lk2Bf2doSBQoVVWFioqtPIKrSIbPEX5XkN+NamupjTVlLaWKaxjdHXFhjqL0WfWlxGFJrVSb7RS9noD4wECNmKVnfDbjG0lBr/d2F5qDDiIjjKy3Ul2uOiA29RRbg5XWYIeCyZAUIhT19yV2HshMjANRJyGiNMYdhSFy4wRNxF2E5EKMlRBRNbTXV46WG7cVEFsrjJFa5jummJLkYIuEIdjIzNnHyT3nQcGqsmBGuLtkGe4xTbUZE62WbNG/NZUyJnp3zDUYt3eat3RYRsPl6ZC9kzctyda098/dujCUvrwZWAixCab6bF2NtlqTrSYkgHrVI9rMupOd7vHwmVbmk099YZYA5UIluzscqd71g/72Z7e4dvXvjpydAGYDFvbnCpdXo5JBSsxyFcs3Rmx7ews3dPrKKclAmiNVPgGCq7ta6QPD1a9M+rNxN2b+4bmj19MjM8CH+5u3B11uRhNvUvf6tFNJ5oWF7Y/vJH68U5m4eS29Gjk4J74kX39S7dnf32c/uvx4JPF9yKxLb7ekaZ4Enhw5cAXC/vvXppZ+mjql3up54+u//Pi7r9/fP361Xcrr5+t+u/pysrTlb9/Xvnz2srLuVc/PQ1H+zr7xgLdQ8DiYHwkum20I3J+uvv+gciXO1KnM6OzJ+cfnNv/8N33r8zM3T05ee/yoTtHjywvDL+4N3FzYq4zEt3aO9jWHAY6HLoNTmODQ7+13frBqDNWXxLzWxNRz65ez/Rgy3jcl9lWk96+cSrhv3Jw45NL9cfGO/0bA+UbQvbKBuDSrtYz6eCZicDNw8H7p7qWzyUeXRz+/HL62aeZH27sff7ZzOLprfOTvTdOJE9NdJ2dbD+R6na7PRZPW7GrHji7N3r1UP/x8dBQyPvxfOzqsYHr80O/P5r/benot7f23TqTYs26t0Leza3ORq/FU6ILNzpYtoS215psXiBfLNIrJVoZrhCL1Hm4gMvtay17+cnE8vXR8dibVXaLxaCItZVWO3RuRuWxquJNNmNRIQ8VoUIMKBSBrAo1S+EiQa4KBUFODksWjmwq3+23qXCYD62to2TNrM5UIJVJRBaDOuizaNQaiMvlcNYBIh5XgaFSAYzBuRIk24ZIjbKxnOmupLusqiIB0oCjwTLazejXcHK0arkmXypX6pS4BARhAMrlgjlcOBfk5YIyLqKFRTQfXy9VV8rVblmBK09lw+UUJtMgmIQnlENoASIUCqUcUMTJAQEtJFRCGAEJSBgnYDGLiClUwfBlLCq3iVQukcwqUDCokuJLzIiU4ssYGMdBNIeLctblAhYYZyHMAmM2OM8M4wxfakekThQzoaiGB8tBrhKEivliF4LZEYzhiU0wpkfEGhjTcnn/A4pTc/B02NnCAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEvElEQVQ4yxXMW0xTBwAG4PPitNBzTk9P23NKr7S0lLbn0h7aQ0tLC1jacZGLXEqpbREKLcygYClImVpAKwYVFUV3ixrnJXh3iZnZ4uYcM0qMu2TMPWjinFuWPSy7uAczVpLv4X/4/x+ghRAlAGlhFkwJVtEiiBRmZQOPXAVTGI/EEFrMt8gxl0FZ66DmZmeWv/8GIPhcUgASKEii2ReYEKzOVol4NM43iflmiZCRYcUKnFVL3IS61mFq9Lk2Bf2doSBQoVVWFioqtPIKrSIbPEX5XkN+NamupjTVlLaWKaxjdHXFhjqL0WfWlxGFJrVSb7RS9noD4wECNmKVnfDbjG0lBr/d2F5qDDiIjjKy3Ul2uOiA29RRbg5XWYIeCyZAUIhT19yV2HshMjANRJyGiNMYdhSFy4wRNxF2E5EKMlRBRNbTXV46WG7cVEFsrjJFa5jummJLkYIuEIdjIzNnHyT3nQcGqsmBGuLtkGe4xTbUZE62WbNG/NZUyJnp3zDUYt3eat3RYRsPl6ZC9kzctyda098/dujCUvrwZWAixCab6bF2NtlqTrSYkgHrVI9rMupOd7vHwmVbmk099YZYA5UIluzscqd71g/72Z7e4dvXvjpydAGYDFvbnCpdXo5JBSsxyFcs3Rmx7ews3dPrKKclAmiNVPgGCq7ta6QPD1a9M+rNxN2b+4bmj19MjM8CH+5u3B11uRhNvUvf6tFNJ5oWF7Y/vJH68U5m4eS29Gjk4J74kX39S7dnf32c/uvx4JPF9yKxLb7ekaZ4Enhw5cAXC/vvXppZ+mjql3up54+u//Pi7r9/fP361Xcrr5+t+u/pysrTlb9/Xvnz2srLuVc/PQ1H+zr7xgLdQ8DiYHwkum20I3J+uvv+gciXO1KnM6OzJ+cfnNv/8N33r8zM3T05ee/yoTtHjywvDL+4N3FzYq4zEt3aO9jWHAY6HLoNTmODQ7+13frBqDNWXxLzWxNRz65ez/Rgy3jcl9lWk96+cSrhv3Jw45NL9cfGO/0bA+UbQvbKBuDSrtYz6eCZicDNw8H7p7qWzyUeXRz+/HL62aeZH27sff7ZzOLprfOTvTdOJE9NdJ2dbD+R6na7PRZPW7GrHji7N3r1UP/x8dBQyPvxfOzqsYHr80O/P5r/benot7f23TqTYs26t0Leza3ORq/FU6ILNzpYtoS215psXiBfLNIrJVoZrhCL1Hm4gMvtay17+cnE8vXR8dibVXaLxaCItZVWO3RuRuWxquJNNmNRIQ8VoUIMKBSBrAo1S+EiQa4KBUFODksWjmwq3+23qXCYD62to2TNrM5UIJVJRBaDOuizaNQaiMvlcNYBIh5XgaFSAYzBuRIk24ZIjbKxnOmupLusqiIB0oCjwTLazejXcHK0arkmXypX6pS4BARhAMrlgjlcOBfk5YIyLqKFRTQfXy9VV8rVblmBK09lw+UUJtMgmIQnlENoASIUCqUcUMTJAQEtJFRCGAEJSBgnYDGLiClUwfBlLCq3iVQukcwqUDCokuJLzIiU4ssYGMdBNIeLctblAhYYZyHMAmM2OM8M4wxfakekThQzoaiGB8tBrhKEivliF4LZEYzhiU0wpkfEGhjTcnn/A4pTc/B02NnCAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;firstones&quot;
-        title=&quot;&quot;
-        src=&quot;/static/firstones-3a9f453a56c10b225cfef07aad65ed55-fb8a0.png&quot;
-        srcset=&quot;/static/firstones-3a9f453a56c10b225cfef07aad65ed55-1a291.png 148w,
-/static/firstones-3a9f453a56c10b225cfef07aad65ed55-2bc4a.png 295w,
-/static/firstones-3a9f453a56c10b225cfef07aad65ed55-fb8a0.png 590w,
-/static/firstones-3a9f453a56c10b225cfef07aad65ed55-d9514.png 600w&quot;
+        title=&quot;firstones&quot;
+        src=&quot;/static/3a9f453a56c10b225cfef07aad65ed55/fcda8/firstones.png&quot;
+        srcset=&quot;/static/3a9f453a56c10b225cfef07aad65ed55/12f09/firstones.png 148w,
+/static/3a9f453a56c10b225cfef07aad65ed55/e4a3f/firstones.png 295w,
+/static/3a9f453a56c10b225cfef07aad65ed55/fcda8/firstones.png 590w,
+/static/3a9f453a56c10b225cfef07aad65ed55/0a47e/firstones.png 600w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/p&gt;
-&lt;p&gt;
-  &lt;a
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/cup-f6c2aac608d9a2f1309ed0203583753a-d9514.png&quot;
+    href=&quot;/static/f6c2aac608d9a2f1309ed0203583753a/0a47e/cup.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEmElEQVQ4y2Pg4+Pl4+Ph5+MR4OcVEuQDkv526tNLPZe2BG2YHHfrQM+jk9Oenp979eC0eX3ZSUFO5oZ6UhJiggJ8Anz8DECdUM0CvMJC/NzcXBNLndf2hOTHmC2blLNpUcXqOTm7VlUc3lbz6EzLy2MNp/asPbRl7cTOpujQQJhmfqhmLi7unHAjI3VxHXXtkzs33D594MKhbXv3Lzh0YNXFPYtvHWw/e277w8cnbl89dvX0bqhmoGsFBPhANvPwhriodJRFrpo79eqJHSd3rzuwdf7idbUrd3ac3Np468CE+3cunLuy9cq5vQe2LEXXzMvHb28ss2lWzYk9ay+f3nn72vH7t44e3rl439bF+1eXn9jec+fW6TePrz+5daamOJOBF+pssGZhAR4ebjdbg7WzmnetW3j20IaFs3uPH9hy/9qR21cOHVzd0zgzbO/hZXcvnzx3eJODtSkDLy8PLy830M+CgnxAhpqK0oLeyqkVvluXT89MijDV1wjxc7557cSNS9sOL0tet6nn9LGdV87s3bxylrKiLDzAeIWEBDg5OYrSEg+unjuzwn12RViUr3l7ZcTE1pSlU2v3Lave2BWwob389MGtNy4e7G+vFRMVBtnMxwsKaqC1KgqyO5bN2dDX3JFg/Hhvy4zmODsjRW97/ePLyg/NSJgb47S7JO/0oS1Xzu5PjA4DJgqoZiFBfg4O9qTIoKMbl+6aPbk/1/3toZZvV+fsW1p9+/Ss/7fnHpwa3+9ns7+u5OKxrScPbzXQ1TA31meABDU3N6eUhOjKmX2r503aunjW1NLgC4uzn+9s/HF5xp+7C97va1pR79sZ6rKrMvvKwQ1rV87l4+Ysyk9jAKYtoINFRYVm9zWc3b5q1eSuZWkJUwPNljUHLWwIbYgyW1Tlc25x1swC144Y7y1V2Wc2LQoK9OLn4VqxdAYsngX4clNi1i6YsrSnYXZMSF2YR32ifqGPdlmYY1WM3eIm91pPjTJb/VX5SftndpubGWioKZ47tQesmR9kOQcnu4qSXGFm4sIZPSXZiTnRdm0pVkU++n2Zdiu6w4vcDcucjBakRR/qqXOxNgny97h36zQDMJLglgN9zsHNGWljVuRimRLqMb2neE1v1Lnt7esX9yVYaRXaG0yKDz3QURVpY9zUUPbo7lkGbi5Ofj5efkjG5OcVFuAtMTXIdTJMDDbNSXDrKQ9aOTlv+ZSi0lCbJEPVjhDPjfVFCwpTdm1cfPPKUQY1VUU2dlZg8oA4QVSAz1NROsBcPtldP8pVP9JLvyzCckFLTHexf4CqeJWHzaLC1E3VeXsXTz1zcjfDvKnd2cmx2hoqnFwcrBxs8sJCnmpS/tbSEbqyed4W6f42df4Wk9NcWrO93JQEM831eiL9VpZmrKrMnd9TxbBi3tS1i2bNndydmRyro6kO9IW4AJe7qXSYoVSMhVKBr2Glr+60HMcpZR6W0jzRuiplzpZT0yLWVGROTwlkSA1xn9RSNau/Y9aEzgntDSAjtFRFBbg15IWMlQU89UXCbSQTPJQjLWQd5cX81GQL7Ay6oj3n58cuy08AAILz0+SQwl9pAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEmElEQVQ4y2Pg4+Pl4+Ph5+MR4OcVEuQDkv526tNLPZe2BG2YHHfrQM+jk9Oenp979eC0eX3ZSUFO5oZ6UhJiggJ8Anz8DECdUM0CvMJC/NzcXBNLndf2hOTHmC2blLNpUcXqOTm7VlUc3lbz6EzLy2MNp/asPbRl7cTOpujQQJhmfqhmLi7unHAjI3VxHXXtkzs33D594MKhbXv3Lzh0YNXFPYtvHWw/e277w8cnbl89dvX0bqhmoGsFBPhANvPwhriodJRFrpo79eqJHSd3rzuwdf7idbUrd3ac3Np468CE+3cunLuy9cq5vQe2LEXXzMvHb28ss2lWzYk9ay+f3nn72vH7t44e3rl439bF+1eXn9jec+fW6TePrz+5daamOJOBF+pssGZhAR4ebjdbg7WzmnetW3j20IaFs3uPH9hy/9qR21cOHVzd0zgzbO/hZXcvnzx3eJODtSkDLy8PLy830M+CgnxAhpqK0oLeyqkVvluXT89MijDV1wjxc7557cSNS9sOL0tet6nn9LGdV87s3bxylrKiLDzAeIWEBDg5OYrSEg+unjuzwn12RViUr3l7ZcTE1pSlU2v3Lave2BWwob389MGtNy4e7G+vFRMVBtnMxwsKaqC1KgqyO5bN2dDX3JFg/Hhvy4zmODsjRW97/ePLyg/NSJgb47S7JO/0oS1Xzu5PjA4DJgqoZiFBfg4O9qTIoKMbl+6aPbk/1/3toZZvV+fsW1p9+/Ss/7fnHpwa3+9ns7+u5OKxrScPbzXQ1TA31meABDU3N6eUhOjKmX2r503aunjW1NLgC4uzn+9s/HF5xp+7C97va1pR79sZ6rKrMvvKwQ1rV87l4+Ysyk9jAKYtoINFRYVm9zWc3b5q1eSuZWkJUwPNljUHLWwIbYgyW1Tlc25x1swC144Y7y1V2Wc2LQoK9OLn4VqxdAYsngX4clNi1i6YsrSnYXZMSF2YR32ifqGPdlmYY1WM3eIm91pPjTJb/VX5SftndpubGWioKZ47tQesmR9kOQcnu4qSXGFm4sIZPSXZiTnRdm0pVkU++n2Zdiu6w4vcDcucjBakRR/qqXOxNgny97h36zQDMJLglgN9zsHNGWljVuRimRLqMb2neE1v1Lnt7esX9yVYaRXaG0yKDz3QURVpY9zUUPbo7lkGbi5Ofj5efkjG5OcVFuAtMTXIdTJMDDbNSXDrKQ9aOTlv+ZSi0lCbJEPVjhDPjfVFCwpTdm1cfPPKUQY1VUU2dlZg8oA4QVSAz1NROsBcPtldP8pVP9JLvyzCckFLTHexf4CqeJWHzaLC1E3VeXsXTz1zcjfDvKnd2cmx2hoqnFwcrBxs8sJCnmpS/tbSEbqyed4W6f42df4Wk9NcWrO93JQEM831eiL9VpZmrKrMnd9TxbBi3tS1i2bNndydmRyro6kO9IW4AJe7qXSYoVSMhVKBr2Glr+60HMcpZR6W0jzRuiplzpZT0yLWVGROTwlkSA1xn9RSNau/Y9aEzgntDSAjtFRFBbg15IWMlQU89UXCbSQTPJQjLWQd5cX81GQL7Ay6oj3n58cuy08AAILz0+SQwl9pAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;cup&quot;
-        title=&quot;&quot;
-        src=&quot;/static/cup-f6c2aac608d9a2f1309ed0203583753a-fb8a0.png&quot;
-        srcset=&quot;/static/cup-f6c2aac608d9a2f1309ed0203583753a-1a291.png 148w,
-/static/cup-f6c2aac608d9a2f1309ed0203583753a-2bc4a.png 295w,
-/static/cup-f6c2aac608d9a2f1309ed0203583753a-fb8a0.png 590w,
-/static/cup-f6c2aac608d9a2f1309ed0203583753a-d9514.png 600w&quot;
+        title=&quot;cup&quot;
+        src=&quot;/static/f6c2aac608d9a2f1309ed0203583753a/fcda8/cup.png&quot;
+        srcset=&quot;/static/f6c2aac608d9a2f1309ed0203583753a/12f09/cup.png 148w,
+/static/f6c2aac608d9a2f1309ed0203583753a/e4a3f/cup.png 295w,
+/static/f6c2aac608d9a2f1309ed0203583753a/fcda8/cup.png 590w,
+/static/f6c2aac608d9a2f1309ed0203583753a/0a47e/cup.png 600w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/p&gt;
-&lt;p&gt;
-  &lt;a
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/andrew-487fb062717933deac75ccf89876f7d0-d9514.png&quot;
+    href=&quot;/static/487fb062717933deac75ccf89876f7d0/0a47e/andrew.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block; ; max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEtUlEQVQ4yy2OaVATZxjH1wOSLIk5dtlwbk1CEnKQZHNssklISEKOzcYQuREMGAPeEbUog9RBtIwjFbUO1qHCgE0tckgRHVIailqPjmOpB22nnX6x40z7pV9q25n6xS5jn+edeed53vf3//+Bjr31R/ZHu/Y3D/QenBzuu/zBkXDQoceKDQaFy6V3OnUeN06R1oqQzesxG00Kk0Fp0itKVBKdRgaMXz42dK5z6MOjH5/rHuhJdOxp9HkIs0llMZeESIvPY6RIIhwqpflytxHTyZrq/fHmkExWgGmKgJmxvvTsxZ/uT/y2svRyZSl9Y7SxnrTgSqdDXxUuC/iIYICgAgTpM7vLjBZcjRsVekyu1RRpVRJgbrhvbvz8g4Xki+X0Hyu3l9MTbbFqm1nlL8e31JWHSCvtTJEW0oe7nQaLWUWTmpIiTCtTK0TA1QvHvp248HghuXxv9vn9uYeLU7ta6ywmJZ25uSkQpqy0JxWwkH7aGSNwlU4n02gkJkwmFxcA50933vz07LPU2Iuvp5/enrmTGk/sqDUZpDQci/orQ7agFw/Ryf24za7R48oym9aglap1UrRQCEx+9N7klf7U1IUn8yM/LH32eP7Kvu1VBq0k6MO3NXqrQ1bSY/C4sU0+866Iq1OvGmmJDEbc3Va9KQcBbp3YnTqZeHDt9NP00JPF4UdfDm/bQillBR6HtqHSGfDjLof+3Qbq1t6td+qou7Gapbb6Rcr9nbfsWawRGC0nPrHopoOOh2cOfXPq8L2Lx9vqKbW00Ikra/xEIlh6lfI8rQ2ttDffbKkea6ud9Tiftcd/P3Ps9eBpYFApn45SU1Hy6mbXRMT1ud+Raq2ZiFclybIvWqoftdbON1VcpHxDdZse9CUmE9GDYerO4d1/72z9p7sbGCXtybBzMh4eKTNe3xEZcxhubAunouSsRTcfsMfLbVpx0YnmrbGgt7eRbFDL/CgaMxr/7O543d0LXKEc70s2jnjNs/FNSRd+zWNOtYSmDep0vCK9PVJTXMQCQRGCYBKJraSEz+OvYzE1cPbLo0dfdXUBi6Szi7K3FIv6CW3SbhgtxYZ06hG39VJT5Z4IlbuBn4fkiHPzpLl5hTCigeEDRux5V+eb4z3LNZXA9z27HlcFlhvDv8Trfo3VnwiXlmJawkzYbDa9xboRRRGBIBuCeZlgpVz+Y8ehN6f6X10aSBFEpUwEDJOlQ1rFTCy8kKj7Kha+2xJpJ+1ofkFetlCl1nj9PpFIUpItPBsM/rXv0L8zyZ8nBmfao15YALLZwFadrKFYtLNcf9Br2C0r7PEYT/lN7WhOsBgVyRXyInlELb3utd/bHFqoDibbIgfMGhUMgTwOBPEAMZqPQPxcPm+jEBIjkAiBoawslMMWF+RxYCSXwYjqpQc8WHMxGlGJVIiAmZG5Zu16BoPBAlkALysri8VigyA7C2QxmZkMBirkIRAP5HBZLJCRmbl+7bqCfCFPwAXWrluTkZHJoPv/AvIEfITPFUI8oYDL37CqIMmHcmAu/UbLM5lv/zJWKcbqeVsZ9EzDYhgWwdnvwDCaDaEwlCsQcNlskEWHYNFSAi6Xw6FjsVYX9OrtxWSCIMhhs/8DvTVstssujY8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAIAAAAC64paAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEtUlEQVQ4yy2OaVATZxjH1wOSLIk5dtlwbk1CEnKQZHNssklISEKOzcYQuREMGAPeEbUog9RBtIwjFbUO1qHCgE0tckgRHVIailqPjmOpB22nnX6x40z7pV9q25n6xS5jn+edeed53vf3//+Bjr31R/ZHu/Y3D/QenBzuu/zBkXDQoceKDQaFy6V3OnUeN06R1oqQzesxG00Kk0Fp0itKVBKdRgaMXz42dK5z6MOjH5/rHuhJdOxp9HkIs0llMZeESIvPY6RIIhwqpflytxHTyZrq/fHmkExWgGmKgJmxvvTsxZ/uT/y2svRyZSl9Y7SxnrTgSqdDXxUuC/iIYICgAgTpM7vLjBZcjRsVekyu1RRpVRJgbrhvbvz8g4Xki+X0Hyu3l9MTbbFqm1nlL8e31JWHSCvtTJEW0oe7nQaLWUWTmpIiTCtTK0TA1QvHvp248HghuXxv9vn9uYeLU7ta6ywmJZ25uSkQpqy0JxWwkH7aGSNwlU4n02gkJkwmFxcA50933vz07LPU2Iuvp5/enrmTGk/sqDUZpDQci/orQ7agFw/Ryf24za7R48oym9aglap1UrRQCEx+9N7klf7U1IUn8yM/LH32eP7Kvu1VBq0k6MO3NXqrQ1bSY/C4sU0+866Iq1OvGmmJDEbc3Va9KQcBbp3YnTqZeHDt9NP00JPF4UdfDm/bQillBR6HtqHSGfDjLof+3Qbq1t6td+qou7Gapbb6Rcr9nbfsWawRGC0nPrHopoOOh2cOfXPq8L2Lx9vqKbW00Ikra/xEIlh6lfI8rQ2ttDffbKkea6ud9Tiftcd/P3Ps9eBpYFApn45SU1Hy6mbXRMT1ud+Raq2ZiFclybIvWqoftdbON1VcpHxDdZse9CUmE9GDYerO4d1/72z9p7sbGCXtybBzMh4eKTNe3xEZcxhubAunouSsRTcfsMfLbVpx0YnmrbGgt7eRbFDL/CgaMxr/7O543d0LXKEc70s2jnjNs/FNSRd+zWNOtYSmDep0vCK9PVJTXMQCQRGCYBKJraSEz+OvYzE1cPbLo0dfdXUBi6Szi7K3FIv6CW3SbhgtxYZ06hG39VJT5Z4IlbuBn4fkiHPzpLl5hTCigeEDRux5V+eb4z3LNZXA9z27HlcFlhvDv8Trfo3VnwiXlmJawkzYbDa9xboRRRGBIBuCeZlgpVz+Y8ehN6f6X10aSBFEpUwEDJOlQ1rFTCy8kKj7Kha+2xJpJ+1ofkFetlCl1nj9PpFIUpItPBsM/rXv0L8zyZ8nBmfao15YALLZwFadrKFYtLNcf9Br2C0r7PEYT/lN7WhOsBgVyRXyInlELb3utd/bHFqoDibbIgfMGhUMgTwOBPEAMZqPQPxcPm+jEBIjkAiBoawslMMWF+RxYCSXwYjqpQc8WHMxGlGJVIiAmZG5Zu16BoPBAlkALysri8VigyA7C2QxmZkMBirkIRAP5HBZLJCRmbl+7bqCfCFPwAXWrluTkZHJoPv/AvIEfITPFUI8oYDL37CqIMmHcmAu/UbLM5lv/zJWKcbqeVsZ9EzDYhgWwdnvwDCaDaEwlCsQcNlskEWHYNFSAi6Xw6FjsVYX9OrtxWSCIMhhs/8DvTVstssujY8AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;andrew&quot;
-        title=&quot;&quot;
-        src=&quot;/static/andrew-487fb062717933deac75ccf89876f7d0-fb8a0.png&quot;
-        srcset=&quot;/static/andrew-487fb062717933deac75ccf89876f7d0-1a291.png 148w,
-/static/andrew-487fb062717933deac75ccf89876f7d0-2bc4a.png 295w,
-/static/andrew-487fb062717933deac75ccf89876f7d0-fb8a0.png 590w,
-/static/andrew-487fb062717933deac75ccf89876f7d0-d9514.png 600w&quot;
+        title=&quot;andrew&quot;
+        src=&quot;/static/487fb062717933deac75ccf89876f7d0/fcda8/andrew.png&quot;
+        srcset=&quot;/static/487fb062717933deac75ccf89876f7d0/12f09/andrew.png 148w,
+/static/487fb062717933deac75ccf89876f7d0/e4a3f/andrew.png 295w,
+/static/487fb062717933deac75ccf89876f7d0/fcda8/andrew.png 590w,
+/static/487fb062717933deac75ccf89876f7d0/0a47e/andrew.png 600w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/p&gt;</content:encoded></item><item><title><![CDATA[Get in touch]]></title><description><![CDATA[I would love you to get in touch with me, I do not actively place my email address in the wild, so you can get in touch by  tweeting me  or…]]></description><link>https://mintuz.com/get-in-touch</link><guid isPermaLink="false">https://mintuz.com/get-in-touch</guid><pubDate>Sun, 03 Feb 2013 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;I would love you to get in touch with me, I do not actively place my email address in the wild, so you can get in touch by &lt;a href=&quot;https://twitter.com/mintuz&quot;&gt;tweeting me&lt;/a&gt; or by visiting my &lt;a href=&quot;https://www.linkedin.com/in/adambulmer&quot;&gt;Linkedin&lt;/a&gt;&lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Get in touch]]></title><description><![CDATA[I would love you to get in touch with me, I do not actively place my email address in the wild, so you can get in touch by tweeting me or by…]]></description><link>https://mintuz.com/get-in-touch</link><guid isPermaLink="false">https://mintuz.com/get-in-touch</guid><pubDate>Sun, 03 Feb 2013 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;I would love you to get in touch with me, I do not actively place my email address in the wild, so you can get in touch by &lt;a href=&quot;https://twitter.com/mintuz&quot;&gt;tweeting me&lt;/a&gt; or by visiting my &lt;a href=&quot;https://www.linkedin.com/in/adambulmer&quot;&gt;Linkedin&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Career opportunity &lt;strong&gt;&lt;a href=&quot;https://www.linkedin.com/in/adambulmer&quot;&gt;Linkedin&lt;/a&gt;&lt;/strong&gt; or &lt;strong&gt;&lt;a href=&quot;https://twitter.com/mintuz&quot;&gt;tweet me&lt;/a&gt;&lt;/strong&gt; and we can DM.&lt;/li&gt;
 &lt;li&gt;Development question &lt;strong&gt;&lt;a href=&quot;https://twitter.com/mintuz&quot;&gt;tweet me&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
