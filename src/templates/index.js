@@ -9,7 +9,7 @@ import moonpigImage from '../images/moonpig_homepage.png';
 import bookingGoImage from '../images/booking.jpg';
 import bbcLiveImage from '../images/bbc_live.png';
 import bbcHomePageImage from '../images/bbc_homepage.png';
-import aweImage from '../images/awe.png';
+import workoutBotImage from '../images/workout_bot.png';
 
 import bbcLogo from '../images/bbc.svg';
 import bookingLogo from '../images/booking.svg';
@@ -77,12 +77,12 @@ const projectData = [
     link: 'https://bbc.co.uk'
   },
   {
-    title: 'AWE',
-    jobTitle: 'Lead Frontend Developer',
-    description: 'AWE was the last website I developed at Forepoint before joining the BBC. They have been at the forefront of the UK nuclear deterrence programme for more than 60 years and I was responsible for creating the frontend of the website.',
-    image: aweImage,
-    imageAlt: 'An image of the AWE Homepage',
-    link: 'http://www.awe.co.uk/'
+    title: 'Workout Plan Bot',
+    jobTitle: 'Founder',
+    description: 'I developed Workout Plan Bot as an alternative Workout tracking app on iOS. The app is native using Swift & SwiftUI.',
+    image: workoutBotImage,
+    imageAlt: 'An image of the workout plan bot app',
+    link: 'http://workoutplan.app/'
   }
 ];
 
@@ -139,7 +139,7 @@ class BlogIndex extends React.Component {
             </div>
             <div className="c-projects u-pv++">
                 <div className="o-wrap">
-                    <h2 className="u-type-paragon u-text-center">Professional projects</h2>
+                    <h2 className="u-type-paragon u-text-center">Projects</h2>
                     {projectData.map((data, id) => {
                       return <Project key={`project-${id}`} {...data} />
                     })}
