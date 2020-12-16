@@ -50,7 +50,8 @@ const projectData = [
     description: 'I am currently on the Card Editor team at Moonpig using TypeScript, React and Node within a serverless environment.',
     image: moonpigImage,
     imageAlt: 'An image of Moonpigs website',
-    link: 'https://moonpig.com/uk'
+    link: 'https://moonpig.com/uk',
+    noFollow: true,
   },
   {
     title: 'Booking.com',
@@ -58,7 +59,8 @@ const projectData = [
     description: 'I was a Senior Frontend Engineer within the Booking.com\'s Taxi product using technologies such as React and Node with a focus on performance.',
     image: bookingGoImage,
     imageAlt: 'An image of Booking.com taxi\'s product',
-    link: 'https://taxi.booking.com'
+    link: 'https://taxi.booking.com',
+    noFollow: true,
   },
   {
     title: 'BBC Live',
@@ -66,7 +68,8 @@ const projectData = [
     description: 'I was the Senior Software Engineer on the 2nd iteration of the BBC Live pages using React and Node delivering LIVE experiences for events like the Rio Olympics, EU Referendum and the US Election.',
     image: bbcLiveImage,
     imageAlt: 'An image of the BBC Live Page',
-    link: 'https://www.bbc.co.uk/sport/live/olympics/36772591'
+    link: 'https://www.bbc.co.uk/sport/live/olympics/36772591',
+    noFollow: true,
   },
   {
     title: 'BBC Homepage',
@@ -74,7 +77,8 @@ const projectData = [
     description: 'I was involved in the frontend and backend development of BBC Homepage using Node and React creating personalisation features for the end user.',
     image: bbcHomePageImage,
     imageAlt: 'An image of the BBC Homepage',
-    link: 'https://bbc.co.uk'
+    link: 'https://bbc.co.uk',
+    noFollow: true,
   },
   {
     title: 'Workout Plan Bot',
@@ -82,7 +86,9 @@ const projectData = [
     description: 'I developed Workout Plan Bot as an alternative Workout tracking app on iOS. The app is native using Swift & SwiftUI.',
     image: workoutBotImage,
     imageAlt: 'An image of the workout plan bot app',
-    link: 'http://workoutplan.app/'
+    link: 'http://workoutplan.app/',
+    noFollow: false,
+    accessibilityText: "free workout plan app"
   }
 ];
 
